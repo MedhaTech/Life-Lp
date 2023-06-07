@@ -43,6 +43,7 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: #000000D9;
 }
 
 h1 {
@@ -99,7 +100,7 @@ h4 {
 
 h5 {
   font-size: 3rem;
-  font-weight: 500;
+  //font-weight: 500;
   line-height: 3rem;
   font-weight: normal;
   @media screen and (max-width: 576px) {
