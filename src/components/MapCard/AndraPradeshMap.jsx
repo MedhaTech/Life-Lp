@@ -33,7 +33,6 @@ const AndraPradeshMap = () => {
                         response.data.data[0].dataValues.filter(
                             (item) => item.district_name.toLowerCase() === 'all'
                         );
-                    console.log(OAdata[0],"OAdata");
                     setdata(response.data.data[0].dataValues);
                     setoverAllData(OAdata[0]);
                 }
@@ -66,7 +65,6 @@ const AndraPradeshMap = () => {
             districtColor: 'district_color'
         });
     };
-    console.log(overAllData,"overAllData");
     return (
         <Container className="state">
             <Row className="w-100">
