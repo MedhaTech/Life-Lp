@@ -24,7 +24,7 @@ import { useTranslation } from 'react-i18next';
 import React, { useState, useEffect, useLayoutEffect } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import Slider from 'react-slick';
-import LearnMentor from '../assets/media/learn.svg';
+import LearnMentor from '../assets/media/learn.png';
 import upshift from '../assets/media/UPSHIFT-diagram.jpg';
 import testi1 from '../assets/media/testi/Herve_Morin_Global_head.jpg';
 import testi2 from '../assets/media/testi/Swathi.JPG';
