@@ -95,7 +95,7 @@ a:hover {
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
-	display: none;
+	/* display: none; */
 	color: #000000;
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
 	text-transform: capitalize;
@@ -875,11 +875,11 @@ a:hover {
 	position: absolute;
 	top: 50%;
 	width: 200px;
-	background: none;
+	/* background: none;
 	left: 0;
-	margin: 0;
+	margin: 0; */
 	text-align: center;
-	top: 65%;
+	/* top: 65%; */
 }
 /* --------------------------------------
 LIST STYLE
@@ -1204,7 +1204,7 @@ textarea:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #toggle {
 	float: right;
@@ -1300,10 +1300,10 @@ textarea:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #cssmenu ul > li.has-sub > a:before {
@@ -1320,10 +1320,10 @@ textarea:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #cssmenu ul > li.has-sub.open > a:after,
@@ -1530,7 +1530,7 @@ textarea:focus {
 	background: #3bb6d5;
 	border: 0;
 	color: #fff;
-	border: 1px solid #3bb6d5;
+	/* border: 1px solid #3bb6d5; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -1551,7 +1551,7 @@ textarea:focus {
 	color: #fff;
 	line-height: 47px;
 	text-align: center;
-	border: 1px solid #3bb6d5;
+	/* border: 1px solid #3bb6d5; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -1665,11 +1665,11 @@ textarea:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	background: #3bb6d5;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-moz-transition: all 0.5s;
-	transition: all 0.5s;
+	transition: all 0.5s; */
 }
 /**----- services wrapper css -------**/
 
@@ -2091,11 +2091,11 @@ textarea:focus {
 	-o-transition: all .5s;
 	transition: all .5s;
 	color: #3bb6d5 !important;
-	-webkit-transition: all .5s;
+	/* -webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	-ms-transition: all .5s;
 	-o-transition: all .5s;
-	transition: all .5s;
+	transition: all .5s; */
 }
 .pricing_box_wrapper:hover .dollarr,
 .pricing_box_wrapper:hover .monthly {
@@ -2220,7 +2220,7 @@ textarea:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .location_wrapper .contect_btn button {
 	padding: 0;
@@ -2229,7 +2229,7 @@ textarea:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #3bb6d5;
 	border: 1px solid #3bb6d5;
@@ -2277,7 +2277,7 @@ textarea:focus {
 	margin-right: 15px;
 	font-size: 16px;
 	width: 40px;
-	float: left;
+	/* float: left; */
 	text-align: center;
 	height: 40px;
 	line-height: 36px;
@@ -2661,7 +2661,7 @@ textarea:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #agency2_toggle {
 	float: right;
@@ -2755,10 +2755,10 @@ textarea:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #agency2_cssmenu ul > li.has-sub > a:before {
@@ -2775,10 +2775,10 @@ textarea:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #agency2_cssmenu ul > li.has-sub.open > a:after,
@@ -2991,7 +2991,7 @@ textarea:focus {
 	background: #fff;
 	border: 0;
 	color: #3bb6d5;
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -3012,7 +3012,7 @@ textarea:focus {
 	color: #3bb6d5;
 	line-height: 47px;
 	text-align: center;
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -3505,11 +3505,11 @@ textarea:focus {
 	-o-transition: all .5s;
 	transition: all .5s;
 	color: #3bb6d5 !important;
-	-webkit-transition: all .5s;
+	/* -webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	-ms-transition: all .5s;
 	-o-transition: all .5s;
-	transition: all .5s;
+	transition: all .5s; */
 }
 .agency2_pricing_box_wrapper:hover .agency2_dollarr,
 .agency2_pricing_box_wrapper:hover .agency2_monthly {
@@ -3605,7 +3605,7 @@ textarea:focus {
 	padding-left: 20px;
 	padding-top: 15px;
 	color: #444;
-	background: #f0f5ff;
+	/* background: #f0f5ff; */
 	border: 0;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -3616,7 +3616,7 @@ textarea:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .agency2_contect_btn {
 	float: left;
@@ -3629,7 +3629,7 @@ textarea:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #3bb6d5;
 	border: 1px solid #3bb6d5;
@@ -4049,7 +4049,7 @@ textarea:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #beauty_toggle {
 	float: right;
@@ -4146,10 +4146,10 @@ textarea:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #beauty_cssmenu ul > li.has-sub > a:before {
@@ -4166,10 +4166,10 @@ textarea:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #beauty_cssmenu ul > li.has-sub.open > a:after,
@@ -4393,7 +4393,7 @@ textarea:focus {
 	background: #00aaef;
 	border: 0;
 	color: #fff;
-	border: 1px solid #00aaef;
+	/* border: 1px solid #00aaef; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -4414,7 +4414,7 @@ textarea:focus {
 	color: #fff;
 	line-height: 47px;
 	text-align: center;
-	border: 1px solid #00aaef;
+	/* border: 1px solid #00aaef; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -4669,7 +4669,7 @@ textarea:focus {
 	border: 0;
 	border-radius: 50px;
 	color: #00aaef;
-	border: 1px solid #00aaef;
+	/* border: 1px solid #00aaef; */
 	background: transparent;
 }
 .beauty_pricing_tab_wrapper .nav-tabs .nav-link.active,
@@ -5033,7 +5033,7 @@ textarea:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .beauty_contect_btn {
 	float: left;
@@ -5046,7 +5046,7 @@ textarea:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #00aaef;
 	border: 1px solid #00aaef;
@@ -5768,7 +5768,7 @@ button:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #bussi_toggle {
 	float: right;
@@ -5862,10 +5862,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #bussi_cssmenu ul > li.has-sub > a:before {
@@ -5882,10 +5882,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #bussi_cssmenu ul > li.has-sub.open > a:after,
@@ -6202,21 +6202,21 @@ button:focus {
 	margin-top: -30px;
 	font-size: 20px;
 	line-height: 50px;
-	position: absolute;
+	/* position: absolute;
 	left: 50%;
 	top: 50%;
 	width: 60px;
-	height: 60px;
+	height: 60px; */
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
-	margin-left: -30px;
-	margin-top: -30px;
+	/* margin-left: -30px;
+	margin-top: -30px; */
 	border: 0;
 	background: #ff4a57;
 	color: #fff;
-	font-size: 20px;
-	line-height: 60px;
+	/* font-size: 20px;
+	line-height: 60px; */
 	text-align: center;
 	-webkit-animation: ripple-white 1s linear infinite;
 	animation: ripple-white 1s linear infinite;
@@ -6731,7 +6731,7 @@ button:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .bussi_contect_btn {
 	float: left;
@@ -6744,7 +6744,7 @@ button:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #ff4a57;
 	color: #fff;
@@ -7342,7 +7342,7 @@ button:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #const_toggle {
 	float: right;
@@ -7436,10 +7436,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #const_cssmenur ul > li.has-sub > a:before {
@@ -7456,10 +7456,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #const_cssmenur ul > li.has-sub.open > a:after,
@@ -7715,19 +7715,19 @@ button:focus {
 	margin-top: -30px;
 	font-size: 20px;
 	line-height: 50px;
-	position: absolute;
+	/* position: absolute;
 	left: 50%;
 	top: 50%;
 	width: 50px;
-	height: 50px;
+	height: 50px; */
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
 	border: 0;
 	background: #ff4a57;
 	color: #fff;
-	font-size: 20px;
-	line-height: 48px;
+	/* font-size: 20px;
+	line-height: 48px; */
 	text-align: center;
 	-webkit-animation: ripple-white 1s linear infinite;
 	animation: ripple-white 1s linear infinite;
@@ -8319,7 +8319,7 @@ button:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .const_contect_btn {
 	float: left;
@@ -8332,7 +8332,7 @@ button:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #ff6666;
 	color: #fff;
@@ -8830,7 +8830,7 @@ button:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #const2_toggle {
 	float: right;
@@ -8924,10 +8924,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #const2_cssmenu ul > li.has-sub > a:before {
@@ -8944,10 +8944,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #const2_cssmenu ul > li.has-sub.open > a:after,
@@ -9169,7 +9169,7 @@ button:focus {
 	background: #ffc13b;
 	border: 0;
 	color: #fff;
-	border: 1px solid #ffc13b;
+	/* border: 1px solid #ffc13b; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -9190,7 +9190,7 @@ button:focus {
 	color: #fff;
 	line-height: 47px;
 	text-align: center;
-	border: 1px solid #ffc13b;
+	/* border: 1px solid #ffc13b; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -9811,11 +9811,11 @@ button:focus {
 	-o-transition: all .5s;
 	transition: all .5s;
 	color: #ffc13b !important;
-	-webkit-transition: all .5s;
+	/* -webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	-ms-transition: all .5s;
 	-o-transition: all .5s;
-	transition: all .5s;
+	transition: all .5s; */
 }
 .const2_pricing_box_wrapper:hover .const2_dollarr,
 .const2_pricing_box_wrapper:hover .const2_monthly {
@@ -9892,7 +9892,7 @@ button:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .const2_contect_btn {
 	float: left;
@@ -9905,7 +9905,7 @@ button:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #ffc13b;
 	color: #fff;
@@ -9951,7 +9951,7 @@ button:focus {
 	margin-right: 15px;
 	font-size: 16px;
 	width: 40px;
-	float: left;
+	/* float: left; */
 	text-align: center;
 	height: 40px;
 	line-height: 36px;
@@ -10330,7 +10330,7 @@ button:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #doc_toggle {
 	float: right;
@@ -10424,10 +10424,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #doc_cssmenu ul > li.has-sub > a:before {
@@ -10444,10 +10444,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #doc_cssmenu ul > li.has-sub.open > a:after,
@@ -10600,7 +10600,7 @@ button:focus {
 	height: 45px;
 	line-height: 42px;
 	color: #ff4a57;
-	background: #ff6666;
+	/* background: #ff6666; */
 	text-transform: capitalize;
 	border-radius: 100px;
 	border: 1px solid #ff6666;
@@ -11200,7 +11200,7 @@ button:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .doc_contect_btn button {
 	padding: 0;
@@ -11209,7 +11209,7 @@ button:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	color: #fff;
 	background: #ff4a57;
@@ -11267,7 +11267,7 @@ button:focus {
 	margin-right: 15px;
 	font-size: 16px;
 	width: 40px;
-	float: left;
+	/* float: left; */
 	text-align: center;
 	height: 40px;
 	line-height: 36px;
@@ -11659,7 +11659,7 @@ button:focus {
 	overflow-x: hidden;
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06);
 	-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06);
-	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06);
+	/* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06); */
 }
 #it_comp_toggle {
 	float: right;
@@ -11756,10 +11756,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #it_comp_cssmenu ul > li.has-sub > a:before {
@@ -11776,10 +11776,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #it_comp_cssmenu ul > li.has-sub.open > a:after,
@@ -11939,11 +11939,11 @@ button:focus {
 	margin: 0 12px 0 0;
 	color: #fff;
 	text-align: left;
-	background: #444;
+	/* background: #444; */
 	margin-top: 10px;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
-	border-radius: 100%;
+	/* border-radius: 100%; */
 }
 .it_comp_slider_wrapper .carousel-inner .carousel-indicators li span.number {
 	display: inline-block;
@@ -12245,7 +12245,7 @@ button:focus {
 	width: 100%;
 	left: 52%;
 	transform: translateX(-50%);
-	width: 75%;
+	/* width: 75%; */
 	bottom: 104px;
 }
 #svgC {
@@ -12887,7 +12887,7 @@ canvas {
 .it_comp_footer_wrapper {
 	text-align: center;
 	padding-top: 35px;
-	padding: 30px 0;
+	/* padding: 30px 0; */
 	background: #f7fdfc;
 }
 .it_comp_icon_list_news {
@@ -13197,7 +13197,7 @@ canvas {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #kid_toggle {
 	float: right;
@@ -13294,10 +13294,10 @@ canvas {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #kid_cssmenu ul > li.has-sub > a:before {
@@ -13314,10 +13314,10 @@ canvas {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #kid_cssmenu ul > li.has-sub.open > a:after,
@@ -13527,7 +13527,7 @@ canvas {
 	background: #f6469e;
 	border: 0;
 	color: #fff;
-	border: 1px solid #f6469e;
+	/* border: 1px solid #f6469e; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -13549,7 +13549,7 @@ canvas {
 	line-height: 47px;
 	text-align: center;
 	border: 1px solid #f6469e;
-	-webkit-border-radius: 50px;
+	/* -webkit-border-radius: 50px; */
 	-moz-border-radius: 50px;
 	border-radius: 50px;
 	-webkit-transition: all 0.5s;
@@ -14211,7 +14211,7 @@ canvas {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .kid_contect_btn {
 	float: left;
@@ -14224,7 +14224,7 @@ canvas {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #f6469e;
 	color: #fff;
@@ -14702,7 +14702,7 @@ button:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #lawyer_toggle {
 	float: right;
@@ -14800,10 +14800,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #lawyer_cssmenu ul > li.has-sub > a:before {
@@ -14820,10 +14820,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #lawyer_cssmenu ul > li.has-sub.open > a:after,
@@ -14943,7 +14943,7 @@ button:focus {
 	-moz-border-radius: 0;
 	border-radius: 0;
 	border: 0;
-	background: #fff;
+	/* background: #fff; */
 	text-transform: capitalize;
 	line-height: 50px;
 	border-bottom: 1px solid #bdbdbd;
@@ -15513,7 +15513,7 @@ button:focus {
 	display: inline-block;
 	border-radius: 50px;
 	cursor: pointer;
-	z-index: 1000;
+	/* z-index: 1000; */
 	font-size: 18px;
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
@@ -15778,7 +15778,7 @@ button:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .lawyer_contect_btn {
 	float: left;
@@ -15791,7 +15791,7 @@ button:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #de6640;
 	color: #fff;
@@ -16141,7 +16141,7 @@ button:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #pcfix_toggle {
 	float: right;
@@ -16238,10 +16238,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #pcfix_cssmenu ul > li.has-sub > a:before {
@@ -16258,10 +16258,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #pcfix_cssmenu ul > li.has-sub.open > a:after,
@@ -16870,7 +16870,7 @@ button:focus {
 	display: inline-block;
 	border-radius: 50px;
 	cursor: pointer;
-	z-index: 1000;
+	/* z-index: 1000; */
 	font-size: 18px;
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
@@ -17135,7 +17135,7 @@ button:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .pcfix_contect_btn {
 	float: left;
@@ -17148,7 +17148,7 @@ button:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #00aaef;
 	color: #fff;
@@ -17690,7 +17690,7 @@ button:focus {
 	overflow-x: hidden;
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06);
 	-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06);
-	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06);
+	/* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06); */
 }
 #soft_toggle {
 	float: right;
@@ -17788,10 +17788,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #soft_cssmenu ul > li.has-sub > a:before {
@@ -17808,10 +17808,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #soft_cssmenu ul > li.has-sub.open > a:after,
@@ -17985,11 +17985,11 @@ button:focus {
 	margin: 0 12px 0 0;
 	color: #fff;
 	text-align: left;
-	background: rgba(255, 255, 255, 0.4);
+	/* background: rgba(255, 255, 255, 0.4); */
 	margin-top: 10px;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
-	border-radius: 100%;
+	/* border-radius: 100%; */
 }
 .soft_slider_wrapper .carousel-inner .carousel-indicators li span.number {
 	display: inline-block;
@@ -18199,7 +18199,7 @@ button:focus {
 	width: 100%;
 	left: 52%;
 	transform: translateX(-50%);
-	width: 75%;
+	/* width: 75%; */
 	bottom: 104px;
 }
 .soft_working_wrapper #svgC {
@@ -18245,7 +18245,7 @@ button:focus {
 	color: #1c1d3e;
 	-webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.06);
 	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.06);
-	color: #333;
+	/* color: #333; */
 }
 .soft_working_wrapper .step-desc h4 a {
 	color: #111;
@@ -18818,7 +18818,7 @@ button:focus {
 .soft_footer_wrapper {
 	text-align: center;
 	padding-top: 35px;
-	padding: 30px 0;
+	/* padding: 30px 0; */
 	background: #edecfc;
 }
 .soft_icon_list_news {
@@ -19132,7 +19132,7 @@ button:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #start_toggle {
 	float: right;
@@ -19230,10 +19230,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #start_cssmenu ul > li.has-sub > a:before {
@@ -19250,10 +19250,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #start_cssmenu ul > li.has-sub.open > a:after,
@@ -19494,7 +19494,7 @@ button:focus {
 	background: #7e50ff;
 	border: 0;
 	color: #fff;
-	border: 1px solid #7e50ff;
+	/* border: 1px solid #7e50ff; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -19515,7 +19515,7 @@ button:focus {
 	color: #fff;
 	line-height: 47px;
 	text-align: center;
-	border: 1px solid #7e50ff;
+	/* border: 1px solid #7e50ff; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -19970,7 +19970,7 @@ button:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .start_contect_btn {
 	float: left;
@@ -19983,7 +19983,7 @@ button:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #7e50ff;
 	color: #fff;
@@ -20056,7 +20056,7 @@ button:focus {
 	margin-right: 15px;
 	font-size: 16px;
 	width: 40px;
-	float: left;
+	/* float: left; */
 	text-align: center;
 	height: 40px;
 	line-height: 36px;
@@ -20437,7 +20437,7 @@ button:focus {
 	z-index: 1000;
 	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
 	overflow-x: hidden;
-	box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05);
+	/* box-shadow: 0 2px 15px 0px rgba(248, 71, 62, 0.05); */
 }
 #web_toggle {
 	float: right;
@@ -20534,10 +20534,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #web_cssmenu ul > li.has-sub > a:before {
@@ -20554,10 +20554,10 @@ button:focus {
 	-ms-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+	-moz-transition: all 0.5s; */
 	transition: all 0.5s;
 }
 #web_cssmenu ul > li.has-sub.open > a:after,
@@ -20774,7 +20774,7 @@ button:focus {
 	background: #fff;
 	border: 0;
 	color: #63c000;
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -20795,7 +20795,7 @@ button:focus {
 	color: #63c000;
 	line-height: 47px;
 	text-align: center;
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -21325,7 +21325,7 @@ button:focus {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	resize: none;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 .web_contect_btn {
 	float: left;
@@ -21338,7 +21338,7 @@ button:focus {
 	float: left;
 	width: 160px;
 	height: 45px;
-	float: none;
+	/* float: none; */
 	display: inline-block;
 	background: #63c000;
 	color: #fff;
