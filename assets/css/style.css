@@ -121,7 +121,7 @@ a:hover {
     -o-transition: all 0.6s;
     -ms-transition: all 0.6s;
     -moz-transition: all 0.6s;
-    transition: all 0.6s;
+    /* transition: all 0.6s; */
 }
 .header_btn li a i{
 	margin-right:3px;
