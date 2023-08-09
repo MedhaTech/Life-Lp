@@ -1560,9 +1560,9 @@ Copyright © 2020-21
 		width: 52px;
 		left: 45%;
 		top: 25%;
-		height: 52px;
+		/* height: 52px;
 		width: 52px;
-		left: 22%;
+		left: 22%; */
 		top: 65%;
 	}
 	#section-quote .container-pe-quote .li-quote-13 {
@@ -1711,9 +1711,9 @@ Copyright © 2020-21
 		width: 52px;
 		left: 45%;
 		top: 25%;
-		height: 52px;
+		/* height: 52px;
 		width: 52px;
-		left: 22%;
+		left: 22%; */
 		top: 65%;
 	}
 	.agency2_testimonial_section #section-quote .container-pe-quote .li-quote-13 {
@@ -2145,9 +2145,9 @@ Copyright © 2020-21
 		width: 52px;
 		left: 45%;
 		top: 25%;
-		height: 52px;
+		/* height: 52px;
 		width: 52px;
-		left: 22%;
+		left: 22%; */
 		top: 65%;
 	}
 	.const2_testimonial_wrapper #section-quote .container-pe-quote .li-quote-13 {
@@ -3305,7 +3305,7 @@ Copyright © 2020-21
 		left: inherit;
 		right: inherit;
 		margin: 0 10px;
-		bottom: 0;
+		/* bottom: 0; */
 	}
 	.it_comp_news_letter_wrapper {
 		padding-top: 100px;
@@ -3375,7 +3375,7 @@ Copyright © 2020-21
 		left: inherit;
 		right: inherit;
 		margin: 0 10px;
-		bottom: 0;
+		/* bottom: 0; */
 	}
 	.soft_news_letter_wrapper {
 		padding-top: 100px;
