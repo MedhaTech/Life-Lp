@@ -17,7 +17,7 @@ Copyright © 2019-20
 1.Theme default CSS
 --------------------------*/
 body, html {
-	font-family: 'Roboto';
+	font-family: Roboto, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	color: #191919;
