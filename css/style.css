@@ -6017,7 +6017,8 @@ button:focus {
 	animation-delay: 1.0s;
 }
 .bussi_banner_cntnt p {
-	font-family: 'Poppins';
+	/* font-family: 'Poppins'; */
+	font-family: Poppins, sans-serif;
 	color: #fff;
 	opacity: 0.9;
 	font-size: 18px;
@@ -6035,7 +6036,8 @@ button:focus {
 }
 .bussi_banner_btn ul li:last-child a {
 	display: inline-block;
-	font-family: 'Lato';
+	/* font-family: 'Lato'; */
+	font-family: Lato, sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #ff4a57;
@@ -6380,13 +6382,15 @@ button:focus {
 	line-height: 56px;
 }
 .bussi_counter_section .bussi_count-description {
-	font-family: 'Lato';
+	/* font-family: 'Lato'; */
+	font-family: Lato, sans-serif;
 	font-size: 28px;
 	font-weight: 900;
 	color: #1c2f4d;
 }
 .bussi_counter_section h4 a {
-	font-family: 'Lato';
+	/* font-family: 'Lato'; */
+	font-family: Lato, sans-serif;
 	color: #5f6e86;
 	display: block;
 	font-size: 18px;
@@ -6522,7 +6526,7 @@ button:focus {
 }
 .bussi_testimonial_wrapper .bussi_author h3 {
 	color: #797979;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 16px;
 	padding-top: 10px;
 }
@@ -6648,7 +6652,7 @@ button:focus {
 }
 .bussi_pricing_section .bussi_pricing-list li {
 	padding-bottom: 10px;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 20px;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -7563,7 +7567,7 @@ button:focus {
 	animation-delay: 1.0s;
 }
 .const_banner_cntnt p {
-	font-family: 'Poppins';
+	font-family: Poppins, sans-serif;
 	color: #fff;
 	opacity: 0.9;
 	font-size: 18px;
@@ -7581,7 +7585,7 @@ button:focus {
 }
 .const_banner_btn ul li:last-child a {
 	display: inline-block;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #fff;
@@ -7868,13 +7872,13 @@ button:focus {
 	line-height: 56px;
 }
 .const_counter_section .const_count-description {
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 28px;
 	font-weight: 900;
 	color: #1c2f4d;
 }
 .const_counter_section h4 a {
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	color: #5f6e86;
 	display: block;
 	font-size: 18px;
@@ -7939,7 +7943,7 @@ button:focus {
 .const_about_content_wrapper li {
 	font-size: 18px;
 	margin-bottom: 18px;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 }
 .const_about_content_wrapper li a {
 	color: #111;
@@ -8035,7 +8039,7 @@ button:focus {
 }
 .const_testimonial_wrapper .const_author h3 {
 	color: #797979;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 16px;
 	padding-top: 10px;
 }
@@ -8148,7 +8152,7 @@ button:focus {
 }
 .const_pricing_section .const_pricing-list li {
 	padding-bottom: 10px;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 20px;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -8221,7 +8225,8 @@ button:focus {
 	content: "\2212";
 }
 .const_accordian_wraper #accordion[data-toggle="collapse"]:after {
-	font-family: "Font Awesome 5 Free";
+	/* font-family: "Font Awesome 5 Free"; */
+	font-family: Font Awesome 5 Free, sans-serif;
 	font-weight: 900;
 	content: "\2212";
 	position: absolute;
@@ -9536,7 +9541,8 @@ button:focus {
 	content: "\2212";
 }
 .const2_accordian_wraper #accordion[data-toggle="collapse"]:after {
-	font-family: "Font Awesome 5 Free";
+	/* font-family: "Font Awesome 5 Free"; */
+	font-family: Font Awesome 5 Free, sans-serif;
 	font-weight: 900;
 	content: "\2212";
 	position: absolute;
@@ -10595,13 +10601,14 @@ button:focus {
 }
 .doc_banner_btn ul li:first-child a {
 	display: inline-block;
-	font-family: 'Lato';
+	/* font-family: 'Lato'; */
+	font-family: Lato, sans-serif;
 	font-size: 18px;
 	width: 170px;
 	color: #fff !important;
 	height: 45px;
 	line-height: 42px;
-	color: #ff4a57;
+	/* color: #ff4a57; */
 	/* background: #ff6666; */
 	text-transform: capitalize;
 	border-radius: 100px;
@@ -10624,7 +10631,7 @@ button:focus {
 }
 .doc_banner_btn ul li:last-child a {
 	display: inline-block;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 18px;
 	width: 170px;
 	height: 45px;
@@ -10990,7 +10997,7 @@ button:focus {
 }
 .doc_testimonial_wrapper .doc_author h3 {
 	color: #797979;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 16px;
 	padding-top: 10px;
 	text-transform: capitalize;
@@ -11101,7 +11108,7 @@ button:focus {
 }
 .doc_pricing_section .doc_pricing-list li {
 	padding-bottom: 10px;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 20px;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -11444,7 +11451,7 @@ button:focus {
 	float: left;
 	font-size: 16px;
 	text-transform: capitalize;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	border: 1px solid #067de1;
 	font-weight: 400;
 	-webkit-transition: all 0.5s;
@@ -13550,7 +13557,7 @@ canvas {
 	color: #fff;
 	line-height: 47px;
 	text-align: center;
-	border: 1px solid #f6469e;
+	/* border: 1px solid #f6469e; */
 	/* -webkit-border-radius: 50px; */
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -13689,7 +13696,7 @@ canvas {
 	margin-bottom: 20px;
 	text-transform: capitalize;
 	color: #797979;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 }
 .kid_about_content_wrapper h2 {
 	color: #000;
@@ -14279,7 +14286,8 @@ canvas {
 	font-size: 22px;
 	padding-bottom: 32px;
 	font-weight: 500;
-	font-family: 'Roboto';
+	/* font-family: 'Roboto'; */
+	font-family: Roboto, sans-serif;
 	text-transform: capitalize;
 	color: #fff;
 }
@@ -14494,7 +14502,7 @@ button:focus {
 	font-weight: 400;
 	background: #de6640;
 	color: #fff;
-	font-family: 'lato';
+	font-family: lato, sans-serif;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -15161,7 +15169,7 @@ button:focus {
 }
 .lawyer_couter_years span {
 	width: 160px;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 68px;
 	font-weight: 600;
 	color: #fff;
@@ -15374,7 +15382,8 @@ button:focus {
 	content: "\2212";
 }
 .lawyer_accordian_wraper #accordion[data-toggle="collapse"]:after {
-	font-family: "Font Awesome 5 Free";
+	/* font-family: "Font Awesome 5 Free"; */
+	font-family: Font Awesome 5 Free, sans-serif;
 	font-weight: 900;
 	content: "\2212";
 	position: absolute;
@@ -17464,7 +17473,7 @@ button:focus {
 	float: left;
 	font-size: 16px;
 	text-transform: capitalize;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	border: 1px solid #fff;
 	font-weight: 400;
 	-webkit-transition: all 0.5s;
@@ -20895,7 +20904,7 @@ button:focus {
 	margin-bottom: 20px;
 	text-transform: capitalize;
 	color: #797979;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 }
 .web_about_content_wrapper h2 {
 	color: #000;
@@ -20985,7 +20994,7 @@ button:focus {
 .web_tab_text_wrapper li {
 	font-size: 16px;
 	margin-bottom: 18px;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 }
 .web_tab_text_wrapper li a {
 	color: #fff;
@@ -21168,7 +21177,7 @@ button:focus {
 }
 .web_pricing_section .web_pricing-list li {
 	padding-bottom: 10px;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 20px;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -21422,7 +21431,8 @@ button:focus {
 	font-size: 22px;
 	padding-bottom: 32px;
 	font-weight: 500;
-	font-family: 'Roboto';
+	/* font-family: 'Roboto'; */
+	font-family: Roboto, sans-serif;
 	text-transform: capitalize;
 	color: #fff;
 }
@@ -21570,13 +21580,15 @@ button:focus {
 }
 #section-quote > h2 {
 	color: #0e1c2a;
-	font-family: OpenSans-Regular;
+	/* font-family: OpenSans-Regular; */
+	font-family: OpenSans-Regular, sans-serif;
 	font-size: 36px;
 	font-weight: normal
 }
 #section-quote > p {
 	color: #767676;
-	font-family: OpenSans-Light;
+	/* font-family: OpenSans-Light; */
+	font-family: OpenSans-Light, sans-serif;
 	font-size: 18px;
 	text-align: center;
 	margin-top: 10px
