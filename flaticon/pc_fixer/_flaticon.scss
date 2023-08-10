@@ -17,7 +17,7 @@
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: "Flaticon";
+    font-family: Flaticon, sans-serif;
     src: url("./Flaticon.svg#Flaticon") format("svg");
   }
 }
@@ -34,7 +34,7 @@
   text-transform: none;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  // font-smoothing: antialiased;
     }
 
     .flaticon-right-arrow:before { content: "\f100"; }
