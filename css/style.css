@@ -1621,7 +1621,7 @@ textarea:focus {
 }
 .sp_couter_years span {
 	width: 170px;
-	font-family: 'Lato';
+	font-family: Lato, sans-serif;
 	font-size: 64px;
 	font-weight: 600;
 	color: #fff;
@@ -1811,7 +1811,8 @@ textarea:focus {
 	content: "\2212";
 }
 #accordion[data-toggle="collapse"]:after {
-	font-family: "Font Awesome 5 Free";
+	/* font-family: "Font Awesome 5 Free"; */
+	font-family: Font Awesome 5 Free, sans-serif;
 	font-weight: 900;
 	content: "\2212";
 	position: absolute;
@@ -3225,7 +3226,8 @@ textarea:focus {
 	content: "\2212";
 }
 #agency2_accordion[data-toggle="collapse"]:after {
-	font-family: "Font Awesome 5 Free";
+	/* font-family: "Font Awesome 5 Free"; */
+	font-family: Font Awesome 5 Free, sans-serif;
 	font-weight: 900;
 	content: "\2212";
 	position: absolute;
@@ -3677,7 +3679,7 @@ textarea:focus {
 	margin-right: 15px;
 	font-size: 16px;
 	width: 40px;
-	float: left;
+	/* float: left; */
 	text-align: center;
 	height: 40px;
 	line-height: 36px;
