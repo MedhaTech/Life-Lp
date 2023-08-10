@@ -738,16 +738,22 @@ window.Modernizr = (function (window, document, undefined) {
       return !a || "loaded" == a || "complete" == a || "uninitialized" == a;
   }
   function h() {
-      var a = p.shift();
-      (q = 1),
-          a
-              ? a.t
-                  ? m(function () {
-                        ("c" == a.t ? B.injectCss : B.injectJs)(a.s, 0, a.a, a.x, a.e, 1);
-                    }, 0)
-                  : (a(), h())
-              : (q = 0);
-  }
+    var a = p.shift();
+    q = 1;
+
+    if (a) {
+        if (a.t) {
+            m(function () {
+                ("c" == a.t ? B.injectCss : B.injectJs)(a.s, 0, a.a, a.x, a.e, 1);
+            }, 0);
+        } else {
+            a();
+            h();
+        }
+    } else {
+        q = 0;
+    }
+}
   function i(a, c, d, e, f, i, j) {
       function k(b) {
           if (!o && g(l.readyState) && ((u.r = o = 1), !q && h(), (l.onload = l.onreadystatechange = null), b)) {
