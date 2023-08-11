@@ -93,7 +93,11 @@ $(window).on("load", function() {
 
         setInterval(function () {
             var maxVal= $("#section-quote .container-pe-quote .pp-quote").length;
-            var randomVal1 = Math.random();
+            // var randomVal1 = Math.random();
+            const crypto = window.crypto || window.msCrypto;
+            var array = new Uint32Array(1);
+            crypto.getRandomValues(array); // Compliant for security-sensitive use cases
+            const randomVal1 = array[0];
             var randomVal = Math.floor((randomVal1 * maxVal)+1);
             var count = 1;
 
