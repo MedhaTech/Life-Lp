@@ -848,7 +848,13 @@ window.Modernizr = (function (window, document, undefined) {
                 e,
                 f,
                 g;
-            for (f = 0; f < d; f++) (g = a[f].split("=")), (e = z[g.shift()]) && (c = e(c, g));
+            for (var f = 0; f < d; f++) {
+                var g = a[f].split("=");
+                var e = z[g.shift()];
+                if (e) {
+                    c = e(c, g);
+                }
+            }
             for (f = 0; f < b; f++) c = x[f](c);
             return c;
         }
@@ -894,47 +900,70 @@ window.Modernizr = (function (window, document, undefined) {
         function h(a, b) {
             function c(a, c) {
                 if (a) {
-                    if (e(a))
-                        c ||
-                            (j = function () {
+                    if (e(a)) {
+                        if (!c) {
+                            j = function () {
                                 var a = [].slice.call(arguments);
-                                k.apply(this, a), l();
-                            }),
-                            g(a, j, b, 0, h);
-                    else if (Object(a) === a)
-                        for (n in ((m = (function () {
-                            var b = 0,
-                                c;
-                            for (c in a) a.hasOwnProperty(c) && b++;
+                                k.apply(this, a);
+                                l();
+                            };
+                        }
+                        g(a, j, b, 0, h);
+                    } else if (Object(a) === a) {
+                        m = (function () {
+                            var b = 0, c;
+                            for (c in a) {
+                                if (a.hasOwnProperty(c)) {
+                                    b++;
+                                }
+                            }
                             return b;
-                        })()),
-                            a))
-                            a.hasOwnProperty(n) &&
-                                (!c &&
-                                    !--m &&
-                                    (d(j)
-                                        ? (j = function () {
+                        })();
+
+                        for (n in a) {
+                            if (a.hasOwnProperty(n)) {
+                                if (!c && !--m) {
+                                    if (d(j)) {
+                                        j = function () {
                                             var a = [].slice.call(arguments);
-                                            k.apply(this, a), l();
-                                        })
-                                        : (j[n] = (function (a) {
+                                            k.apply(this, a);
+                                            l();
+                                        };
+                                    } else {
+                                        j[n] = (function (a) {
                                             return function () {
                                                 var b = [].slice.call(arguments);
-                                                a && a.apply(this, b), l();
+                                                a && a.apply(this, b);
+                                                l();
                                             };
-                                        })(k[n]))),
-                                    g(a[n], j, b, n, h));
-                } else !c && l();
+                                        })(k[n]);
+                                    }
+                                    g(a[n], j, b, n, h);
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    if (!c) {
+                        l();
+                    }
+                }
             }
-            var h = !!a.test,
-                i = a.load || a.both,
-                j = a.callback || f,
-                k = j,
-                l = a.complete || f,
-                m,
-                n;
-            c(h ? a.yep : a.nope, !!i), i && c(i);
+
+            var h = !!a.test;
+            var i = a.load || a.both;
+            var j = a.callback || f;
+            var k = j;
+            var l = a.complete || f;
+            var m;
+            var n;
+
+            c(h ? a.yep : a.nope, !!i);
+            if (i) {
+                c(i);
+            }
         }
+
         var i,
             j,
             l = this.yepnope.loader;
