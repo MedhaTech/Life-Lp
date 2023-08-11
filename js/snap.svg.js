@@ -6081,7 +6081,8 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
         },
         rect: function (el) {
             var attr = unit2px(el);
-            return rectPath(attr.x || 0, attr.y || 0, attr.width, attr.height, attr.rx, attr.ry);
+            return rectPath(attr.x || 0, attr.y || 0, attr.width, attr.height);
+            // return rectPath(attr.x || 0, attr.y || 0, attr.width, attr.height, attr.rx, attr.ry);
         },
         image: function (el) {
             var attr = unit2px(el);
