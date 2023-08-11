@@ -642,7 +642,7 @@ window.Modernizr = (function (window, document, undefined) {
                 return createElement(nodeName, ownerDocument, data);
             };
 
-            ownerDocument.createDocumentFragment = Function(
+            ownerDocument.createDocumentFragment = new Function(
                 "h,f",
                 "return function(){" +
                 "var n=f.cloneNode(),c=n.createElement;" +
