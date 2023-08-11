@@ -1064,7 +1064,7 @@ function is(o, type) {
  | }));
 \*/
 Snap.format = (function () {
-    var tokenRegex = /\{([^\}]+)\}/g,
+    var tokenRegex = /\{([^]+)\}/g,
         objNotationRegex = /(?:(?:^|\.)(.+?)(?=\[|\.|$|\()|\[('|")(.+?)\2\])(\(\))?/g, // matches .xxxxx or ["xxxxx"] to run over object properties
         replacer = function (all, key, obj) {
             var res = obj;
