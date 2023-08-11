@@ -7363,7 +7363,7 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
      = (object) New Set object
     \*/
     setproto.clone = function (s) {
-        s = new Set1;
+        var s = new Set1;
         for (var i = 0, ii = this.items.length; i < ii; i++) {
             s.push(this.items[i].clone());
         }
