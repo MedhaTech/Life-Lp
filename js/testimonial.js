@@ -93,7 +93,8 @@ $(window).on("load", function() {
 
         setInterval(function () {
             var maxVal= $("#section-quote .container-pe-quote .pp-quote").length;
-            var randomVal = Math.floor((Math.random() * maxVal)+1);
+            var randomVal1 = Math.random();
+            var randomVal = Math.floor((randomVal1 * maxVal)+1);
             var count = 1;
 
 
