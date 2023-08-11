@@ -7505,7 +7505,8 @@
                 out += a + "]";
                 b[i] = out;
             }
-            return Function("val", "return Snap.path.toString.call([" + b + "])");
+            let ret = Function("val", "return Snap.path.toString.call([" + b + "])");
+            return ret;
         }
         function path2array(path) {
             var out = [];
