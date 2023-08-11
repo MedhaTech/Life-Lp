@@ -256,7 +256,7 @@
             }(names[i]));
         }
         return function (zIndex) {
-            if (+zIndex == +zIndex) {
+            if (zIndex == zIndex) {
                 f.zIndex = +zIndex;
             }
         };
