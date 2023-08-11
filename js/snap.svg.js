@@ -1064,13 +1064,7 @@
          | }));
         \*/
         Snap.format = (function () {
-            var tokenRegex = /((?=(a+))\2)+$/.test(
-                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
-                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
-                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
-                "aaaaaaaaaaaaaaa!"
-            ); // Compliant
-            // var tokenRegex = /\{([^\}]+)\}/g,
+            var tokenRegex = /\{([^\}]+)\}/g,
             objNotationRegex = /(?:(?:^|\.)(.+?)(?=\[|\.|$|\()|\[('|")(.+?)\2\])(\(\))?/g, // matches .xxxxx or ["xxxxx"] to run over object properties
                 replacer = function (all, key, obj) {
                     var res = obj;
