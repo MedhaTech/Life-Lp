@@ -7046,7 +7046,7 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
         mmin = Math.min;
 
     // Set
-    var Set = function (items) {
+    var Set1 = function (items) {
         this.items = [];
 	this.bindings = {};
         this.length = 0;
@@ -7060,7 +7060,7 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
             }
         }
     },
-    setproto = Set.prototype;
+    setproto = Set1.prototype;
     /*\
      * Set.push
      [ method ]
@@ -7285,7 +7285,7 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
         while (this[i]) {
             delete this[i++];
         }
-        return new Set(todel);
+        return new Set1(todel);
     };
     /*\
      * Set.exclude
@@ -7362,7 +7362,7 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
      = (object) New Set object
     \*/
     setproto.clone = function (s) {
-        s = new Set;
+        s = new Set1;
         for (var i = 0, ii = this.items.length; i < ii; i++) {
             s.push(this.items[i].clone());
         }
@@ -7379,7 +7379,7 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
      **
      * Set constructor.
     \*/
-    Snap.Set = Set;
+    Snap.Set1 = Set1;
     /*\
      * Snap.set
      [ method ]
@@ -7392,7 +7392,7 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
      |     s2 = Snap.set(r, paper.circle(100, 100, 20)); // prefilled set
     \*/
     Snap.set = function () {
-        var set = new Set;
+        var set = new Set1;
         if (arguments.length) {
             set.push.apply(set, Array.prototype.slice.call(arguments, 0));
         }
