@@ -1,0 +1,100 @@
+[
+  {
+    "menu": {
+      "home": "Home",
+      "roadmap": "Road Map",
+      "impact": "Impact",
+      "patners": "Patners",
+      "faq": "Faq",
+      "login": "Login"
+    }
+  },
+  {
+    "heroSection": {
+      "title":"Tamil Nadu",
+      "title1":"Creating Change Makers Of Tomorrow With 21st",
+      "skill":"Century Skills",
+      "desc": "Nurture a culture of social innovation and build skills while inspiring young people to become transformative leaders.",
+      "signup": "Login",
+      "register":"Register"
+    }
+  },
+  {
+    "heroSection1": {
+      "title": "About Us",
+      "title1": "School Innovation Development Project(SIDP)",
+      "desc": "To create a positive and dynamic innovation ecosystem within educational institutions, Ministry of Education, UNICEF Maldives and National Institute of Education launches UPSHIFT powered by UNISOLVE.<br><br>The objective of UPSHIFT powered by UNISOLVE is to :",
+      "desc1":"To expose school students to the cycle of innovation and promote the culture of entrepreneurship.",
+      "desc2": "To inspire students to solve real life problems by using a simple design thinking process as a method to innovate, collaborate and obtain leadership cum entrepreneurship skills.",
+      "desc3": "To build the capacity of the teaching community to play a vital role in building an entrepreneurial, innovative ecosystem in schools and be mentors to the evolving minds."
+    }
+  },
+  {
+    "aboutSection": {
+      "title": "What Is UPSHIFT",
+      "desc": "UPSHIFT is a UNICEF global innovation for transferable skills building of adolescents and young people that is now in implementation in 45 countries. UPSHIFT is designed to build transferable skills and create opportunity, with a focus on the young people. UPSHIFT supports the development of skills for life and livelihood and supports youth to positively engage with their local communities as change-makers. [LEARN MORE ABOUT UPSHIFT ]",
+      "desc1":"With the goal of engaging and skilling more adolescents and young people, UNICEF Maldives, along with the Ministry of Education, National Institute of Education and Inqui-Lab Foundation embarked on the development of UNISOLVE."
+    }
+  },
+  {
+    "aboutSection1": {
+      "title": "UPSHIFT powered by ",
+      "title1": "UNISOLVE",
+      "desc": "UNISOLVE is a digital platform designed to facilitate UPSHIFT delivery through a school-based, teacher-facilitated blended learning model.",
+      "desc1":"UNISOLVE combines the advantages of distance learning opportunities and face-to-face activities to promote creativity and innovation among adolescents and young people. Designed with and for the education system keeping scalability in mind this specially designed platform, UNISOLVE, is a tool to skill students on social innovation and 21st century skills."
+    }
+  },
+  {
+    "aboutSection2": {
+      "title": "Maldives National Curriculum",
+      "title1": "UNISOLVE",
+      "desc": "The NCF alignes with UNISOLVE to promotes holistic approach to education, placing equal emphasis on the development of knowledge, understanding, skills, values and attitudes.",
+      "desc1":"The National Curriculum envisions the development of successful individuals who are motivated to explore and create knowledge, are confident and competent and have a firm belief in Islam, a strong sense of self and national identity and are Responsible and productive contributors to their own family, local community and the global society.",
+      "desc2":"It strives to develop a sense of value in The NCF and places great emphasis on encouraging children and young people to adopt deeply held values shared within our society."
+    }
+  },
+  {
+    "aboutSection3": {
+    "title": "Here Are A Few Of Student Ideas",
+    "title1": "Adjustable Walker for the elderly",
+    "desc": "Multipurpose Agriculture Bag can be used for plucking cotton, Chilli and Vegetables fertilizers in the agriculture field"
+  }
+},
+  {
+    "roadmap": {
+      "title": "Road Map",
+      "title1": "Four Simple Working Process",
+      "registration": "Awareness & Registration",
+      "solving":"Problem Solving Journey",
+      "submission":"Solution Submission And Pitching",
+      "incubation":"Incubation",
+      "desc":"Learners consult their teachers,from a team and register themselves to the platform.",
+      "desc1":"Learners undergo the interactive and gamified course under program.",
+      "desc2":"Learners submit their idea to the selection panel for the shortlisting",
+      "desc3":"Solutions selected in the final event are provided supportto actualize solutions and implement their ideas"
+    }
+  },
+  {
+    "team": {
+      "title": "Our Team",
+      "title1": "Meet Our Team",
+      "messageName1": "Aishath Shibana",
+      "messageDescription1":"21st Century is the century of innovation, development and ideation. when we say preparing students for life, it means putting greaterfocus on developing skills that are essential for modren workplace. therefore, I believe that UPSHIFT program can offer and develop these transferable skills and increase student's social engagement.It uses a methodology called human centered design which offers a more holistic and community-driven approach to problem-solving.It Starts with people and ends with innovative solutions that are tailor-made to suit their needs.When you understant the people you're trying to reach,design from their perspective, not only will you arive at unexpected answers, but you'll come up with ideas that they'll accept.These activities will help students to develop empathy, creativity, critical thinking, communication, civic engagement and entrepreneurship.",
+      "messageDesignation1":"Senior Curriculum Development Analyst.The National Institute of Education UPSHIFT Training coordinator",
+      "messageName2": "Abdulla Didi",
+      "messageDescription2":"UPSHIFT Powered by UNISOLVE is an amazing program that fasters creativity and critical thinking in students. It enables students to actively engage in identifying problems and finding practical, workable solutions through independent and experiential learning",
+      "messageDesignation2":"Principal at Dharumavantha School",
+      "messageName3": "Rinzy Ibrahim Waheed",
+      "messageDescription3":"UPSHIFT is a program that encourages creativity and innovation while enabling students to think out of the box and provide experiences beyond the classroom environment.not only this programme teaches the use of latest technology to develop 21st century skills but also helps students to develop empathy and sympathy towards others. All in all, it is an all-around development of the students that enables them to achieve the objectives of the national curriculum faster",
+      "messageDesignation3":"Principal at Hiriya School",
+      "messageName4": "Fathimath Musthafa",
+      "messageDescription4":"The main objective of UPSHIFT is to take the child out of the conventional classroom environment to help them develop their mind and improve thinking skills. This program serves to equip and train students with the modern technology and skills required to survive and conquer the challenges they face everyday. While remaining empathetic towards everyone.Long story short, its focus is to develop the students in all aspects, so that they can attain the objectives of the national curriculum at a faster pace and will be ready to face the different challenges of life",
+      "messageDesignation4":"Teacher at Hiriya School"
+    }
+  },
+  {
+    "partner": {
+      "title": "Our Partners"
+    }
+  }
+]
