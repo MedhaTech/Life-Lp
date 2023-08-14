@@ -108,7 +108,7 @@ Author: Webstrot
                                     <li><a class="lang-change" data-lang="menu-impact" href="2">Impact</a></li>
                                     <li><a class="lang-change" data-lang="menu-patners" href="3">Patners</a></li>
                                     <li><a class="lang-change" data-lang="menu-faq" href="faq.php">FAQ</a></li>
-                                    <li><a class="lang-change" data-lang="menu-teams" href="team.php">Team</a></li>
+                                    <li><a class="lang-change" data-lang="menu-team" href="team.php">Team</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -548,7 +548,7 @@ Business & Faster. </h2>
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12 animate" data-animate="fadeInUp">
                     <div class="lw_heading_wraper">
                         <!-- <h3>how do work</h3> -->
-                        <h2>Engagement & Impact </h2>
+                        <h2 class="lang-change" data-lang="impact-title">Engagement & Impact </h2>
                     </div>
                 </div>
             </div>
@@ -643,7 +643,7 @@ Business & Faster. </h2>
                 </div>
                 <div class="col-md-6">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-center">
-                        <h3 className="text-uppercase text-center"> TAMILNADU
+                        <h3 className="text-uppercase text-center" class="lang-change" data-lang="impact-desc"> TAMILNADU
                         </h3>
                     </div>
 
@@ -682,8 +682,8 @@ Business & Faster. </h2>
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12 animate" data-animate="fadeInUp">
                     <div class="it_comp_heading_wrapper text-center animate" data-animate="fadeIn">
-                        <h2>Here are a few of </h2>
-                        <h1>Student Ideas</h1>
+                        <h2  class="lang-change" data-lang="aboutSection3-title">Here are a few of </h2>
+                        <h1  class="lang-change" data-lang="aboutSection3-title2">Student Ideas</h1>
                     </div>
                 </div>
                 <div class="col-md-12 collg-12">
@@ -919,158 +919,123 @@ Business & Faster. </h2>
         </div> -->
 
     <!-- pricing wrapper end-->
-    <!-- team wrapper start-->
-    <div class="it_comp_team_wrapper full_width animated-row">
-        <div class="it_comp_bg_animation">
-            <img class="it_comp_zoom_fade" src="images/it_company/pattern.png" alt="img">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
-                    <div class="it_comp_heading_wrapper text-center animate" data-animate="fadeIn">
-                        <h2 class="lang-change" data-lang="team-title">Testimonials</h2>
-                        <h3 class="lang-change" data-lang="roadmap-title1">Here what they say about us</h3>
+        <!-- team wrapper start-->
+        <div class="it_comp_team_wrapper full_width animated-row">
+            <div class="it_comp_bg_animation">
+                <img class="it_comp_zoom_fade" src="images/it_company/pattern.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
+                        <div class="it_comp_heading_wrapper text-center animate" data-animate="fadeIn">
+                            <h2 class="lang-change" data-lang="team-title">Testimonials</h2>
+                            <h3 class="lang-change" data-lang="roadmap-title1">Here what they say about us</h3>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <div id="it_comp_testimonial_2"
-                        class="it_comp_testimonial_carousel carousel slide it_comp_testimonial_2" data-ride="carousel">
-                        <!-- Wrapper for slides -->
-                        <div class="row">
-                            <div class="col-md-8 ml-auto mr-auto">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="it_comp_testimonial style-2">
-                                            <div class="it_comp_testimonial-img">
-                                                <img class="img-center it_comp_zoom_fade"
-                                                    src="images/it_company/team1.jpg" alt="">
-                                            </div>
-                                            <div class="it_comp_testimonial-content">
-                                                <div class="it_comp_testimonial-quote"><i class="la la-quote-left"></i>
+                    <div class="col-md-12">
+                        <div id="it_comp_testimonial_2" class="it_comp_testimonial_carousel carousel slide it_comp_testimonial_2" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="it_comp_testimonial style-2">
+                                                <div class="it_comp_testimonial-img">
+                                                    <img class="img-center it_comp_zoom_fade" src="images/it_company/team1.jpg" alt="">
                                                 </div>
-                                                <p class="justify-content lang-change"
-                                                    data-lang="team-messageDescription4">The main objective of UPSHIFT
-                                                    is to take the child out of the conventional
-                                                    classroom environment to help them develop their mind and improve
-                                                    thinking skills.
-                                                    This program serves to equip and train students with the modern
-                                                    technology and
-                                                    skills required to survive and conquer the challenges they face
-                                                    everyday. While remaining
-                                                    empathetic towards everyone.Long story short, its focus is to
-                                                    develop the students in all
-                                                    aspects, so that they can attain the objectives of the national
-                                                    curriculum at a faster
-                                                    pace and will be ready to face the different challenges of life.</p>
-                                                <div class="it_comp_testimonial-caption">
-                                                    <h5 class="lang-change" data-lang="team-messageName4">Fathimath
-                                                        Musthafa</h5>
-                                                    <label class="lang-change"
-                                                        data-lang="team-messageDesignation4">Teacher at Hiriya
-                                                        School</label>
+                                                <div class="it_comp_testimonial-content">
+                                                    <div class="it_comp_testimonial-quote"><i class="la la-quote-left"></i>
+                                                    </div>
+                                                    <p class="justify-content lang-change" data-lang="team-messageDescription4">The main objective of UPSHIFT is to take the child out of the conventional
+                                                        classroom environment to help them develop their mind and improve thinking skills.
+                                                        This program serves to equip and train students with the modern technology and
+                                                        skills required to survive and conquer the challenges they face everyday. While remaining
+                                                        empathetic towards everyone.Long story short, its focus is to develop the students in all
+                                                        aspects, so that they can attain the objectives of the national curriculum at a faster
+                                                        pace and will be ready to face the different challenges of life.</p>
+                                                    <div class="it_comp_testimonial-caption">
+                                                        <h5 class="lang-change" data-lang="team-messageName4">Fathimath Musthafa</h5>
+                                                        <label class="lang-change" data-lang="team-messageDesignation4">Teacher at Hiriya School</label>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="it_comp_testimonial style-2">
-                                            <div class="it_comp_testimonial-img">
-                                                <img class="img-center it_comp_zoom_fade"
-                                                    src="images/it_company/team2.jpg" alt="">
-                                            </div>
-                                            <div class="it_comp_testimonial-content">
-                                                <div class="it_comp_testimonial-quote"><i class="la la-quote-left"></i>
+                                        <div class="carousel-item">
+                                            <div class="it_comp_testimonial style-2">
+                                                <div class="it_comp_testimonial-img">
+                                                    <img class="img-center it_comp_zoom_fade" src="images/it_company/team2.jpg" alt="">
                                                 </div>
-                                                <p class="justify-content lang-change"
-                                                    data-lang="team-messageDescription3">UPSHIFT is a program that
-                                                    encourages creativity and innovation while enabling students
-                                                    to think out of the box and provide experiences beyond the classroom
-                                                    environment.not only
-                                                    this programme teaches the use of latest technology to develop 21st
-                                                    century skills but also helps
-                                                    students to develop empathy and sympathy towards others. All in all,
-                                                    it is an all-around development
-                                                    of the students that enables them to achieve the objectives of the
-                                                    national curriculum
-                                                    faster</p>
-                                                <div class="it_comp_testimonial-caption">
-                                                    <h5 class="lang-change" data-lang="team-messageName3">Rinzy Ibrahim
-                                                        Waheed</h5>
-                                                    <label class="lang-change" data-lang="team-messageDesignation3">
-                                                        Principal at Hiriya School</label>
+                                                <div class="it_comp_testimonial-content">
+                                                    <div class="it_comp_testimonial-quote"><i class="la la-quote-left"></i>
+                                                    </div>
+                                                    <p class="justify-content lang-change" data-lang="team-messageDescription3">UPSHIFT is a program that encourages creativity and innovation while enabling students
+                                                        to think out of the box and provide experiences beyond the classroom environment.not only
+                                                        this programme teaches the use of latest technology to develop 21st century skills but also helps
+                                                        students to develop empathy and sympathy towards others. All in all, it is an all-around development
+                                                        of the students that enables them to achieve the objectives of the national curriculum
+                                                        faster</p>
+                                                    <div class="it_comp_testimonial-caption">
+                                                        <h5 class="lang-change" data-lang="team-messageName3">Rinzy Ibrahim Waheed</h5>
+                                                        <label class="lang-change" data-lang="team-messageDesignation3">  Principal at Hiriya School</label>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="it_comp_testimonial style-2">
-                                            <div class="it_comp_testimonial-img">
-                                                <img class="img-center it_comp_zoom_fade"
-                                                    src="images/it_company/team3.jpg" alt="">
-                                            </div>
-                                            <div class="it_comp_testimonial-content">
-                                                <div class="it_comp_testimonial-quote"><i class="la la-quote-left"></i>
+                                        <div class="carousel-item">
+                                            <div class="it_comp_testimonial style-2">
+                                                <div class="it_comp_testimonial-img">
+                                                    <img class="img-center it_comp_zoom_fade" src="images/it_company/team3.jpg" alt="">
                                                 </div>
-                                                <p class="justify-content lang-change"
-                                                    data-lang="team-messageDescription2">UPSHIFT Powered by UNISOLVE is
-                                                    an amazing program that fasters creativity and critical
-                                                    thinking in students. It enables students to actively engage in
-                                                    identifying problems
-                                                    and finding practical, workable solutions through independent and
-                                                    experiential learning</p>
-                                                <div class="it_comp_testimonial-caption">
-                                                    <h5 class="lang-change" data-lang="team-messageName1">Abdulla Didi
-                                                    </h5>
-                                                    <label class="lang-change" data-lang="team-messageDesignation2">
-                                                        Principal at Dharumavantha School</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="it_comp_testimonial style-2">
-                                            <div class="it_comp_testimonial-img">
-                                                <img class="img-center it_comp_zoom_fade"
-                                                    src="images/it_company/team4.jpg" alt="">
-                                            </div>
-                                            <div class="it_comp_testimonial-content">
-                                                <div class="it_comp_testimonial-quote"><i class="la la-quote-left"></i>
-                                                </div>
-                                                <p class="justify-content lang-change"
-                                                    data-lang="team-messageDescription1">21st Century is the century of
-                                                    innovation, development and ideation. when we
-                                                    say preparing students for life, it means putting greaterfocus on
-                                                    developing skills
-                                                    that are essential for modren workplace. therefore, I believe that
-                                                    UPSHIFT program
-                                                    can offer and develop these transferable skills and increase
-                                                    student's social
-                                                    engagement.It uses a methodology called human centered design which
-                                                    offers a more
-                                                    holistic and community-driven approach to problem-solving.It Starts
-                                                    with people and ends
-                                                    with innovative solutions that are tailor-made to suit their
-                                                    needs.When you understant
-                                                    the people you're trying to reach,design from their perspective, not
-                                                    only will you arive
-                                                    at unexpected answers, but you'll come up with ideas that they'll
-                                                    accept.These activities
-                                                    will help students to develop empathy, creativity, critical
-                                                    thinking, communication, civic engagement
-                                                    and entrepreneurship.
-                                                </p>
-                                                <div class="it_comp_testimonial-caption">
-                                                    <h5 class="lang-change" data-lang="team-messageName1">Aishath
-                                                        Shibana</h5>
-                                                    <label class="lang-change"
-                                                        data-lang="team-messageDesignation1">Senior Curriculum
-                                                        Development Analyst.The National Institute of Education UPSHIFT
-                                                        Training coordinator</label>
+                                                <div class="it_comp_testimonial-content">
+                                                    <div class="it_comp_testimonial-quote"><i class="la la-quote-left"></i>
+                                                    </div>
+                                                    <p class="justify-content lang-change" data-lang="team-messageDescription1">21st Century is the century of innovation, development and ideation. when we
+                                                        say preparing students for life, it means putting greaterfocus on developing skills
+                                                        that are essential for modren workplace. therefore, I believe that UPSHIFT program
+                                                        can offer and develop these transferable skills and increase student's social
+                                                        engagement.It uses a methodology called human centered design which offers a more
+                                                        holistic and community-driven approach to problem-solving.It Starts with people and ends
+                                                        with innovative solutions that are tailor-made to suit their needs.When you understant
+                                                        the people you're trying to reach,design from their perspective, not only will you arive
+                                                        at unexpected answers, but you'll come up with ideas that they'll accept.These activities
+                                                        will help students to develop empathy, creativity, critical thinking, communication, civic engagement
+                                                        and entrepreneurship.
+                                                        </p>
+                                                    <div class="it_comp_testimonial-caption">
+                                                        <h5 class="lang-change" data-lang="team-messageName1">Aishath Shibana</h5>
+                                                        <label class="lang-change" data-lang="team-messageDesignation1">Senior Curriculum Development Analyst.The National Institute of Education UPSHIFT Training coordinator</label>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <!-- <div class="carousel-item">
+                                        <div class="carousel-item">
+                                            <div class="it_comp_testimonial style-2">
+                                                <div class="it_comp_testimonial-img">
+                                                    <img class="img-center it_comp_zoom_fade" src="images/it_company/team4.jpg" alt="">
+                                                </div>
+                                                <div class="it_comp_testimonial-content">
+                                                    <div class="it_comp_testimonial-quote"><i class="la la-quote-left"></i>
+                                                    </div>
+                                                    <p class="justify-content lang-change" data-lang="team-messageDescription1">21st Century is the century of innovation, development and ideation. when we
+                                                        say preparing students for life, it means putting greaterfocus on developing skills
+                                                        that are essential for modren workplace. therefore, I believe that UPSHIFT program
+                                                        can offer and develop these transferable skills and increase student's social
+                                                        engagement.It uses a methodology called human centered design which offers a more
+                                                        holistic and community-driven approach to problem-solving.It Starts with people and ends
+                                                        with innovative solutions that are tailor-made to suit their needs.When you understant
+                                                        the people you're trying to reach,design from their perspective, not only will you arive
+                                                        at unexpected answers, but you'll come up with ideas that they'll accept.These activities
+                                                        will help students to develop empathy, creativity, critical thinking, communication, civic engagement
+                                                        and entrepreneurship.
+                                                        </p>
+                                                    <div class="it_comp_testimonial-caption">
+                                                        <h5 class="lang-change" data-lang="team-messageName1">Aishath Shibana</h5>
+                                                        <label class="lang-change" data-lang="team-messageDesignation1">Senior Curriculum Development Analyst.The National Institute of Education UPSHIFT Training coordinator</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="carousel-item">
                                             <div class="it_comp_testimonial style-2">
                                                 <div class="it_comp_testimonial-img">
                                                     <img class="img-center it_comp_zoom_fade" src="images/it_company/team5.jpg" alt="">
@@ -1086,46 +1051,46 @@ Business & Faster. </h2>
                                                 </div>
                                             </div>
                                         </div> -->
-                                    <!-- End Item -->
+                                        <!-- End Item -->
+                                    </div>
+                                    <!-- End Carousel Inner -->
                                 </div>
-                                <!-- End Carousel Inner -->
                             </div>
-                        </div>
-                        <div class="controls">
-                            <ul class="nav">
-                                <li data-target="#it_comp_testimonial_2" data-slide-to="0" class="active">
-                                    <a href="#">
-                                        <img class="img-fluid" src="images/it_company/team1.jpg" alt="img">
-                                    </a>
-                                </li>
-                                <li data-target="#it_comp_testimonial_2" data-slide-to="1">
-                                    <a href="#">
-                                        <img class="img-fluid" src="images/it_company/team2.jpg" alt="img">
-                                    </a>
-                                </li>
-                                <li data-target="#it_comp_testimonial_2" data-slide-to="2">
-                                    <a href="#">
-                                        <img class="img-fluid" src="images/it_company/team3.jpg" alt="img">
-                                    </a>
-                                </li>
-                                <li data-target="#it_comp_testimonial_2" data-slide-to="3">
-                                    <a href="#">
-                                        <img class="img-fluid" src="images/it_company/team4.jpg" alt="img">
-                                    </a>
-                                </li>
-                                <!-- <li data-target="#it_comp_testimonial_2" data-slide-to="3">
+                            <div class="controls">
+                                <ul class="nav">
+                                    <li data-target="#it_comp_testimonial_2" data-slide-to="0" class="active">
+                                        <a href="#">
+                                            <img class="img-fluid" src="images/it_company/team1.jpg" alt="img">
+                                        </a>
+                                    </li>
+                                    <li data-target="#it_comp_testimonial_2" data-slide-to="1">
+                                        <a href="#">
+                                            <img class="img-fluid" src="images/it_company/team2.jpg" alt="img">
+                                        </a>
+                                    </li>
+                                    <li data-target="#it_comp_testimonial_2" data-slide-to="2">
+                                        <a href="#">
+                                            <img class="img-fluid" src="images/it_company/team3.jpg" alt="img">
+                                        </a>
+                                    </li>
+                                    <li data-target="#it_comp_testimonial_2" data-slide-to="3">
+                                        <a href="#">
+                                            <img class="img-fluid" src="images/it_company/team4.jpg" alt="img">
+                                        </a>
+                                    </li>
+                                    <!-- <li data-target="#it_comp_testimonial_2" data-slide-to="3">
                                         <a href="#">
                                             <img class="img-fluid" src="images/it_company/team5.jpg" alt="img">
                                         </a>
                                     </li> -->
-                            </ul>
+                                </ul>
+                            </div>
                         </div>
+                        <!-- End Carousel -->
                     </div>
-                    <!-- End Carousel -->
                 </div>
             </div>
         </div>
-    </div>
     <!-- </div> -->
     <!-- team wrapper end-->
     <!--partners wrapper start-->
@@ -1274,6 +1239,11 @@ Business & Faster. </h2>
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
 
+              <!-- Jquery Lib File -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Bootstrap js -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
