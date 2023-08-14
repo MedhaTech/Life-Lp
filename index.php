@@ -84,7 +84,7 @@ Author: Webstrot
                             <div id="it_comp_toggle" class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
                                 <button class="it_comp_searchd_bar"><i class="fas fa-bars"></i></button>
                             </div>
-                            <a href="#" class="it_comp_btn_style lang-change"
+                            <a href="https://3l284h1pkk.execute-api.ap-south-1.amazonaws.com/teacher" class="it_comp_btn_style lang-change"
                                 data-lang="menu-login">Login</a>&nbsp;&nbsp;&nbsp;
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -173,9 +173,9 @@ Author: Webstrot
                                             <div class="it_comp_header_btn it_comp_slider_btn full_width">
                                                 <ul>
                                                     <li data-animation="animated fadeInUp">
-                                                        <a href="#" class="lang-change register"
+                                                        <a href="https://3l284h1pkk.execute-api.ap-south-1.amazonaws.com/register" class="lang-change register"
                                                             data-lang="heroSection-register">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <a href="#" class="lang-change"
+                                                        <a href="https://3l284h1pkk.execute-api.ap-south-1.amazonaws.com/teacher" class="lang-change"
                                                             data-lang="heroSection-signup">Login</a>
                                                     </li>
 
