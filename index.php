@@ -1240,10 +1240,10 @@ Business & Faster. </h2>
         crossorigin="anonymous"></script>
 
               <!-- Jquery Lib File -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="assets/js/jquery_1.12.4_jquery.min.js"></script>
 
     <!-- Bootstrap Js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap@5.2.0_dist_js_bootstrap.bundle.min.js"></script>
     <!-- Bootstrap js -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
