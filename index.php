@@ -71,7 +71,7 @@ Author: Webstrot
                     <div class="col-md-3 col-sm-6 col-6 col-lg-3">
 
                         <div class="it_comp_logo_wrapper">
-                            <a href="index.php">
+                            <a href="index.html">
                                 <img src="assets/img/TN_logo.jpg" alt="logo" />
                             </a>
                         </div>
@@ -107,8 +107,8 @@ Author: Webstrot
                                     <li><a class="lang-change" data-lang="menu-roadmap" href="1">Road Map</a></li>
                                     <li><a class="lang-change" data-lang="menu-impact" href="2">Impact</a></li>
                                     <li><a class="lang-change" data-lang="menu-patners" href="3">Patners</a></li>
-                                    <li><a class="lang-change" data-lang="menu-faq" href="faq.php">FAQ</a></li>
-                                    <li><a class="lang-change" data-lang="menu-team" href="team.php">Team</a></li>
+                                    <li><a class="lang-change" data-lang="menu-faq" href="faq.html">FAQ</a></li>
+                                    <li><a class="lang-change" data-lang="menu-team" href="team.html">Team</a></li>
                                 </ul>
                             </nav>
                         </div>
