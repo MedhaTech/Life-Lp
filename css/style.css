@@ -12968,7 +12968,7 @@ button:focus {
 .it_comp_menu_wrapper ul>.active>a:focus,
 .it_comp_menu_wrapper ul>.active>a:hover {
 	background-color: transparent;
-	color: #00e3c8;
+	color: #067de1;
 }
 
 .it_comp_menu_wrapper ul>li>a:after {
@@ -13474,6 +13474,7 @@ button:focus {
 .it_comp_sidebar_logo img {
 	padding-top: 19px;
 	padding-left: 25px;
+	width: 100%;
 }
 
 #it_comp_cssmenu ul ul>li.has-sub>a:after {
@@ -25146,6 +25147,9 @@ button:focus {
 	stroke-width: 3rem;
 }
 
+.map_color:hover {
+  fill: #067de1 !important;
+}
 
 .map_counter_box_shape {
 	padding: 20px 20px;

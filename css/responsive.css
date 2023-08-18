@@ -3548,6 +3548,7 @@ Copyright © 2020-21
 	}
 	.it_comp_about_wrapper {
 		padding-top: 0;
+		padding-left: 12px;
 	}
 	.it_comp_about_image_wrapper img {
 		width: 100%;
@@ -3813,6 +3814,9 @@ Copyright © 2020-21
 	}
 	.it_comp_logo_wrapper {
 		padding-top: 18px;
+	}
+	.it_comp_logo_wrapper img{
+		width: 126%;
 	}
 	/* Kidder */
 	.kid_logo_wrapper img {
