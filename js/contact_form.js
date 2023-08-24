@@ -50,7 +50,7 @@ $(document).ready(function(){
 			var formDetail = new FormData(targetForm[0]);
 			$.ajax({
 				method : 'post',
-				url : 'contactmail.php',
+				url : 'contactmail.html',
 				data:formDetail,
 				cache:false,
 				contentType: false,
