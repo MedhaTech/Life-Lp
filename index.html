@@ -1166,6 +1166,22 @@ Business & Faster. </h2>
     <!-- footer wrapper end -->
 
     <script>
+        const api_url = "https://1nfjx2qdej.execute-api.ap-south-1.amazonaws.com/api/v1/dashboard/mapStats";
+        var api_data;
+	async function getUser() {
+        console.log(api_data);
+	
+	// Making an API call (request)
+	// and getting the response back
+	const response = await fetch(api_url);
+	
+	// Parsing it to JSON format
+	const data = await response.json();
+    api_data=data.data[0];
+	console.log(data.data[0]);
+    }
+    getUser();
+        //  console.log(data.data[0].dataValues[0].reg_schools,'vgvhbkjb');
          var text = document.getElementById('institute_count');
          var text1 = document.getElementById('student_team');
          var text2 = document.getElementById('student_count');
@@ -1173,357 +1189,347 @@ Business & Faster. </h2>
          var text4 = document.getElementById('name');
            document.getElementById('namakkal')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "0";
-                text1.textContent = "1";
-                text2.textContent = "2";
-                text3.textContent = "3";
+                text.textContent =   api_data.dataValues[20].reg_schools;
+                text1.textContent = api_data.dataValues[20].teams;
+                text2.textContent = api_data.dataValues[20].students;
+                text3.textContent = api_data.dataValues[20].ideas;
                 text4.textContent = "namakkal";
             });
 
             document.getElementById('tiruvallur')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "4";
-                text1.textContent = "5";
-                text2.textContent = "6";
-                text3.textContent = "7";
+                text.textContent =  api_data.dataValues[38].reg_schools;
+                text1.textContent =  api_data.dataValues[38].teams;
+                text2.textContent =  api_data.dataValues[38].students;
+                text3.textContent =  api_data.dataValues[38].ideas;
                 text4.textContent = "tiruvallur";
             });
 
             document.getElementById('ariyalur')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "8";
-                text1.textContent = "9";
-                text2.textContent = "10";
-                text3.textContent = "11";
+                text.textContent =  api_data.dataValues[1].reg_schools;
+                text1.textContent =  api_data.dataValues[1].teams;
+                text2.textContent =  api_data.dataValues[1].students;
+                text3.textContent =  api_data.dataValues[1].ideas;
                 text4.textContent = "ariyalur";
             });
 
             document.getElementById('perambalur')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "12";
-                text1.textContent = "13";
-                text2.textContent = "14";
-                text3.textContent = "15";
+                text.textContent =  api_data.dataValues[76].reg_schools;
+                text1.textContent =  api_data.dataValues[76].teams;
+                text2.textContent =  api_data.dataValues[76].students;
+                text3.textContent =  api_data.dataValues[76].ideas;
                 text4.textContent = "perambalur";
             });
 
             document.getElementById('tiruchirappalli')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "16";
-                text1.textContent = "17";
-                text2.textContent = "18";
-                text3.textContent = "19";
+                text.textContent =  api_data.dataValues[41].reg_schools;
+                text1.textContent =  api_data.dataValues[41].teams;
+                text2.textContent =  api_data.dataValues[41].students;
+                text3.textContent =  api_data.dataValues[41].ideas;
                 text4.textContent = "tiruchirappalli";
             });
 
             document.getElementById('dharmapuri')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "20";
-                text1.textContent = "21";
-                text2.textContent = "22";
-                text3.textContent = "23";
+                text.textContent =  api_data.dataValues[9].reg_schools;
+                text1.textContent =  api_data.dataValues[9].teams;
+                text2.textContent =  api_data.dataValues[9].students;
+                text3.textContent =  api_data.dataValues[9].ideas;
                 text4.textContent = "dharmapuri";
             });
 
             document.getElementById('salem')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "24";
-                text1.textContent = "25";
-                text2.textContent = "26";
-                text3.textContent = "27";
+                text.textContent =  api_data.dataValues[30].reg_schools;
+                text1.textContent =  api_data.dataValues[30].teams;
+                text2.textContent =  api_data.dataValues[30].students;
+                text3.textContent =  api_data.dataValues[30].ideas;
                 text4.textContent = "salem";
             });
 
             document.getElementById('mayiladuthurai')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "28";
-                text1.textContent = "29";
-                text2.textContent = "30";
-                text3.textContent = "31";
+                text.textContent =  api_data.dataValues[18].reg_schools;
+                text1.textContent =  api_data.dataValues[18].teams;
+                text2.textContent =  api_data.dataValues[18].students;
+                text3.textContent =  api_data.dataValues[18].ideas;
                 text4.textContent = "mayiladuthurai";
             });
 
             document.getElementById('thanjavur')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "32";
-                text1.textContent = "33";
-                text2.textContent = "34";
-                text3.textContent = "35";
+                text.textContent =  api_data.dataValues[35].reg_schools;
+                text1.textContent =  api_data.dataValues[35].teams;
+                text2.textContent =  api_data.dataValues[35].students;
+                text3.textContent =  api_data.dataValues[35].ideas;
                 text4.textContent = "thanjavur";
             });
 
             document.getElementById('villupuram')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "36";
-                text1.textContent = "37";
-                text2.textContent = "38";
-                text3.textContent = "39";
+                text.textContent =  api_data.dataValues[103].reg_schools;
+                text1.textContent =  api_data.dataValues[103].teams;
+                text2.textContent =  api_data.dataValues[103].students;
+                text3.textContent =  api_data.dataValues[103].ideas;
                 text4.textContent = "villupuram";
             });
 
             document.getElementById('kallakurichi')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "40";
-                text1.textContent = "41";
-                text2.textContent = "42";
-                text3.textContent = "43";
+                text.textContent =  api_data.dataValues[65].reg_schools;
+                text1.textContent =  api_data.dataValues[65].teams;
+                text2.textContent =  api_data.dataValues[65].students;
+                text3.textContent =  api_data.dataValues[65].ideas;
                 text4.textContent = "kallakurichi";
             });
 
             document.getElementById('cuddalore')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "40";
-                text1.textContent = "41";
-                text2.textContent = "42";
-                text3.textContent = "43";
+                text.textContent =  api_data.dataValues[7].reg_schools;
+                text1.textContent =  api_data.dataValues[7].teams;
+                text2.textContent =  api_data.dataValues[7].students;
+                text3.textContent =  api_data.dataValues[7].ideas;
                 text4.textContent = "cuddalore";
             });
 
             document.getElementById('tirupathur')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "44";
-                text1.textContent = "45";
-                text2.textContent = "46";
-                text3.textContent = "47";
+                text.textContent =  api_data.dataValues[96].reg_schools;
+                text1.textContent =  api_data.dataValues[96].teams;
+                text2.textContent =  api_data.dataValues[96].students;
+                text3.textContent =  api_data.dataValues[96].ideas;
                 text4.textContent = "tirupathur";
             });
 
             document.getElementById('krishnagiri')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "48";
-                text1.textContent = "49";
-                text2.textContent = "50";
-                text3.textContent = "51";
+                text.textContent =  api_data.dataValues[69].reg_schools;
+                text1.textContent =  api_data.dataValues[69].teams;
+                text2.textContent =  api_data.dataValues[69].students;
+                text3.textContent =  api_data.dataValues[69].ideas;
                 text4.textContent = "krishnagiri";
             });
 
             document.getElementById('ranipet')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "52";
-                text1.textContent = "53";
-                text2.textContent = "54";
-                text3.textContent = "55";
+                text.textContent =  api_data.dataValues[80].reg_schools;
+                text1.textContent =  api_data.dataValues[80].teams;
+                text2.textContent =  api_data.dataValues[80].students;
+                text3.textContent =  api_data.dataValues[80].ideas;
                 text4.textContent = "ranipet";
             });
 
             document.getElementById('vellore')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "56";
-                text1.textContent = "57";
-                text2.textContent = "58";
-                text3.textContent = "59";
+                text.textContent =  api_data.dataValues[102].reg_schools;
+                text1.textContent =  api_data.dataValues[102].teams;
+                text2.textContent =  api_data.dataValues[102].students;
+                text3.textContent =  api_data.dataValues[102].ideas;
                 text4.textContent = "vellore";
             });
 
             document.getElementById('tiruvannamalai')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "60";
-                text1.textContent = "61";
-                text2.textContent = "62";
-                text3.textContent = "63";
+                text.textContent =  api_data.dataValues[100].reg_schools;
+                text1.textContent =  api_data.dataValues[100].teams;
+                text2.textContent =  api_data.dataValues[100].students;
+                text3.textContent =  api_data.dataValues[100].ideas;
                 text4.textContent = "tiruvannamalai";
             });
 
             document.getElementById('tiruppur')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "64";
-                text1.textContent = "65";
-                text2.textContent = "66";
-                text3.textContent = "67";
+                text.textContent =  api_data.dataValues[98].reg_schools;
+                text1.textContent =  api_data.dataValues[98].teams;
+                text2.textContent =  api_data.dataValues[98].students;
+                text3.textContent =  api_data.dataValues[98].ideas;
                 text4.textContent = "tiruppur";
             });
 
             document.getElementById('karur')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "68";
-                text1.textContent = "69";
-                text2.textContent = "70";
-                text3.textContent = "71";
+                text.textContent =  api_data.dataValues[68].reg_schools;
+                text1.textContent =  api_data.dataValues[68].teams;
+                text2.textContent =  api_data.dataValues[68].students;
+                text3.textContent =  api_data.dataValues[68].ideas;
                 text4.textContent = "karur";
             });
 
             document.getElementById('theni')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "72";
-                text1.textContent = "73";
-                text2.textContent = "74";
-                text3.textContent = "75";
+                text.textContent =  api_data.dataValues[90].reg_schools;
+                text1.textContent =  api_data.dataValues[90].teams;
+                text2.textContent =  api_data.dataValues[90].students;
+                text3.textContent =  api_data.dataValues[90].ideas;
                 text4.textContent = "theni";
             });
 
             document.getElementById('madurai')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "76";
-                text1.textContent = "77";
-                text2.textContent = "78";
-                text3.textContent = "79";
+                text.textContent =  api_data.dataValues[70].reg_schools;
+                text1.textContent =  api_data.dataValues[70].teams;
+                text2.textContent =  api_data.dataValues[70].students;
+                text3.textContent =  api_data.dataValues[70].ideas;
                 text4.textContent = "madurai";
             });
 
             document.getElementById('dindigul')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "80";
-                text1.textContent = "81";
-                text2.textContent = "82";
-                text3.textContent = "83";
+                text.textContent =  api_data.dataValues[10].reg_schools;
+                text1.textContent =  api_data.dataValues[10].teams;
+                text2.textContent =  api_data.dataValues[10].students;
+                text3.textContent =  api_data.dataValues[10].ideas;
                 text4.textContent = "dindigul";
             });
 
             document.getElementById('the nilgiris')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "84";
-                text1.textContent = "85";
-                text2.textContent = "86";
-                text3.textContent = "87";
+                text.textContent =  api_data.dataValues[36].reg_schools;
+                text1.textContent =  api_data.dataValues[36].teams;
+                text2.textContent =  api_data.dataValues[36].students;
+                text3.textContent =  api_data.dataValues[36].ideas;
                 text4.textContent = "the nilgiris";
             });
 
             document.getElementById('erode')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "88";
-                text1.textContent = "89";
-                text2.textContent = "90";
-                text3.textContent = "91";
+                text.textContent =  api_data.dataValues[11].reg_schools;
+                text1.textContent =  api_data.dataValues[11].teams;
+                text2.textContent =  api_data.dataValues[11].students;
+                text3.textContent =  api_data.dataValues[11].ideas;
                 text4.textContent = "erode";
             });
 
             document.getElementById('coimbatore')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "92";
-                text1.textContent = "93";
-                text2.textContent = "94";
-                text3.textContent = "95";
+                text.textContent =  api_data.dataValues[6].reg_schools;
+                text1.textContent =  api_data.dataValues[6].teams;
+                text2.textContent =  api_data.dataValues[6].students;
+                text3.textContent =  api_data.dataValues[6].ideas;
                 text4.textContent = "coimbatore";
             });
 
             document.getElementById('nagapattinam')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "96";
-                text1.textContent = "97";
-                text2.textContent = "98";
-                text3.textContent = "99";
+                text.textContent =  api_data.dataValues[19].reg_schools;
+                text1.textContent =  api_data.dataValues[19].teams;
+                text2.textContent =  api_data.dataValues[19].students;
+                text3.textContent =  api_data.dataValues[19].ideas;
                 text4.textContent = "nagapattinam";
             });
 
             document.getElementById('tiruvarur')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "100";
-                text1.textContent = "101";
-                text2.textContent = "102";
-                text3.textContent = "103";
+                text.textContent =  api_data.dataValues[48].reg_schools;
+                text1.textContent =  api_data.dataValues[48].teams;
+                text2.textContent =  api_data.dataValues[48].students;
+                text3.textContent =  api_data.dataValues[48].ideas;
                 text4.textContent = "tiruvarur";
             });
 
             document.getElementById('ramanathapuram')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "104";
-                text1.textContent = "105";
-                text2.textContent = "106";
-                text3.textContent = "107";
+                text.textContent =  api_data.dataValues[79].reg_schools;
+                text1.textContent =  api_data.dataValues[79].teams;
+                text2.textContent =  api_data.dataValues[79].students;
+                text3.textContent =  api_data.dataValues[79].ideas;
                 text4.textContent = "ramanathapuram";
             });
 
             document.getElementById('sivagangai')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "108";
-                text1.textContent = "109";
-                text2.textContent = "110";
-                text3.textContent = "111";
+                text.textContent =  api_data.dataValues[85].reg_schools;
+                text1.textContent =  api_data.dataValues[85].teams;
+                text2.textContent =  api_data.dataValues[85].students;
+                text3.textContent =  api_data.dataValues[85].ideas;
                 text4.textContent = "sivagangai";
             });
 
             document.getElementById('pudukkottai')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "112";
-                text1.textContent = "113";
-                text2.textContent = "114";
-                text3.textContent = "115";
+                text.textContent =  api_data.dataValues[78].reg_schools;
+                text1.textContent =  api_data.dataValues[78].teams;
+                text2.textContent =  api_data.dataValues[78].students;
+                text3.textContent =  api_data.dataValues[78].ideas;
                 text4.textContent = "pudukkottai";
             });
 
             document.getElementById('tenkasi')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "116";
-                text1.textContent = "117";
-                text2.textContent = "118";
-                text3.textContent = "119";
+                text.textContent =  api_data.dataValues[86].reg_schools;
+                text1.textContent =  api_data.dataValues[86].teams;
+                text2.textContent =  api_data.dataValues[86].students;
+                text3.textContent =  api_data.dataValues[86].ideas;
                 text4.textContent = "tenkasi";
             });
 
             document.getElementById('thoothukkudi')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "120";
-                text1.textContent = "121";
-                text2.textContent = "122";
-                text3.textContent = "123";
+                text.textContent =  api_data.dataValues[93].reg_schools;
+                text1.textContent =  api_data.dataValues[93].teams;
+                text2.textContent =  api_data.dataValues[93].students;
+                text3.textContent =  api_data.dataValues[93].ideas;
                 text4.textContent = "thoothukkudi";
             });
 
             document.getElementById('virudhunagar')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "124";
-                text1.textContent = "125";
-                text2.textContent = "126";
-                text3.textContent = "127";
+                text.textContent =  api_data.dataValues[104].reg_schools;
+                text1.textContent =  api_data.dataValues[104].teams;
+                text2.textContent =  api_data.dataValues[104].students;
+                text3.textContent =  api_data.dataValues[104].ideas;
                 text4.textContent = "virudhunagar";
             });
 
             document.getElementById('kanniyakumari')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "128";
-                text1.textContent = "129";
-                text2.textContent = "130";
-                text3.textContent = "131";
+                text.textContent =  api_data.dataValues[67].reg_schools;
+                text1.textContent =  api_data.dataValues[67].teams;
+                text2.textContent =  api_data.dataValues[67].students;
+                text3.textContent =  api_data.dataValues[67].ideas;
                 text4.textContent = "kanniyakumari";
             });
 
             document.getElementById('tirunelveli')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "132";
-                text1.textContent = "133";
-                text2.textContent = "134";
-                text3.textContent = "135";
+                text.textContent =  api_data.dataValues[95].reg_schools;
+                text1.textContent =  api_data.dataValues[95].teams;
+                text2.textContent =  api_data.dataValues[95].students;
+                text3.textContent =  api_data.dataValues[95].ideas;
                 text4.textContent = "tirunelveli";
             });
 
             document.getElementById('chennai')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "136";
-                text1.textContent = "137";
-                text2.textContent = "138";
-                text3.textContent = "139";
+                text.textContent =  api_data.dataValues[5].reg_schools;
+                text1.textContent =  api_data.dataValues[5].teams;
+                text2.textContent =  api_data.dataValues[5].students;
+                text3.textContent =  api_data.dataValues[5].ideas;
                 text4.textContent = "chennai";
             });
 
             document.getElementById('chengalpattu')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "140";
-                text1.textContent = "141";
-                text2.textContent = "142";
-                text3.textContent = "143";
+                text.textContent =  api_data.dataValues[4].reg_schools;
+                text1.textContent =  api_data.dataValues[4].teams;
+                text2.textContent =  api_data.dataValues[4].students;
+                text3.textContent =  api_data.dataValues[4].ideas;
                 text4.textContent = "chengalpattu";
             });
 
             document.getElementById('kancheepuram')
             .addEventListener('mouseover', function(e) {
-                text.textContent = "144";
-                text1.textContent = "145";
-                text2.textContent = "146";
-                text3.textContent = "147";
+                text.textContent =  api_data.dataValues[13].reg_schools;
+                text1.textContent =  api_data.dataValues[13].teams;
+                text2.textContent =  api_data.dataValues[13].students;
+                text3.textContent =  api_data.dataValues[13].ideas;
                 text4.textContent = "kancheepuram";
             });
-
-            document.getElementById('tiruvallur')
-            .addEventListener('mouseover', function(e) {
-                text.textContent = "148";
-                text1.textContent = "149";
-                text2.textContent = "150";
-                text3.textContent = "151";
-                text4.textContent = "tiruvallur";
-            });
     </script>
-
-
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
