@@ -25141,13 +25141,28 @@ button:focus {
 	color: white !important;
 }
 
-.map_color {
-	fill: #18A447;
-	stroke: #FFFFFF;
-	stroke-width: 3.543;
+.mt-50{
+	margin-top: 50px;;
 }
 
-.map_color:hover {
+.map_color {
+	fill: #CCC;
+	stroke: #FFFFFF;
+	stroke-width: 1;
+}
+
+/* .map_color:hover {
+	cursor: pointer;
+	fill: #067de1 !important;
+} */
+
+.map_color_active {
+	fill: #18A447 !important;
+	stroke: #FFFFFF !important;
+	stroke-width: 1;
+}
+
+.map_color_active:hover {
 	cursor: pointer;
 	fill: #ff6666 !important;
 }
