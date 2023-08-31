@@ -98,7 +98,7 @@ Author: Webstrot
                         <div class="it_comp_menu_wrapper d-none d-sm-none d-md-none d-lg-block d-xl-block">
                             <nav class="menu_scroll">
                                 <ul>
-                                    <li class="active"><a class="lang-change" data-lang="menu-home" href="0">About</a>
+                                    <li class="active"><a class="lang-change" data-lang="menu-home" href="5">About</a>
                                     </li>
                                     <li><a class="lang-change" data-lang="menu-roadmap" href="1">Road Map</a></li>
                                     <li><a class="lang-change" data-lang="menu-impact" href="2">Impact</a></li>
@@ -122,7 +122,7 @@ Author: Webstrot
             <div id="it_comp_toggle_close">&times;</div>
             <div id='it_comp_cssmenu' class="menu_scroll">
                 <ul class="sidebb">
-                    <li><a class="lang-change" data-lang="menu-home" href="0">About</a></li>
+                    <li><a class="lang-change" data-lang="menu-home" href="5">About</a></li>
                     <li><a class="lang-change" data-lang="menu-roadmap" href="1">Road Map</a></li>
                     <li><a class="lang-change" data-lang="menu-impact" href="2">Impact</a></li>
                     <li><a class="lang-change" data-lang="menu-patners" href="3">Partners</a></li>
@@ -334,7 +334,7 @@ Business & Faster. </h2>
     </div>
     <!-- services wrapper end -->
     <!--about us wrapper start-->
-    <div data-scroll='0' class="full_width">
+    <div data-scroll='5' class="full_width">
         <div class="it_comp_about_wrapper full_width">
             <div class="it_comp_about_shape2"><img src="images/it_company/shape6.png" alt="img"></div>
             <div class="it_comp_about_shpe_wrapper">
@@ -350,7 +350,7 @@ Business & Faster. </h2>
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="it_comp_about_image_wrapper">
                             <!-- <img src="images/it_company/about_img.png" alt="img"> -->
-                            <video width="500" height="430" controls style="border:1px solid rgb(29, 4, 4);border-radius:5px;">
+                            <video width="100%" height="430" controls style="border:1px solid rgb(29, 4, 4);border-radius:5px;">
                                 <source src="https://mv.unisolve.org/static/media/ml-video.bdc043df6156ec5288d9.m4v" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -388,7 +388,7 @@ Business & Faster. </h2>
     </div>
     <!--about us wrapper end-->
     <!--about us wrapper start-->
-    <div data-scroll='0' class="full_width">
+    
         <div class="it_comp_about_wrapper full_width">
             <div class="it_comp_about_shape2"><img src="images/it_company/shape6.png" alt="img"></div>
             <div class="it_comp_about_shpe_wrapper">
@@ -436,10 +436,10 @@ Business & Faster. </h2>
                 </div>
             </div>
         </div>
-    </div>
+    
     <!--about us wrapper end-->
     <!--about us wrapper start-->
-    <div data-scroll='0' class="full_width">
+    
         <div class="it_comp_about_wrapper full_width">
             <div class="it_comp_about_shape2"><img src="images/it_company/shape6.png" alt="img"></div>
             <div class="it_comp_about_shpe_wrapper">
@@ -482,7 +482,7 @@ Business & Faster. </h2>
                 </div>
             </div>
         </div>
-    </div>
+   
     <!--about us wrapper end-->
     <!--about us wrapper start-->
     <!-- <div data-scroll='0' class="full_width">
@@ -526,6 +526,7 @@ Business & Faster. </h2>
         </div> -->
     <!--about us wrapper end-->
 
+    <div data-scroll='2' class="full_width">
     <div class="lawyer_wrraper full_width animated-row">
         <div class="container bg-grey">
             <div class="row">
@@ -618,6 +619,7 @@ Business & Faster. </h2>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="it_comp_working_wrapper full_width animated-row bg-light">
@@ -1194,6 +1196,13 @@ Business & Faster. </h2>
                 text2.textContent = api_data.dataValues[20].students;
                 text3.textContent = api_data.dataValues[20].ideas;
                 text4.textContent = "namakkal";
+                addEventListener("mouseout", function(e) {
+                text.textContent ="1000";
+                text1.textContent ="1000";
+                text2.textContent ="1000";
+                text3.textContent ="1000";
+                text4.textContent ="Tamilnadu";
+                });
             });
 
             document.getElementById('tiruvallur')
