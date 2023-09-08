@@ -1641,7 +1641,7 @@ Copyright © 2019-20
                 autoplay: false,
                 responsiveClass: true,
                 smartSpeed: 1200,
-                navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+                navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-arrow-pointing-to-right"></i>'],
                 responsive: {
                     0: {
                         items: 1,

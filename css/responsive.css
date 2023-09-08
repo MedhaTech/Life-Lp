@@ -2399,6 +2399,9 @@ Copyright © 2020-21
 	.it_comp_menu_right_wrapper .it_comp_btn_style {
 		margin-right: 25px;
 	}
+	.it_comp_menu_right_wrapper .it_comp_btn_style{
+		display: none;
+	}
 	.it_comp_slider_wrapper .carousel-inner .carousel-item .caption-1,
 	.it_comp_slider_wrapper .carousel-inner .carousel-item .caption-2,
 	.it_comp_slider_wrapper .carousel-inner .carousel-item .caption-3 {
@@ -3817,6 +3820,10 @@ Copyright © 2020-21
 	}
 	.it_comp_logo_wrapper img{
 		width: 126%;
+	}
+	.it_comp_menu_right_wrapper {
+		float: right;
+		padding-top: 16px;
 	}
 	/* Kidder */
 	.kid_logo_wrapper img {
