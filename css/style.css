@@ -13021,7 +13021,7 @@ button:focus {
 
 .it_comp_menu_right_wrapper {
 	float: right;
-	padding-top: 31px;
+	padding-top: 28px;
 }
 
 .close:not(:disabled):not(.disabled):focus,
@@ -13557,7 +13557,7 @@ button:focus {
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content li {
 	animation-delay: 2.0s;
 	float: left;
-	margin-right: 30px;
+	margin-right: -40px;
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content ul {
