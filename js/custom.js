@@ -766,7 +766,26 @@ Copyright © 2019-20
             }
 
         });
-
+        $('a[href="1"]').click(function(){
+            $("#it_comp_sidebar").animate({
+                "left": -500
+            }, "slow");
+          }); 
+        $('a[href="2"]').click(function(){
+            $("#it_comp_sidebar").animate({
+                "left": -500
+            }, "slow");
+          }); 
+        $('a[href="3"]').click(function(){
+            $("#it_comp_sidebar").animate({
+                "left": -500
+            }, "slow");
+          }); 
+        $('a[href="5"]').click(function(){
+            $("#it_comp_sidebar").animate({
+                "left": -500
+            }, "slow");
+          });
 
         (function($) {
             $(window).on('load', function() {

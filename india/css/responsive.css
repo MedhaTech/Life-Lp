@@ -3190,7 +3190,8 @@ Copyright © 2020-21
 		float: none;
 	}
 	.const_banner_btn ul li:last-child {
-		padding-top: 170px;
+		padding-top: 1px;
+		padding-right: 64px;
 	}
 	.const_btn_icon {
 		margin-left: 0px;

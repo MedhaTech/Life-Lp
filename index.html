@@ -71,7 +71,7 @@ Author: Webstrot
                     <div class="col-md-3 col-sm-6 col-6 col-lg-3">
 
                         <div class="it_comp_logo_wrapper">
-                            <a href="index.html">
+                            <a href="#">
                                 <img src="assets/img/TN_logo.jpg" alt="logo" />
                             </a>
                         </div>
@@ -711,8 +711,7 @@ Business & Faster. </h2>
                             <div class="step-desc">
                                 <h4 class="lang-change" data-lang="roadmap-registration"><a href="#">Awareness &
                                         Registration</a></h4>
-                                <p class="mb-0 lang-change" data-lang="roadmap-desc">Learners consult their
-                                    teachers,from a team and register themselves to the platform.</p>
+                                <p class="mb-0 lang-change" data-lang="roadmap-desc">Learners are inspired to be part of program and teachers register teams onto the platform.</p>
                             </div>
                         </div>
                     </div>
@@ -730,8 +729,7 @@ Business & Faster. </h2>
                             <div class="step-desc">
                                 <h4 class="lang-change" data-lang="roadmap-solving"><a href="#">Problem Solving
                                         Journey</a></h4>
-                                <p class="mb-0 lang-change" data-lang="roadmap-desc1">Learners undergo the interactive
-                                    and gamified course under program</p>
+                                <p class="mb-0 lang-change" data-lang="roadmap-desc1">Learners are part of an interactive and gamified problem solving course by the end of which they solve a problem and submit the idea. </p>
                             </div>
                         </div>
                     </div>
@@ -743,10 +741,8 @@ Business & Faster. </h2>
                                 <div class="step-num">03</div>
                             </div>
                             <div class="step-desc">
-                                <h4 class="lang-change" data-lang="roadmap-submission"><a href="#">Solution Submission
-                                        and Pitching</a></h4>
-                                <p class="mb-0 lang-change" data-lang="roadmap-desc2">Learners submit their idea to the
-                                    selection panel for the shortlisting.</p>
+                                <h4 class="lang-change" data-lang="roadmap-submission"><a href="#">Mentoring and Recognition</a></h4>
+                                <p class="mb-0 lang-change" data-lang="roadmap-desc2">Quality ideas are shortlisted and the student teams are mentored, recognized and awarded. </p>
                             </div>
                         </div>
                     </div>
@@ -759,9 +755,7 @@ Business & Faster. </h2>
                             </div>
                             <div class="step-desc">
                                 <h4 class="lang-change" data-lang="roadmap-incubation"><a href="#">Incubation</a></h4>
-                                <p class="mb-0 lang-change" data-lang="roadmap-desc3">Solutions selected in the final
-                                    event are provided supportto actualize solutions
-                                    and implement their ideas</p>
+                                <p class="mb-0 lang-change" data-lang="roadmap-desc3">Finalists are provided support to take their solution into the real world and implement it.</p>
                             </div>
                         </div>
                     </div>
@@ -1212,6 +1206,13 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[33].students;
                 text3.textContent =  api_data.dataValues[33].ideas;
                 text4.textContent = "tiruvallur";
+                addEventListener("mouseout", function(e) {
+                text.textContent ="1000";
+                text1.textContent ="1000";
+                text2.textContent ="1000";
+                text3.textContent ="1000";
+                text4.textContent ="Tamilnadu";
+                });
             });
 
             document.getElementById('ariyalur')
