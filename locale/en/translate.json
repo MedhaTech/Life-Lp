@@ -24,10 +24,14 @@
     "heroSection1": {
       "title": "About Us",
       "title1": "School Innovation Development Project(SIDP)",
-      "desc": "To create a positive and dynamic innovation ecosystem within educational institutions, Ministry of Education, UNICEF Maldives and National Institute of Education launches UPSHIFT powered by UNISOLVE.<br><br>The objective of UPSHIFT powered by UNISOLVE is to :",
-      "desc1":"To expose school students to the cycle of innovation and promote the culture of entrepreneurship.",
+      "desc": "The School Innovation Development Project is being implemented by the Entrepreneurship Development and Innovation Institute in collaboration with the Department of School Education and the United Nations Children's Emergency Fund (UNICEF).",
+      "desc1":"The Entrepreneurship Development and Innovation Institute has been implementing the School Innovation Development Project since 2022. The scheme is working with various objectives, such as encouraging innovation and fostering an entrepreneurial culture among students in classes 9 to 12, studying in all government, government-aided and partially aided higher secondary schools. It aims at developing leadership qualities among students, identifying problems, and motivating them to solve these issues.",
+      "sub":"Entrepreneurship Development and Innovation Institute (EDII-TN)",
       "desc2": "To inspire students to solve real life problems by using a simple design thinking process as a method to innovate, collaborate and obtain leadership cum entrepreneurship skills.",
-      "desc3": "To build the capacity of the teaching community to play a vital role in building an entrepreneurial, innovative ecosystem in schools and be mentors to the evolving minds."
+      "sub1":"Department of School Education",
+      "desc3": "To build the capacity of the teaching community to play a vital role in building an entrepreneurial, innovative ecosystem in schools and be mentors to the evolving minds.",
+      "sub2":"United Nations Children's Emergency Fund (UNICEF)",
+      "desc4":"The United Nations Children's Emergency Fund (UNICEF) was founded on December 11, 1946, by the United Nations General Assembly with the mission of providing food and healthcare to children in nations ruined by World War II. In 1953, it officially became a permanent institution within the United Nations. UNICEF operates in 155 countries worldwide, primarily focusing on improving community-level services to achieve its larger goal of child welfare and development. UNICEF also serves as a knowledge partner in the School Innovation Development Project."
     }
   },
   {
@@ -58,8 +62,14 @@
     "aboutSection3": {
     "title": "Here Are A Few Of",
     "title2": "Student Ideas",
-    "title1": "Adjustable Walker for the elderly",
-    "desc": "Multipurpose Agriculture Bag can be used for plucking cotton, Chilli and Vegetables fertilizers in the agriculture field"
+    "title1": "Emergency Watch for Children",
+    "desc": "To increase the safety of women and to prevent them from vulnerable attacks an Emergency Smart Watch is proposed. In case of any emergencies switch on the watch can be pressed which will give alert to the parents through message. The location can also be sent through the GPS module present in the watch proving timely support for women.",
+    "title3": "Glucose End Bottle Alarm",
+    "desc1": "The automatic glucose bottle alarm consists of a device mounted on the wooden stand where the glucose bottle is attached. When the glucose bottle is about to be emptied an alarm is given to alert the attendant and the nurse and also the message is also sent through the GSM module.",
+    "title4": "Illumination of Carrot Farming",
+    "desc2": "Carrot harvesting is usually done at early morning where farmers are vulnerable to wildlife attacks and suffers due to insufficient lighting. In order to overcome this issue, solar outdoor lights can be installed in the carrot farms that are equipped with a motion sensor to detect a movement. During harvesting the farm lights turns ON automatically. The system    also detects the wild animal’s intrusion and turns on the artificial fire flame and also plays the bee hum through the horn which is being prerecorded. The system also consist of IoT based Motor On/Off System with Overhead Tank Level.",
+    "title5": "Smart Helmet",
+    "desc3": "To prevent road accidents and to increase the awareness for a healthy practice a ‘Smart Helmet’ is proposed where the system consists of sensors connected to the helmet. Whenever the rider wears the helmet the sensor detect it and sends the signal to the ignition system through a RF module. The system also detects the consumption of alcohol and sends alert message if the rider have consumed alcohol and turns of the vehicle."
   }
 },
 {
@@ -74,12 +84,12 @@
       "title1": "Four Simple Working Process",
       "registration": "Awareness & Registration",
       "solving":"Problem Solving Journey",
-      "submission":"Solution Submission And Pitching",
+      "submission":"Mentoring and Recognition",
       "incubation":"Incubation",
-      "desc":"Learners consult their teachers,from a team and register themselves to the platform.",
-      "desc1":"Learners undergo the interactive and gamified course under program.",
-      "desc2":"Learners submit their idea to the selection panel for the shortlisting",
-      "desc3":"Solutions selected in the final event are provided supportto actualize solutions and implement their ideas"
+      "desc":"Learners are inspired to be part of program and teachers register teams onto the platform.",
+      "desc1":"Learners are part of an interactive and gamified problem solving course by the end of which they solve a problem and submit the idea.",
+      "desc2":"Quality ideas are shortlisted and the student teams are mentored, recognized and awarded.",
+      "desc3":"Finalists are provided support to take their solution into the real world and implement it."
     }
   },
   {
@@ -103,6 +113,22 @@
   {
     "partner": {
       "title": "Our Partners"
+    }
+  },
+  {
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "question1": " What is the School Innovation Development Project?",
+      "answer1": "To promote a culture of innovation and creative problem-solving among school students, the Entrepreneurship Development, and Innovation Institute (EDII-TN), in collaboration with the Department of School Education (DoSE) and the United Nations International Children's Emergency Fund (UNICEF), is implementing the School Innovation Development Project (SIDP).",
+      "answer2":"The objective of the program is to inspire students to solve problems by using a simple design thinking process as a method for innovation, collaboration, and acquiring 21st-century skills and leadership skills.",
+      "question2": " Which organization implements School Innovation Development Project?",
+      "answer3":"Entrepreneurship Development and Innovation Institute (EDII-TN), in collaboration with the Department of School Education (DoSE) and the United Nations International Children's Emergency Fund (UNICEF), is implementing the School Innovation Development Project (SIDP).",
+      "question3": "Who can participate in this program",
+      "answer4" : "Students from all government, government-aided, and partially-aided schools (both high school and higher secondary school) are eligible to participate in the program. Students from 9th to 12th standard can take part in this program. If you fall under this category but your school is not a part of SIDP, please contact us via email at sidp22-23@editn.in",
+      "question4": "  What are the advantages and significance of providing 21st-century skills training to students?",
+      "answer5": "As students engage with UNICEF's video-based curriculum of 21st-century skills, they not only acquire foundational entrepreneurship skills but also develop other qualities such as problem-solving, innovation, and leadership skills throughout their educational journey.",
+      "question5": "Do students' innovations receive adequate protection?",
+      "answer6": "By creating awareness among students about Intellectual Property Rights (IPR), students can register and protect their innovations."
     }
   }
 ]
