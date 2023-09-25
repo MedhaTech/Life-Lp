@@ -3657,6 +3657,13 @@ Copyright © 2020-21
 		right: 30px;
 	}
 }
+/* @media (min-width: 200px) and (max-width: 800px){
+	.it_comp_menu_right_wrapper {
+		float: right;
+		padding-top: 1px;
+	}
+} */
+
 @media (max-width: 480px) {
 	#section-quote .container-quote .quote p {
 		font-size: 20px;
@@ -3819,12 +3826,15 @@ Copyright © 2020-21
 		padding-top: 18px;
 	}
 	.it_comp_logo_wrapper img{
-		width: 126%;
+		width: 114%;
 	}
 	.it_comp_menu_right_wrapper {
 		float: right;
 		padding-top: 16px;
 	}
+	/* .it_comp_searchd_bar{
+		padding-top: 10px;
+	} */
 	/* Kidder */
 	.kid_logo_wrapper img {
 		width: 200px;
@@ -4155,6 +4165,11 @@ Copyright © 2020-21
 @media (max-width: 360px) {
 	.bussi_banner_image {
 		display: none;
+	}
+}
+@media(max-width:357){
+	.it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content li a{
+		margin-top: 6px;
 	}
 }
 @media (max-width: 320px) {
