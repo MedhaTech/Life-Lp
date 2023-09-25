@@ -13034,6 +13034,7 @@ button:focus {
 	width: 100px;
 	height: 40px;
 	float: left;
+	margin-right: 12px;
 	font-size: 16px;
 	text-transform: capitalize;
 	font-family: Lato, sans-serif;
@@ -13474,7 +13475,7 @@ button:focus {
 .it_comp_sidebar_logo img {
 	padding-top: 19px;
 	padding-left: 25px;
-	width: 100%;
+	width: 80%;
 }
 
 #it_comp_cssmenu ul ul>li.has-sub>a:after {
@@ -13557,7 +13558,7 @@ button:focus {
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content li {
 	animation-delay: 2.0s;
 	float: left;
-	margin-right: -40px;
+	margin-right: -57px;
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content ul {
@@ -13647,7 +13648,7 @@ button:focus {
 	font-size: 16px;
 	margin-top: 12px;
 	font-weight: 400;
-	margin-right: 15px;
+	margin-right: 36px;
 	color: white;
 	text-transform: capitalize;
 	text-align: center;
