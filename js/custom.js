@@ -1472,7 +1472,7 @@ Copyright © 2019-20
                         nav: true
                     },
                     1000: {
-                        items: 5,
+                        items: 4,
                         nav: true,
                         loop: true,
                         margin: 20
