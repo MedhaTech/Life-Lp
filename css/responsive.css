@@ -2405,7 +2405,7 @@ Copyright © 2020-21
 	.it_comp_slider_wrapper .carousel-inner .carousel-item .caption-1,
 	.it_comp_slider_wrapper .carousel-inner .carousel-item .caption-2,
 	.it_comp_slider_wrapper .carousel-inner .carousel-item .caption-3 {
-		min-height: 700px;
+		min-height: 325px;
 	}
 	.it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content {
 		text-align: center;
@@ -3826,7 +3826,7 @@ Copyright © 2020-21
 		padding-top: 18px;
 	}
 	.it_comp_logo_wrapper img{
-		width: 114%;
+		width: 68%;
 	}
 	.it_comp_menu_right_wrapper {
 		float: right;
