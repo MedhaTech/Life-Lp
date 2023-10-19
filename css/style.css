@@ -13510,7 +13510,7 @@ button:focus {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	min-height: 650px;
+	min-height: 220px;
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content {
@@ -13917,7 +13917,7 @@ button:focus {
 
 .it_comp_about_wrapper {
 	padding-bottom: 100px;
-	padding-top: 50px;
+	padding-top: 79px;
 	position: relative;
 }
 
@@ -13938,7 +13938,7 @@ button:focus {
 .it_comp_about_shpe_wrapper {
 	position: absolute;
 	left: 0;
-	top: -40px;
+	top: 17px;
 }
 
 .it_comp_about_shape2 {
@@ -14023,7 +14023,7 @@ canvas {
 .it_comp_working_wrapper {
 	padding-bottom: 100px;
 	position: relative;
-	padding-top: 100px;
+	padding-top: 14px;
 }
 
 .it_comp_working_wrapper .step-icon {
@@ -16993,12 +16993,12 @@ button:focus {
 /**---- banner wrapper css ------**/
 
 .lawyer_banner_wrapper {
-	background: url(../images/lawyer/banner.jpg) 50% 0 repeat-y;
+	background: url(../images/lawyer/banner_ATL.jpeg) 50% 0 repeat-y;
 	background-position: center 0;
 	background-size: cover;
 	height: 100%;
 	position: relative;
-	margin-top: -80px;
+	/* margin-top: -80px; */
 }
 
 .lawyer_banner_overlay {
@@ -17105,10 +17105,11 @@ button:focus {
 }
 
 .lawyer_banner_text_btn .lawyer_btn_style {
-	width: 260px;
+	width: 165px;
 	background: #fff;
 	border: 2px solid #fff;
 	color: #de6640;
+	margin-left: 12px;
 }
 
 .lawyer_banner_text_btn .lawyer_btn_style:hover {
@@ -25143,9 +25144,9 @@ button:focus {
 }
 
 .map_color {
-	fill: #f3faf3;
-	stroke: #124F14;
-	stroke-width: 3rem;
+	fill: #ccc;
+	stroke: #FFFFFF;
+	stroke-width: 1;
 }
 
 .map_color:hover {
