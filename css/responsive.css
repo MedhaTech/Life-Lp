@@ -2597,7 +2597,7 @@ Copyright © 2020-21
 		line-height: 52px;
 	}
 	.lawyer_banner_wrapper {
-		padding-bottom: 100px;
+		padding-bottom: 4px;
 	}
 	.lawyer_service_shape2,
 	.lawyer_service_shape1,
@@ -3551,7 +3551,8 @@ Copyright © 2020-21
 	}
 	.it_comp_about_wrapper {
 		padding-top: 0;
-		padding-left: 12px;
+		/* padding-left: 12px; */
+		/* margin-top: 50px; */
 	}
 	.it_comp_about_image_wrapper img {
 		width: 100%;
@@ -3745,7 +3746,7 @@ Copyright © 2020-21
 		padding-top: 0;
 	}
 	.beauty_partner_wrapper {
-		padding: 70px 0;
+		padding: 95px 0;
 	}
 	/* Business */
 	.bussi_banner_cntnt p {
