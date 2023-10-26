@@ -13917,7 +13917,7 @@ button:focus {
 
 .it_comp_about_wrapper {
 	padding-bottom: 100px;
-	padding-top: 240px;
+	padding-top: 197px;
 	position: relative;
 }
 
@@ -16999,10 +16999,10 @@ button:focus {
 /**---- banner wrapper css ------**/
 
 .lawyer_banner_wrapper {
-	background: url(../images/lawyer/banner1_ATL.jpg) 50% 0 repeat-y;
+	background: url(../images/lawyer/banner4.jpg) 50% 0 repeat-y;
 	background-position: center 0;
 	background-size: cover;
-	height: 135%;
+	height: 128%;
 	position: relative;
 	/* margin-top: -80px; */
 }
@@ -17107,7 +17107,8 @@ button:focus {
 }
 
 .lawyer_banner_text_btn {
-	margin-top: 30px;
+	margin-top: 107px;
+	margin-left: 170px;
 }
 
 .lawyer_banner_text_btn .lawyer_btn_style {
@@ -17116,7 +17117,7 @@ button:focus {
 	border: 2px solid #fff;
 	color: #de6640;
 	margin-left: 12px;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .lawyer_banner_text_btn .lawyer_btn_style:hover {

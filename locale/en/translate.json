@@ -1,113 +1,102 @@
 [
   {
     "menu": {
-      "home": "About",
+      "home": "About Us",
       "roadmap": "Road Map",
       "impact": "Impact",
-      "patners": "Patners",
-      "faq": "Faq",
-      "team": "Team",
+      "prizes": "Prizes",
+      "testimonial": "Testimonial",
+      "partners": "Partners",
+      "faq": "FAQ",
       "login": "Login"
     }
   },
   {
-    "heroSection": {
-      "title":"Tamil Nadu",
-      "title1":"Creating Change Makers Of Tomorrow With 21st",
-      "skill":"Century Skills",
-      "desc": "Nurture a culture of social innovation and build skills while inspiring young people to become transformative leaders.",
-      "signup": "Login",
-      "register":"Register"
-    }
-  },
-  {
-    "heroSection1": {
-      "title": "About Us",
-      "title1": "School Innovation Development Project(SIDP)",
-      "desc": "The School Innovation Development Project is being implemented by the Entrepreneurship Development and Innovation Institute in collaboration with the Department of School Education and the United Nations Children's Emergency Fund (UNICEF).",
-      "desc1":"The Entrepreneurship Development and Innovation Institute has been implementing the School Innovation Development Project since 2022. The scheme is working with various objectives, such as encouraging innovation and fostering an entrepreneurial culture among students in classes 9 to 12, studying in all government, government-aided and partially aided higher secondary schools. It aims at developing leadership qualities among students, identifying problems, and motivating them to solve these issues.",
-      "sub":"Entrepreneurship Development and Innovation Institute (EDII-TN)",
-      "desc2": "To inspire students to solve real life problems by using a simple design thinking process as a method to innovate, collaborate and obtain leadership cum entrepreneurship skills.",
-      "sub1":"Department of School Education",
-      "desc3": "To build the capacity of the teaching community to play a vital role in building an entrepreneurial, innovative ecosystem in schools and be mentors to the evolving minds.",
-      "sub2":"United Nations Children's Emergency Fund (UNICEF)",
-      "desc4":"The United Nations Children's Emergency Fund (UNICEF) was founded on December 11, 1946, by the United Nations General Assembly with the mission of providing food and healthcare to children in nations ruined by World War II. In 1953, it officially became a permanent institution within the United Nations. UNICEF operates in 155 countries worldwide, primarily focusing on improving community-level services to achieve its larger goal of child welfare and development. UNICEF also serves as a knowledge partner in the School Innovation Development Project."
+    "banner": {
+      "register":"Register",
+      "login":"Login"
     }
   },
   {
     "aboutSection": {
-      "title": "What Is UPSHIFT",
-      "desc": "UPSHIFT is a UNICEF global innovation for transferable skills building of adolescents and young people that is now in implementation in 45 countries. UPSHIFT is designed to build transferable skills and create opportunity, with a focus on the young people. UPSHIFT supports the development of skills for life and livelihood and supports youth to positively engage with their local communities as change-makers. [LEARN MORE ABOUT UPSHIFT ]",
-      "desc1":"With the goal of engaging and skilling more adolescents and young people, UNICEF Maldives, along with the Ministry of Education, National Institute of Education and Inqui-Lab Foundation embarked on the development of UNISOLVE."
+      "title": "About",
+      "title1": "ATL Marathon",
+      "desc": "The ATL Marathon is Atal Innovation Mission’s flagship innovation challenge, where schools identify community problems of their choice and develop innovative solutions in the form of working prototypes. The last edition of the Marathon witnessed 12000+ innovations, the top 400 of them got internship opportunities through the Student Innovator Program with leading corporates and Incubation Centres of India, prizes and certificates from AIM, NITI Aayog.",
+      "desc1":"In ATL Marathon 2023-24, we want the students of India to choose any of the below problem statements or work on a problem that they find around themselves, research, ideate, innovate and implement a solution for it."
     }
   },
-  {
-    "aboutSection1": {
-      "title": "UPSHIFT powered by ",
-      "title1": "UNISOLVE",
-      "desc": "UNISOLVE is a digital platform designed to facilitate UPSHIFT delivery through a school-based, teacher-facilitated blended learning model.",
-      "desc1":"UNISOLVE combines the advantages of distance learning opportunities and face-to-face activities to promote creativity and innovation among adolescents and young people. Designed with and for the education system keeping scalability in mind this specially designed platform, UNISOLVE, is a tool to skill students on social innovation and 21st century skills."
-    }
-  },
-  {
-    "aboutSection2": {
-      "title": "Maldives National Curriculum",
-      "title1": "UNISOLVE",
-      "desc": "The NCF alignes with UNISOLVE to promotes holistic approach to education, placing equal emphasis on the development of knowledge, understanding, skills, values and attitudes.",
-      "desc1":"The National Curriculum envisions the development of successful individuals who are motivated to explore and create knowledge, are confident and competent and have a firm belief in Islam, a strong sense of self and national identity and are Responsible and productive contributors to their own family, local community and the global society.",
-      "desc2":"It strives to develop a sense of value in The NCF and places great emphasis on encouraging children and young people to adopt deeply held values shared within our society."
-    }
-  },
-  {
-    "aboutSection3": {
-    "title": "Here Are A Few Of",
-    "title2": "Student Ideas",
-    "title1": "Emergency Watch for Children",
-    "desc": "To increase the safety of women and to prevent them from vulnerable attacks an Emergency Smart Watch is proposed. In case of any emergencies switch on the watch can be pressed which will give alert to the parents through message. The location can also be sent through the GPS module present in the watch proving timely support for women.",
-    "title3": "Glucose End Bottle Alarm",
-    "desc1": "The automatic glucose bottle alarm consists of a device mounted on the wooden stand where the glucose bottle is attached. When the glucose bottle is about to be emptied an alarm is given to alert the attendant and the nurse and also the message is also sent through the GSM module.",
-    "title4": "Illumination of Carrot Farming",
-    "desc2": "Carrot harvesting is usually done at early morning where farmers are vulnerable to wildlife attacks and suffers due to insufficient lighting. In order to overcome this issue, solar outdoor lights can be installed in the carrot farms that are equipped with a motion sensor to detect a movement. During harvesting the farm lights turns ON automatically. The system    also detects the wild animal’s intrusion and turns on the artificial fire flame and also plays the bee hum through the horn which is being prerecorded. The system also consist of IoT based Motor On/Off System with Overhead Tank Level.",
-    "title5": "Smart Helmet",
-    "desc3": "To prevent road accidents and to increase the awareness for a healthy practice a ‘Smart Helmet’ is proposed where the system consists of sensors connected to the helmet. Whenever the rider wears the helmet the sensor detect it and sends the signal to the ignition system through a RF module. The system also detects the consumption of alcohol and sends alert message if the rider have consumed alcohol and turns of the vehicle."
-  }
-},
-{
-  "impact": {
-  "title": "Engagement & Impact",
-  "desc": "TAMILNADU"
-}
-},
   {
     "roadmap": {
       "title": "Road Map",
-      "title1": "Four Simple Working Process",
-      "registration": "Awareness & Registration",
-      "solving":"Problem Solving Journey",
-      "submission":"Mentoring and Recognition",
-      "incubation":"Incubation",
-      "desc":"Learners are inspired to be part of program and teachers register teams onto the platform.",
-      "desc1":"Learners are part of an interactive and gamified problem solving course by the end of which they solve a problem and submit the idea.",
-      "desc2":"Quality ideas are shortlisted and the student teams are mentored, recognized and awarded.",
-      "desc3":"Finalists are provided support to take their solution into the real world and implement it."
+      "title1": "Journey of a student in ATL Marathon",
+      "registration": "Launch of ATL Marathon 2023",
+      "solving":"Innovation & Prototyping Phase",
+      "submission":"Announcement of Top 350 Teams",
+      "incubation":"Commencement of Student Internship Programme(SIP)",
+      "entrepreneurship":"Top teams from SIP participate in the student Entrepreneurship Programme(SEP)"
+    }
+  },
+  {
+    "impact": {
+    "title": "Engagement & Impact",
+    "desc": "INDIA"
+  }
+  },
+  {
+    "date": {
+      "title": "Important Dates",
+      "desc": "Launch of ATL Marathon",
+      "desc2":"SIP Programme starts",
+      "desc3":"SEP Programme starts",
+      "desc4":"Announcement of Top 350 teams",
+      "desc5":"Innovation & Prototyping Phase",
+      "desc6":"Last day to submit projects for ATL Marathon 22-23"
+    }
+  },
+  {
+    "prizes": {
+      "title": "Prizes & Certificates",
+      "desc": "Top 400 teams - Student Internship Programme (SIP)",
+      "desc1":"Top 75 teams - Student Entrepreneurship Programme (SEP)",
+      "title1":"Special Certificates -",
+      "desc2":"Top 10 teams from each state",
+      "desc3":"Top 10 teams from rural areas",
+      "desc4":"Top 10 teams from government schools",
+      "desc5":"Top 10 teams from Aspirational Districts",
+      "desc6":"Top 10 teams including Children with special needs"
+    }
+  },
+  {
+    "aboutSection3":{
+      "title": "Here are a few",
+      "title1": "Student Ideas",
+      "title2": "Glucobet",
+      "desc": "A group of friends  discovered themselves motivated by a common goal - to lessen the hardships of a loved one enduring the everyday rigors of severe diabetes. And thus, Glucobelt was born - a device as ingenious as it was compassionate. What set their creation apart was its ability to predict sugar levels in food before consumption and in the blood without the need for painful needle pricks.<br><b>-Owee Prasad Adawadkar, Sanavi Chikhale, Mihika Tushar Datar",
+      "title3": "Cartoonify.NFTs",
+      "desc1":"In the midst of a journey to Bangalore, they met remarkable painters and their vibrant creations. Their curiosity led to uncovering a disheartening truth: these skilled painters earned a meager monthly income of just 5000 rupees. This revelation became the driving force behind their project, Cartoonify.NFTs, earning them an invitation to a 6-week internship program In the same year, they earned recognition as one of the top 100 projects of ATL marathon 2021.<br><b>-Omkar Kumbhar, Dev Kore, and Param Shah  , Karnataka",
+      "title4": "Replastic",
+      "desc2":"The trio understood the urgent need for a solution that would put an end to this plastic epidemic giving birth to REPLASTIC. Idea was that people could schedule plastic pickups from the comfort of their homes or offices through RePlastic's website. On the chosen date and time, a team of dedicated rag pickers, employed by the organization, would arrive to collect the plastic.They participated in the ATL (Atal Tinkering Labs) Marathon, a platform that celebrated innovation and problem-solving.<br><b>-Gunika Beriwal, Abhinav Tejpaul, and Satyam Verma",
+      "a1":"-Owee Prasad Adawadkar, Sanavi Chikhale, Mihika Tushar Datar",
+      "a2":"-Omkar Kumbhar, Dev Kore, and Param Shah  , Karnataka",
+      "a3":"-Gunika Beriwal, Abhinav Tejpaul, and Satyam Verma"
     }
   },
   {
     "team": {
-      "title": "Our Team",
-      "title1": "Meet Our Team",
-      "messageName1": "Aishath Shibana",
-      "messageDescription1":"21st Century is the century of innovation, development and ideation. when we say preparing students for life, it means putting greaterfocus on developing skills that are essential for modren workplace. therefore, I believe that UPSHIFT program can offer and develop these transferable skills and increase student's social engagement.It uses a methodology called human centered design which offers a more holistic and community-driven approach to problem-solving.It Starts with people and ends with innovative solutions that are tailor-made to suit their needs.When you understant the people you're trying to reach,design from their perspective, not only will you arive at unexpected answers, but you'll come up with ideas that they'll accept.These activities will help students to develop empathy, creativity, critical thinking, communication, civic engagement and entrepreneurship.",
-      "messageDesignation1":"Senior Curriculum Development Analyst.The National Institute of Education UPSHIFT Training coordinator",
-      "messageName2": "Abdulla Didi",
-      "messageDescription2":"UPSHIFT Powered by UNISOLVE is an amazing program that fasters creativity and critical thinking in students. It enables students to actively engage in identifying problems and finding practical, workable solutions through independent and experiential learning",
-      "messageDesignation2":"Principal at Dharumavantha School",
-      "messageName3": "Rinzy Ibrahim Waheed",
-      "messageDescription3":"UPSHIFT is a program that encourages creativity and innovation while enabling students to think out of the box and provide experiences beyond the classroom environment.not only this programme teaches the use of latest technology to develop 21st century skills but also helps students to develop empathy and sympathy towards others. All in all, it is an all-around development of the students that enables them to achieve the objectives of the national curriculum faster",
-      "messageDesignation3":"Principal at Hiriya School",
-      "messageName4": "Fathimath Musthafa",
-      "messageDescription4":"The main objective of UPSHIFT is to take the child out of the conventional classroom environment to help them develop their mind and improve thinking skills. This program serves to equip and train students with the modern technology and skills required to survive and conquer the challenges they face everyday. While remaining empathetic towards everyone.Long story short, its focus is to develop the students in all aspects, so that they can attain the objectives of the national curriculum at a faster pace and will be ready to face the different challenges of life",
-      "messageDesignation4":"Teacher at Hiriya School"
+      "title": "Testimonials",
+      "title1": "Here what they say about us",
+      "messageName1": "Suneeti Patwari",
+      "messageDescription1":"Our ATL marathon journey as a team has been an incredible roller coaster of innovation and collaboration. We worked hard and our hard work paid off as we emerged as one of the top 75 teams of ATL marathon 2021 and even got digital tablets from Niti Aayog as a prize for our achievement . It was like a dream come true. We have even filed for the patent of our project this year in 2023. ",
+      "messageDesignation1":" Student, Lakshmipat Singhania Academy, Kolkata",
+      "messageName2": "Ishan Ghatak & Agam Yadav",
+      "messageDescription2":"Our ATL marathon journey as a team has been an incredible roller coaster of innovation and collaboration. We worked hard and our hard work paid off as we emerged as one of the top 75 teams of ATL marathon 2021 and even got digital tablets from Niti Aayog as a prize for our achievement . It was like a dream come true. We have even filed for the patent of our project this year in 2023.",
+      "messageDesignation2":"D.A.V Public School, Vasant Kunj, New Delhi",
+      "messageName3": "Umesh Bajaj",
+      "messageDescription3":"I serve as the ATL Incharge at Dass and Brown World School in Ferozepur, Punjab. We recently featured in the Top 75 teams of ATL Marathon. The Atal Tinkering Lab has become like a second home to me. It's a place where my students and I engage in daily learning, finding solace in our lab. We are dedicated to working on solutions for the Sustainable Development Goals, and I am profoundly grateful to the Atal Innovation Mission for providing us with this platform to contribute to our community and nurture innovation in the young entrepreneurial minds.",
+      "messageDesignation3":"ATL Incharge, Dass & Brown World School, Ferozepur",
+      "messageName4": "Prashant Nair",
+      "messageDescription4":"ATL Marathon, the flagship national innovation challenge for schools from Atal Innovation Mission (AIM) has been a trailblazer, having completed 5 editions with the 2022-2023 edition attracting 12,000+  teams pan India. I have been fortunate to  have been able to mentor 10+ teams that have been ranked amongst the top teams over the last few years. ATL marathon provides an excellent opportunity for students to unleash their creativity, innovation and team work to solve problems for societal and humanitarian benefit",
+      "messageDesignation4":"Regional Mentor of Change, Tamil Nadu, AIM"
     }
   },
   {
