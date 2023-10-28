@@ -7,8 +7,10 @@
       "prizes": "Prizes",
       "testimonial": "Testimonial",
       "partners": "Partners",
+      "theme":"Themes",
       "faq": "FAQ",
-      "login": "Login"
+      "login": "Login",
+      "home1":"Home"
     }
   },
   {
@@ -31,7 +33,7 @@
       "title1": "Journey of a student in ATL Marathon",
       "registration": "Launch of ATL Marathon 2023",
       "solving":"Innovation & Prototyping Phase",
-      "submission":"Announcement of Top 350 Teams",
+      "submission":"Announcement of Top 400 Teams",
       "incubation":"Commencement of Student Internship Programme(SIP)",
       "entrepreneurship":"Top teams from SIP participate in the student Entrepreneurship Programme(SEP)"
     }
@@ -50,7 +52,7 @@
       "desc3":"SEP Programme starts",
       "desc4":"Announcement of Top 350 teams",
       "desc5":"Innovation & Prototyping Phase",
-      "desc6":"Last day to submit projects for ATL Marathon 22-23"
+      "desc6":"Last day to submit projects for ATL Marathon 23-24"
     }
   },
   {
@@ -106,18 +108,37 @@
   },
   {
     "faq": {
-      "title": "Frequently Asked Questions",
-      "question1": " What is the School Innovation Development Project?",
-      "answer1": "To promote a culture of innovation and creative problem-solving among school students, the Entrepreneurship Development, and Innovation Institute (EDII-TN), in collaboration with the Department of School Education (DoSE) and the United Nations International Children's Emergency Fund (UNICEF), is implementing the School Innovation Development Project (SIDP).",
-      "answer2":"The objective of the program is to inspire students to solve problems by using a simple design thinking process as a method for innovation, collaboration, and acquiring 21st-century skills and leadership skills.",
-      "question2": " Which organization implements School Innovation Development Project?",
-      "answer3":"Entrepreneurship Development and Innovation Institute (EDII-TN), in collaboration with the Department of School Education (DoSE) and the United Nations International Children's Emergency Fund (UNICEF), is implementing the School Innovation Development Project (SIDP).",
-      "question3": "Who can participate in this program",
-      "answer4" : "Students from all government, government-aided, and partially-aided schools (both high school and higher secondary school) are eligible to participate in the program. Students from 9th to 12th standard can take part in this program. If you fall under this category but your school is not a part of SIDP, please contact us via email at sidp22-23@editn.in",
-      "question4": "  What are the advantages and significance of providing 21st-century skills training to students?",
-      "answer5": "As students engage with UNICEF's video-based curriculum of 21st-century skills, they not only acquire foundational entrepreneurship skills but also develop other qualities such as problem-solving, innovation, and leadership skills throughout their educational journey.",
-      "question5": "Do students' innovations receive adequate protection?",
-      "answer6": "By creating awareness among students about Intellectual Property Rights (IPR), students can register and protect their innovations."
+      "title": "FAQs for ATL Marathon 2023-2024",
+      "question1": "Who can participate in the ATL Marathon?",
+      "answer1": " Students from both ATL and Non-ATL schools are eligible to participate. Non-ATL schools can collaborate with ATL schools to form teams.",
+      "question2": "What are the rewards for the top teams?",
+      "answer2":"The top teams will receive internships through the Student Innovator Program with leading corporates of India, certificates from AIM, NITI Aayog, and many more interesting opportunities at the conclusion of the Marathon.",
+      "question3": "What is the deadline for submitting entries?",
+      "answer3": "The last date to submit entries is 26th January 2024, 11:59 PM.",
+      "question4": "Where can I submit the application for the ATL Marathon?",
+      "answer4":"You can submit your application at {{add link here}}",
+      "question5":"Will all participating students receive a certificate?",
+      "answer5":"Yes, all participating students will receive a certificate of Participation from AIM, NITI Aayog.",
+      "question6":" Can a team submit entries for more than one problem statement?",
+      "answer6":"Yes, a team may submit entries for more than one problem statement. However, a separate application form must be filled out for each problem statement.",
+      "question7":"Is there a limit on the number of teams that can participate from a school?",
+      "answer7":" No, there is no limit. Maximum number of teams from every school is encouraged.",
+      "question8":"What documents are required for online application submission?",
+      "answer8":"The online application form submission will include a Research Document (description of the innovation/solution) and a Video submission (capturing a 360-degree view of the working prototype/solution).",
+      "question9":"Who can provide support to the student teams?",
+      "answer9":"ATL In-Charge, School Teachers, Mentors of Change, Alumni, and external mentors from the local ATL ecosystem may support the student teams.",
+      "question10":"What is the ideal composition of a team?",
+      "answer10":"Each team should consist of a maximum of 3 students (class 6th to 12th). ATL schools are encouraged to include other school and/or community students in the team composition.",
+      "question11":"Is individual member entry allowed?",
+      "answer11":" No, individual member entry is not allowed. Teams must consist of a minimum of 2 members.",
+      "question12":"Are there special certificates for schools with a high number of participating teams?",
+      "answer12":"Yes, special certificates from AIM, NITI Aayog will be given to all schools that have more than 25 teams participating in ATL Marathon."
+    }
+  },
+  {
+    "map": {
+      "button": "ATL Marathon 2022-2023",
+      "button1": "ATL Marathon 2023-2024"
     }
   }
 ]

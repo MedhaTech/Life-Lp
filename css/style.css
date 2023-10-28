@@ -14739,6 +14739,10 @@ canvas {
 	background: #333232;
 }
 
+.themeimage{
+	margin-bottom: 18px;
+}
+
 /*********************** kidder CSS Start ****************************/
 
 /* kid_header start */
@@ -16999,12 +17003,16 @@ button:focus {
 /**---- banner wrapper css ------**/
 
 .lawyer_banner_wrapper {
-	background: url(../images/lawyer/banner4.jpg) 50% 0 repeat-y;
+	background: url(../images/lawyer/banner5.jpg) 50% 0 repeat-y;
 	background-position: center 0;
 	background-size: cover;
 	height: 128%;
 	position: relative;
 	/* margin-top: -80px; */
+}
+
+.map_botton{
+	margin-bottom: 12px;
 }
 
 .lawyer_banner_overlay {
