@@ -3294,7 +3294,7 @@ Copyright © 2020-21
 	}
 	.it_comp_testimonial_carousel.it_comp_testimonial_2 .controls ul {
 		position: absolute;
-		bottom: -70px;
+		bottom: -15px;
 		left: 0;
 		right: 0;
 		margin: 0px auto;
@@ -3827,7 +3827,7 @@ Copyright © 2020-21
 		padding-top: 18px;
 	}
 	.it_comp_logo_wrapper img{
-		width: 68%;
+		width: 106%;
 	}
 	.it_comp_menu_right_wrapper {
 		float: right;
@@ -4076,10 +4076,11 @@ Copyright © 2020-21
 		top: 30px;
 	}
 	.lawyer_btn_style{
-		height: 42px;
-		line-height: 33px;
-		width: 150px;
+		height: 47px;
+		line-height: 43px;
+		width: 250px;
 		float: left;
+		margin-bottom: 12px;
 	}
 	.lawyer_banner_text_btn .lawyer_btn_style{
 	height: 39px;

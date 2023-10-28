@@ -17011,8 +17011,13 @@ button:focus {
 	/* margin-top: -80px; */
 }
 
-.map_botton{
-	margin-bottom: 12px;
+.map_botton1{
+	margin-top: 9px;
+}
+
+.map1{
+	margin-top: 9px;
+	background-color: grey;
 }
 
 .lawyer_banner_overlay {
