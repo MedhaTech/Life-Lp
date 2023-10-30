@@ -17121,7 +17121,7 @@ button:focus {
 
 .lawyer_banner_text_btn {
 	margin-top: 107px;
-	margin-left: 170px;
+	/* margin-left: 170px; */
 }
 
 .lawyer_banner_text_btn .lawyer_btn_style {
