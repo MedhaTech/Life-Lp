@@ -17538,7 +17538,7 @@ button:focus {
 .lawyer_accordian_wraper #accordion .lawyer_card_pagee h5 {
 	font-weight: 500;
 	font-size: 16px;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 }
 
 .lawyer_accordian_wraper #accordion .card-body {
@@ -25217,4 +25217,78 @@ button:focus {
 }
 .about2{
 	padding-bottom: 0px !important;
+}
+
+.flip-card {
+	position: relative;
+	border: none;
+	perspective: 1000px;
+}
+
+.flip-card .flip-front,
+.flip-card .flip-back {
+	padding: 32px;
+	padding: 2rem;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	background: #FFF;
+	box-shadow: 0px 0px 44px -10px rgba(0, 0, 0, 0.15);
+	transform-style: preserve-3d;
+	transition: ease transform 500ms;
+}
+
+.flip-card .flip-front .flip-content,
+.flip-card .flip-back .flip-content {
+	transform: translate3d(0, 0, 1px);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flip-card .flip-front.overlay:before,
+.flip-card .flip-back.overlay:before {
+	transform: translate3d(0, 0, 0px);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flip-card .flip-front {
+	transform: translate3d(0, 0, 1px) rotateY(0deg);
+}
+
+.flip-card .flip-back {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: translate3d(0, 0, -1px) rotateY(180deg);
+}
+
+.flip-card:hover .flip-front {
+	transform: translate3d(0, 0, -1px) rotateY(-180deg);
+}
+
+.flip-card:hover .flip-back {
+	transform: translate3d(0, 0, 1px) rotateY(0deg);
+}
+
+.flip-card.flip-card-vertical .flip-front {
+	transform: translate3d(0, 0, 1px) rotateX(0deg);
+}
+
+.flip-card.flip-card-vertical .flip-back {
+	transform: translate3d(0, 0, -1px) rotateX(180deg);
+}
+
+.flip-card.flip-card-vertical:hover .flip-front {
+	transform: translate3d(0, 0, -1px) rotateX(-180deg);
+}
+
+.flip-card.flip-card-vertical:hover .flip-back {
+	transform: translate3d(0, 0, 1px) rotateX(0deg);
+}
+
+.flip-card.flip-card-3d .flip-front .flip-content, .flip-card.flip-card-3d .flip-back .flip-content {
+	perspective: inherit;
+	transform: translate3d(0, 0, 60px);
 }

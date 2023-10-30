@@ -70,7 +70,7 @@
   },
   {
     "aboutSection3":{
-      "title": "Here are a few",
+      "title": "Look at few exciting projects from our Student Innovators",
       "title1": "Student Ideas",
       "title2": "Glucobet",
       "desc": "A group of friends  discovered themselves motivated by a common goal - to lessen the hardships of a loved one enduring the everyday rigors of severe diabetes. And thus, Glucobelt was born - a device as ingenious as it was compassionate. What set their creation apart was its ability to predict sugar levels in food before consumption and in the blood without the need for painful needle pricks.<br><b>-Owee Prasad Adawadkar, Sanavi Chikhale, Mihika Tushar Datar",
@@ -85,7 +85,7 @@
   },
   {
     "team": {
-      "title": "Testimonials",
+      "title": "Hear what our teacher and student innovators say about ATL Marathon",
       "title1": "Here what they say about us",
       "messageName1": "Suneeti Patwari",
       "messageDescription1":"Our ATL marathon journey as a team has been an incredible roller coaster of innovation and collaboration. We worked hard and our hard work paid off as we emerged as one of the top 75 teams of ATL marathon 2021 and even got digital tablets from Niti Aayog as a prize for our achievement . It was like a dream come true. We have even filed for the patent of our project this year in 2023. ",
@@ -116,7 +116,7 @@
       "question3": "What is the deadline for submitting entries?",
       "answer3": "The last date to submit entries is 26th January 2024, 11:59 PM.",
       "question4": "Where can I submit the application for the ATL Marathon?",
-      "answer4":"You can submit your application at {{add link here}}",
+      "answer4":"You can submit your application in your student profile",
       "question5":"Will all participating students receive a certificate?",
       "answer5":"Yes, all participating students will receive a certificate of Participation from AIM, NITI Aayog.",
       "question6":" Can a team submit entries for more than one problem statement?",
