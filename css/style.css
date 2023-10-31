@@ -10620,7 +10620,7 @@ button:focus {
 }
 
 .feature-bg-two {
-	background: #f1f1f1;
+	background: #f7f7f7;
 }
 
 .feature-bg-three {
@@ -12414,7 +12414,7 @@ button:focus {
 }
 
 .doc_about_content_wrapper p {
-	width: 475px;
+	/* width: 475px; */
 	font-size: 20px;
 	line-height: 30px;
 	margin-bottom: 20px;
@@ -17140,10 +17140,11 @@ button:focus {
 /**------ service wrapper css ---------**/
 
 .lawyer_services_wrapper {
-	padding: 120px 0 30px 0;
+	padding: 80px 0 80px 0;
 }
 
 .lawyer_services_box {
+	background-color: #ffffff;
 	padding: 50px 30px;
 	margin-bottom: 60px;
 	text-align: center;
