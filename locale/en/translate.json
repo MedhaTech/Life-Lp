@@ -31,7 +31,12 @@
     "roadmap": {
       "title": "Road Map",
       "title1": "Journey of a student in ATL Marathon",
-      "registration": "Launch of ATL Marathon 2023",
+      "innovation": "INNOVATION",
+      "start": "QUICK START",
+      "winner": "WINNERS",
+      "sip":"SIP",
+      "sep":"SEP",
+      "registration": "Launch of ATL Marathon 2023 <br> Last day to submit projects for ATL Marathon",
       "solving":"Innovation & Prototyping Phase",
       "submission":"Announcement of Top 400 Teams",
       "incubation":"Commencement of Student Internship Programme(SIP)",
@@ -139,6 +144,25 @@
     "map": {
       "button": "ATL Marathon 2022-2023",
       "button1": "ATL Marathon 2023-2024"
+    }
+  },
+  {
+    "flip":{
+      "agriculture": "Agriculture",
+      "desc":" The theme of agriculture encompasses a wide range of topics, from sustainable farming practices and technological advancements to food security, rural development, and the intricate relationship between humans and the natural world.",
+      "inclusivity":"Inclusivity",
+      "desc1":"Inclusivity is the principle of ensuring that all individuals, regardless of their background, abilities, or characteristics, have equal access and opportunities in various aspects of society. It promotes diversity, equity, and acceptance, fostering a more fair and accessible world for everyone.",
+      "disaster":"Disaster Management",
+      "desc2":"Disaster management is the systematic approach to preparing for, responding to, and recovering from natural or man-made disasters. It involves mitigation strategies, emergency response planning, and long-term recovery efforts",
+      "mobility":"Mobility",
+      "desc3":"Mobility is the concept of people and goods moving from one place to another, encompassing various modes of transportation such as cars, public transit, walking, and cycling. It's a critical aspect of modern life, impacting urban planning, environmental sustainability, and accessibility.",
+      "health":"Health",
+      "desc4":"Health is a state of physical, mental, and social well-being, encompassing not only the absence of illness but also the presence of positive factors for a fulfilling life. It's a fundamental aspect of human existence, and its promotion, maintenance, and access to healthcare services.",
+      "education":"Education & Skill Development",
+      "desc5":"Education and skill development are key elements in personal and societal growth. Education involves the acquisition of knowledge and the development of critical thinking, while skill development focuses on practical abilities.",
+      "space":"Space",
+      "desc6":"Space research and technology have advanced our understanding of the cosmos and have the potential to revolutionise various aspects of human life, from communication and navigation to environmental monitoring and future space exploration.",
+      "others":"Others"
     }
   }
 ]

@@ -756,7 +756,7 @@ a:hover {
 }
 
 .doc_section_heading h3 {
-	font-size: 18px;
+	font-size: 26px;
 	font-weight: 500;
 	color: #ff6666;
 	letter-spacing: 1px;
@@ -13629,7 +13629,7 @@ button:focus {
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-indicators li.active {
-	background: #00e3c8;
+	/* background: #00e3c8; */
 	width: 10px;
 	height: 10px;
 	line-height: 29px;
@@ -17003,12 +17003,34 @@ button:focus {
 /**---- banner wrapper css ------**/
 
 .lawyer_banner_wrapper {
-	background: url(../images/lawyer/banner5.jpg) 50% 0 repeat-y;
+	background: url(../images/lawyer/position6.png) 50% 0 repeat-y;
 	background-position: center 0;
 	background-size: cover;
-	height: 128%;
+	height: 109%;
 	position: relative;
 	/* margin-top: -80px; */
+}
+
+.lawyer_banner_wrapper1 {
+	background: url(../images/lawyer/position7.png) 50% 0 repeat-y;
+	background-position: center 0;
+	background-size: cover;
+	height: 109%;
+	position: relative;
+	/* margin-top: -80px; */
+}
+
+.lawyer_banner_wrapper2 {
+	background: url(../images/lawyer/position5.png) 50% 0 repeat-y;
+	background-position: center 0;
+	background-size: cover;
+	height: 109%;
+	position: relative;
+	/* margin-top: -80px; */
+}
+
+.reg-btn{
+   margin-top:-38px ;
 }
 
 .map_botton1{
@@ -17158,7 +17180,7 @@ button:focus {
 }
 
 .lawyer_services_box:hover {
-	border: 1px solid #de6640;
+	/* border: 1px solid #de6640; */
 	box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -17188,7 +17210,7 @@ button:focus {
 }
 
 .lawyer_services_box:hover h1 a {
-	color: #de6640;
+	/* color: #de6640; */
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -21482,6 +21504,7 @@ button:focus {
 
 .text-center p {
 	margin-top: 10px;
+	padding: 12px;
 }
 
 /**----- footer wrapper css -------**/
@@ -25218,6 +25241,7 @@ button:focus {
 }
 .about2{
 	padding-bottom: 0px !important;
+	padding-top: 137px;
 }
 
 .flip-card {
@@ -25228,14 +25252,15 @@ button:focus {
 
 .flip-card .flip-front,
 .flip-card .flip-back {
-	padding: 32px;
-	padding: 2rem;
+	/* padding: 32px; */
+	padding: 0rem;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	background: #FFF;
 	box-shadow: 0px 0px 44px -10px rgba(0, 0, 0, 0.15);
 	transform-style: preserve-3d;
 	transition: ease transform 500ms;
+	bottom: 10px;
 }
 
 .flip-card .flip-front .flip-content,
@@ -25260,7 +25285,7 @@ button:focus {
 	position: absolute;
 	top: 0;
 	right: 0;
-	bottom: 0;
+	bottom: 5px;
 	left: 0;
 	transform: translate3d(0, 0, -1px) rotateY(180deg);
 }
