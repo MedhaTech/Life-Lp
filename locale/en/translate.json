@@ -1,0 +1,168 @@
+[
+  {
+    "menu": {
+      "home": "About Us",
+      "roadmap": "Road Map",
+      "impact": "Impact",
+      "prizes": "Prizes",
+      "testimonial": "Testimonial",
+      "partners": "Partners",
+      "theme":"Themes",
+      "faq": "FAQ",
+      "login": "Login",
+      "home1":"Home"
+    }
+  },
+  {
+    "banner": {
+      "register":"Register",
+      "login":"Login"
+    }
+  },
+  {
+    "aboutSection": {
+      "title": "About",
+      "title1": "ATL Marathon",
+      "desc": "The ATL Marathon is Atal Innovation Mission’s flagship innovation challenge, where schools identify community problems of their choice and develop innovative solutions in the form of working prototypes. The last edition of the Marathon witnessed 12000+ innovations, the top 400 of them got internship opportunities through the Student Innovator Program with leading corporates and Incubation Centres of India, prizes and certificates from AIM, NITI Aayog.",
+      "desc1":"In ATL Marathon 2023-24, we want the students of India to choose any of the below problem statements or work on a problem that they find around themselves, research, ideate, innovate and implement a solution for it."
+    }
+  },
+  {
+    "roadmap": {
+      "title": "Road Map",
+      "title1": "Journey of a student in ATL Marathon",
+      "innovation": "INNOVATION",
+      "start": "QUICK START",
+      "winner": "WINNERS",
+      "sip":"SIP",
+      "sep":"SEP",
+      "registration": "Launch of ATL Marathon 2023 <br> Last day to submit projects for ATL Marathon",
+      "solving":"Innovation & Prototyping Phase",
+      "submission":"Announcement of Top 400 Teams",
+      "incubation":"Commencement of Student Internship Programme(SIP)",
+      "entrepreneurship":"Top teams from SIP participate in the student Entrepreneurship Programme(SEP)"
+    }
+  },
+  {
+    "impact": {
+    "title": "Engagement & Impact",
+    "desc": "INDIA"
+  }
+  },
+  {
+    "date": {
+      "title": "Important Dates",
+      "desc": "Launch of ATL Marathon",
+      "desc2":"SIP Programme starts",
+      "desc3":"SEP Programme starts",
+      "desc4":"Announcement of Top 350 teams",
+      "desc5":"Innovation & Prototyping Phase",
+      "desc6":"Last day to submit projects for ATL Marathon 23-24"
+    }
+  },
+  {
+    "prizes": {
+      "title": "Prizes & Certificates",
+      "desc": "Top 400 teams - Student Internship Programme (SIP)",
+      "desc1":"Top 75 teams - Student Entrepreneurship Programme (SEP)",
+      "title1":"Special Certificates -",
+      "desc2":"Top 10 teams from each state",
+      "desc3":"Top 10 teams from rural areas",
+      "desc4":"Top 10 teams from government schools",
+      "desc5":"Top 10 teams from Aspirational Districts",
+      "desc6":"Top 10 teams including Children with special needs"
+    }
+  },
+  {
+    "aboutSection3":{
+      "title": "Look at few exciting projects from our Student Innovators",
+      "title1": "Student Ideas",
+      "title2": "Glucobet",
+      "desc": "A group of friends  discovered themselves motivated by a common goal - to lessen the hardships of a loved one enduring the everyday rigors of severe diabetes. And thus, Glucobelt was born - a device as ingenious as it was compassionate. What set their creation apart was its ability to predict sugar levels in food before consumption and in the blood without the need for painful needle pricks.<br><b>-Owee Prasad Adawadkar, Sanavi Chikhale, Mihika Tushar Datar",
+      "title3": "Cartoonify.NFTs",
+      "desc1":"In the midst of a journey to Bangalore, they met remarkable painters and their vibrant creations. Their curiosity led to uncovering a disheartening truth: these skilled painters earned a meager monthly income of just 5000 rupees. This revelation became the driving force behind their project, Cartoonify.NFTs, earning them an invitation to a 6-week internship program In the same year, they earned recognition as one of the top 100 projects of ATL marathon 2021.<br><b>-Omkar Kumbhar, Dev Kore, and Param Shah  , Karnataka",
+      "title4": "Replastic",
+      "desc2":"The trio understood the urgent need for a solution that would put an end to this plastic epidemic giving birth to REPLASTIC. Idea was that people could schedule plastic pickups from the comfort of their homes or offices through RePlastic's website. On the chosen date and time, a team of dedicated rag pickers, employed by the organization, would arrive to collect the plastic.They participated in the ATL (Atal Tinkering Labs) Marathon, a platform that celebrated innovation and problem-solving.<br><b>-Gunika Beriwal, Abhinav Tejpaul, and Satyam Verma",
+      "a1":"-Owee Prasad Adawadkar, Sanavi Chikhale, Mihika Tushar Datar",
+      "a2":"-Omkar Kumbhar, Dev Kore, and Param Shah  , Karnataka",
+      "a3":"-Gunika Beriwal, Abhinav Tejpaul, and Satyam Verma"
+    }
+  },
+  {
+    "team": {
+      "title": "Hear what our teacher and student innovators say about ATL Marathon",
+      "title1": "Here what they say about us",
+      "messageName1": "Suneeti Patwari",
+      "messageDescription1":"Our ATL marathon journey as a team has been an incredible roller coaster of innovation and collaboration. We worked hard and our hard work paid off as we emerged as one of the top 75 teams of ATL marathon 2021 and even got digital tablets from Niti Aayog as a prize for our achievement . It was like a dream come true. We have even filed for the patent of our project this year in 2023. ",
+      "messageDesignation1":" Student, Lakshmipat Singhania Academy, Kolkata",
+      "messageName2": "Ishan Ghatak & Agam Yadav",
+      "messageDescription2":"Our ATL marathon journey as a team has been an incredible roller coaster of innovation and collaboration. We worked hard and our hard work paid off as we emerged as one of the top 75 teams of ATL marathon 2021 and even got digital tablets from Niti Aayog as a prize for our achievement . It was like a dream come true. We have even filed for the patent of our project this year in 2023.",
+      "messageDesignation2":"D.A.V Public School, Vasant Kunj, New Delhi",
+      "messageName3": "Umesh Bajaj",
+      "messageDescription3":"I serve as the ATL Incharge at Dass and Brown World School in Ferozepur, Punjab. We recently featured in the Top 75 teams of ATL Marathon. The Atal Tinkering Lab has become like a second home to me. It's a place where my students and I engage in daily learning, finding solace in our lab. We are dedicated to working on solutions for the Sustainable Development Goals, and I am profoundly grateful to the Atal Innovation Mission for providing us with this platform to contribute to our community and nurture innovation in the young entrepreneurial minds.",
+      "messageDesignation3":"ATL Incharge, Dass & Brown World School, Ferozepur",
+      "messageName4": "Prashant Nair",
+      "messageDescription4":"ATL Marathon, the flagship national innovation challenge for schools from Atal Innovation Mission (AIM) has been a trailblazer, having completed 5 editions with the 2022-2023 edition attracting 12,000+  teams pan India. I have been fortunate to  have been able to mentor 10+ teams that have been ranked amongst the top teams over the last few years. ATL marathon provides an excellent opportunity for students to unleash their creativity, innovation and team work to solve problems for societal and humanitarian benefit",
+      "messageDesignation4":"Regional Mentor of Change, Tamil Nadu, AIM"
+    }
+  },
+  {
+    "partner": {
+      "title": "Our Partners"
+    }
+  },
+  {
+    "faq": {
+      "title": "FAQs for ATL Marathon 2023-2024",
+      "question1": "Who can participate in the ATL Marathon?",
+      "answer1": " Students from both ATL and Non-ATL schools are eligible to participate. Non-ATL schools can collaborate with ATL schools to form teams.",
+      "question2": "What are the rewards for the top teams?",
+      "answer2":"The top teams will receive internships through the Student Innovator Program with leading corporates of India, certificates from AIM, NITI Aayog, and many more interesting opportunities at the conclusion of the Marathon.",
+      "question3": "What is the deadline for submitting entries?",
+      "answer3": "The last date to submit entries is 26th January 2024, 11:59 PM.",
+      "question4": "Where can I submit the application for the ATL Marathon?",
+      "answer4":"You can submit your application in your student profile",
+      "question5":"Will all participating students receive a certificate?",
+      "answer5":"Yes, all participating students will receive a certificate of Participation from AIM, NITI Aayog.",
+      "question6":" Can a team submit entries for more than one problem statement?",
+      "answer6":"Yes, a team may submit entries for more than one problem statement. However, a separate application form must be filled out for each problem statement.",
+      "question7":"Is there a limit on the number of teams that can participate from a school?",
+      "answer7":" No, there is no limit. Maximum number of teams from every school is encouraged.",
+      "question8":"What documents are required for online application submission?",
+      "answer8":"The online application form submission will include a Research Document (description of the innovation/solution) and a Video submission (capturing a 360-degree view of the working prototype/solution).",
+      "question9":"Who can provide support to the student teams?",
+      "answer9":"ATL In-Charge, School Teachers, Mentors of Change, Alumni, and external mentors from the local ATL ecosystem may support the student teams.",
+      "question10":"What is the ideal composition of a team?",
+      "answer10":"Each team should consist of a maximum of 3 students (class 6th to 12th). ATL schools are encouraged to include other school and/or community students in the team composition.",
+      "question11":"Is individual member entry allowed?",
+      "answer11":" No, individual member entry is not allowed. Teams must consist of a minimum of 2 members.",
+      "question12":"Are there special certificates for schools with a high number of participating teams?",
+      "answer12":"Yes, special certificates from AIM, NITI Aayog will be given to all schools that have more than 25 teams participating in ATL Marathon."
+    }
+  },
+  {
+    "map": {
+      "button": "ATL Marathon 2022-2023",
+      "button1": "ATL Marathon 2023-2024"
+    }
+  },
+  {
+    "flip":{
+      "agriculture": "Agriculture",
+      "desc":" The theme of agriculture encompasses a wide range of topics, from sustainable farming practices and technological advancements to food security, rural development, and the intricate relationship between humans and the natural world.",
+      "inclusivity":"Inclusivity",
+      "desc1":"Inclusivity is the principle of ensuring that all individuals, regardless of their background, abilities, or characteristics, have equal access and opportunities in various aspects of society. It promotes diversity, equity, and acceptance, fostering a more fair and accessible world for everyone.",
+      "disaster":"Disaster Management",
+      "desc2":"Disaster management is the systematic approach to preparing for, responding to, and recovering from natural or man-made disasters. It involves mitigation strategies, emergency response planning, and long-term recovery efforts",
+      "mobility":"Mobility",
+      "desc3":"Mobility is the concept of people and goods moving from one place to another, encompassing various modes of transportation such as cars, public transit, walking, and cycling. It's a critical aspect of modern life, impacting urban planning, environmental sustainability, and accessibility.",
+      "health":"Health",
+      "desc4":"Health is a state of physical, mental, and social well-being, encompassing not only the absence of illness but also the presence of positive factors for a fulfilling life. It's a fundamental aspect of human existence, and its promotion, maintenance, and access to healthcare services.",
+      "education":"Education & Skill Development",
+      "desc5":"Education and skill development are key elements in personal and societal growth. Education involves the acquisition of knowledge and the development of critical thinking, while skill development focuses on practical abilities.",
+      "space":"Space",
+      "desc6":"Space research and technology have advanced our understanding of the cosmos and have the potential to revolutionise various aspects of human life, from communication and navigation to environmental monitoring and future space exploration.",
+      "others":"Others"
+    }
+  }
+]
