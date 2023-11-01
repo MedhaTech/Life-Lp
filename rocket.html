@@ -218,7 +218,7 @@
     <!-- <div id="countdown"></div> -->
     <audio id="timer-beep" src="images/Countdown.mp3"></audio>
     
-    <button onclick="launchRocket()" class="btn">Launch</button>
+    <button onclick="launchRocket()" class="btn" id="launch_btn">Launch</button>
     <!-- <audio id="audio" src="images/rocket1.mp3"></audio> -->
 
     <style>
@@ -270,6 +270,7 @@
     }
 
     function launchRocket() {
+      document.getElementById("launch_btn").disabled = true;
       document.getElementById("begin-countdown").style.display = "block";
       document.getElementById("timer-beep").play();
       ProgressCountdown(10, "pageBeginCountdownText");
