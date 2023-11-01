@@ -16,8 +16,6 @@
     src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-
-
   <style>
     @keyframes flicker {
       0% {
@@ -160,7 +158,7 @@
       text-align: center;
     }
 
-    .animateHide{
+    .animateHide {
       visibility: hidden;
     }
 
@@ -178,18 +176,29 @@
       transition: 1s;
       opacity: 0;
     }
+
+    #timer-beep {
+      position: absolute;
+      top: -100000em;
+    }
   </style>
-
-
-
 
 </head>
 
 <body translate="no">
   <div class="container">
     <div class="AIM_titles">
-      <img src="images/logos.png" class=""  id="logos" alt="Logo" style="width: 100%;" />
-      <img src="images/title.gif" class="" id="titleGif" alt="Rocket" style="width: 30%; margin-top: 10px;" />
+      <img src="images/logos.png" class="" id="logos" alt="Logo" style="width: 100%;" />
+      <img src="images/title.gif" class="" id="titleGif" alt="Rocket" style="width: 20%; margin-top: 10px;" />
+
+      <div class="row begin-countdown" id="begin-countdown">
+        <div class="col-md-12 text-center">
+          <div class="dot" style="position: center">
+            <h3 id="pageBeginCountdownText" class="clock">10</h3>
+          </div>
+        </div>
+      </div>
+
     </div>
     <div id="rocket" class="rocket-wrapper">
       <!-- <img class="rocket" src="https://ig.solcode.net/src/rocket.svg" alt="rocket"> -->
@@ -206,30 +215,82 @@
       </div>
     </div>
 
+    <!-- <div id="countdown"></div> -->
+    <audio id="timer-beep" src="images/Countdown.mp3"></audio>
+    
     <button onclick="launchRocket()" class="btn">Launch</button>
-    <audio id="audio" src="images/rocket1.mp3"></audio>
+    <!-- <audio id="audio" src="images/rocket1.mp3"></audio> -->
+
+    <style>
+      .dot {
+        height: 100px;
+        width: 100px;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+      }
+
+      .clock {
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .pp {
+        text-align: center;
+      }
+    </style>
 
   </div>
 
   <script id="rendered-js">
 
+    document.getElementById("begin-countdown").style.display = "none";
+
+    function ProgressCountdown(timeleft, text) {
+      return new Promise((resolve, reject) => {
+        var countdownTimer = setInterval(() => {
+          timeleft--;
+
+          document.getElementById(text).textContent = timeleft;
+
+
+          if (timeleft < 0) {
+            clearInterval(countdownTimer);
+            resolve(true);
+            document.getElementById("begin-countdown").style.display = "none";
+            document.getElementById("rocket").classList.add("rocket-launched");
+            var audio = document.getElementById("audio");
+            audio.play();
+            // var interval = setInterval(myURL, 12000);
+          }
+        }, 1000);
+      });
+    }
+
     function launchRocket() {
-      document.getElementById("rocket").classList.add("rocket-launched");
+      document.getElementById("begin-countdown").style.display = "block";
+      document.getElementById("timer-beep").play();
+      ProgressCountdown(10, "pageBeginCountdownText");
+
+      // document.getElementById("rocket").classList.add("rocket-launched");
       // document.getElementById('logos').className = 'animation';
       // document.getElementById("logos").classList.add("animate");
       // document.getElementById("titleGif").classList.add("animate");
       // document.getElementById("logos").style.visibility = 'visible';
 
-    // document.getElementById("titleGif").style.visibility = 'visible';
-      var audio = document.getElementById("audio");
-        audio.play();
-      var interval = setInterval(myURL, 3000);
+      // document.getElementById("titleGif").style.visibility = 'visible';
+      // var audio = document.getElementById("audio");
+      // audio.play();
+      var interval = setInterval(myURL, 14000);
     }
     function myURL() {
-      document.location.href = 'https://atl.unisolve.org/';
+      document.location.href = './index.html';
       clearInterval(interval);
     }
     //# sourceURL=pen.js
+
   </script>
 
 
