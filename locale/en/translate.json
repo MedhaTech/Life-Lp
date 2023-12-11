@@ -14,9 +14,13 @@
     }
   },
   {
-    "banner": {
-      "register":"Register",
-      "login":"Login"
+    "heroSection": {
+      "title":"ATL Marathon 2023-24",
+      "title1":"Creating Change Makers Of Tomorrow With 21st",
+      "skill":"Century Skills",
+      "desc": "Nurture a culture of social innovation and build skills while inspiring young people to become transformative leaders.",
+      "signup": "Login",
+      "register":"Register"
     }
   },
   {
