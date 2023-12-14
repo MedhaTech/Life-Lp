@@ -17238,7 +17238,6 @@ button:focus {
 	left: 0;
 	right: 0;
 }
-
 /**---- experience wrapper css -----**/
 
 .lawyer_experience_wrapper {
@@ -25241,7 +25240,7 @@ button:focus {
 }
 .about2{
 	padding-bottom: 0px !important;
-	padding-top: 137px;
+	padding-top: 30px;
 }
 
 .flip-card {
