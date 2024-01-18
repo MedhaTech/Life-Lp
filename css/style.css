@@ -391,7 +391,7 @@ a:hover {
 .it_comp_btn_style {
 	display: inline-block;
 	text-align: center;
-	background: #067de1;
+	background: red;
 	color: #fff;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -784,7 +784,7 @@ a:hover {
 	line-height: 40px;
 	/* text-transform: capitalize; */
 	margin-bottom: 10px;
-	color: #067de1;
+	color: red;
 }
 
 .it_comp_heading_wrapper h1 {
@@ -12957,18 +12957,18 @@ button:focus {
 }
 
 .it_comp_menu_wrapper ul>li>a:hover {
-	color: #067de1;
+	color: red;
 }
 
 .it_comp_menu_wrapper ul>.active>a {
 	background-color: transparent;
-	color: #067de1;
+	color: red;
 }
 
 .it_comp_menu_wrapper ul>.active>a:focus,
 .it_comp_menu_wrapper ul>.active>a:hover {
 	background-color: transparent;
-	color: #067de1;
+	color: red;
 }
 
 .it_comp_menu_wrapper ul>li>a:after {
@@ -13038,7 +13038,7 @@ button:focus {
 	font-size: 16px;
 	text-transform: capitalize;
 	font-family: Lato, sans-serif;
-	border: 1px solid #067de1;
+	border: 1px solid red;
 	font-weight: 400;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -13240,20 +13240,20 @@ button:focus {
 }
 
 .it_comp_menu_fixed ul>li>a:hover {
-	color: #067de1;
+	color: red;
 }
 
 .it_comp_menu_fixed ul>.active>a {
-	color: #067de1;
+	color: red;
 }
 
 .it_comp_menu_fixed ul>.active>a:focus,
 .it_comp_menu_fixed ul>.active>a:hover {
-	color: #067de1;
+	color: red;
 }
 
 .it_comp_menu_fixed .it_comp_btn_style {
-	background: #067de1;
+	background: red;
 	color: #fff;
 }
 
@@ -13546,7 +13546,7 @@ button:focus {
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content h2 span {
-	color: #067de1;
+	color: red;
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content p {
@@ -13558,7 +13558,7 @@ button:focus {
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content li {
 	animation-delay: 2.0s;
 	float: left;
-	margin-right: -57px;
+	margin-right: -44px;
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content ul {
@@ -13652,11 +13652,11 @@ button:focus {
 	color: white;
 	text-transform: capitalize;
 	text-align: center;
-	border: 1px solid #067de1;
+	border: 1px solid red;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
-	background: #067de1;
+	background: red;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -13917,7 +13917,7 @@ button:focus {
 
 .it_comp_about_wrapper {
 	padding-bottom: 100px;
-	padding-top: 197px;
+	/* padding-top: 197px; */
 	position: relative;
 }
 
@@ -14720,7 +14720,7 @@ canvas {
 
 .it_comp_icon_list_news li a {
 	float: left;
-	background: #067de1;
+	background: red;
 	width: 40px;
 	line-height: 40px;
 	height: 40px;
@@ -25173,7 +25173,7 @@ button:focus {
 }
 
 .main2 {
-	color: #067de1;
+	color: red;
 }
 
 .unishift {
@@ -25240,7 +25240,7 @@ button:focus {
 }
 .about2{
 	padding-bottom: 0px !important;
-	padding-top: 30px;
+	/* padding-top: 30px; */
 }
 
 .flip-card {
