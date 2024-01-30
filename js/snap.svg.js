@@ -1547,7 +1547,7 @@
         });
         var toHex = function (color) {
             var i = glob.doc.getElementsByTagName("head")[0] || glob.doc.getElementsByTagName("svg")[0],
-                red = "rgb(255, 0, 0)";
+                red = "rgb(197, 44, 40)";
             toHex = cacher(function (color) {
                 if (color.toLowerCase() == "red") {
                     return red;
