@@ -391,7 +391,7 @@ a:hover {
 .it_comp_btn_style {
 	display: inline-block;
 	text-align: center;
-	background: red;
+	background: #C52C28;
 	color: #fff;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -784,7 +784,7 @@ a:hover {
 	line-height: 40px;
 	/* text-transform: capitalize; */
 	margin-bottom: 10px;
-	color: red;
+	color: #C52C28;
 }
 
 .it_comp_heading_wrapper h1 {
@@ -12957,18 +12957,18 @@ button:focus {
 }
 
 .it_comp_menu_wrapper ul>li>a:hover {
-	color: red;
+	color: #C52C28;
 }
 
 .it_comp_menu_wrapper ul>.active>a {
 	background-color: transparent;
-	color: red;
+	color: #C52C28;
 }
 
 .it_comp_menu_wrapper ul>.active>a:focus,
 .it_comp_menu_wrapper ul>.active>a:hover {
 	background-color: transparent;
-	color: red;
+	color: #C52C28;
 }
 
 .it_comp_menu_wrapper ul>li>a:after {
@@ -13038,7 +13038,7 @@ button:focus {
 	font-size: 16px;
 	text-transform: capitalize;
 	font-family: Lato, sans-serif;
-	border: 1px solid red;
+	border: 1px solid #C52C28;
 	font-weight: 400;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -13240,20 +13240,20 @@ button:focus {
 }
 
 .it_comp_menu_fixed ul>li>a:hover {
-	color: red;
+	color: #C52C28;
 }
 
 .it_comp_menu_fixed ul>.active>a {
-	color: red;
+	color: #C52C28;
 }
 
 .it_comp_menu_fixed ul>.active>a:focus,
 .it_comp_menu_fixed ul>.active>a:hover {
-	color: red;
+	color: #C52C28;
 }
 
 .it_comp_menu_fixed .it_comp_btn_style {
-	background: red;
+	background: #C52C28;
 	color: #fff;
 }
 
@@ -13538,7 +13538,7 @@ button:focus {
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content h2 {
 	/* color: #000; */
 	font-weight: 600;
-	font-size: 40px;
+	font-size: 30px;
 	margin: -8 0 13px;
 	animation-delay: 1.2s;
 	text-transform: capitalize;
@@ -13546,7 +13546,7 @@ button:focus {
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content h2 span {
-	color: red;
+	color: #C52C28;
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content p {
@@ -13652,11 +13652,11 @@ button:focus {
 	color: white;
 	text-transform: capitalize;
 	text-align: center;
-	border: 1px solid red;
+	border: 1px solid #C52C28;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
-	background: red;
+	background: #C52C28;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -14720,7 +14720,7 @@ canvas {
 
 .it_comp_icon_list_news li a {
 	float: left;
-	background: red;
+	background: #C52C28;
 	width: 40px;
 	line-height: 40px;
 	height: 40px;
@@ -25173,7 +25173,7 @@ button:focus {
 }
 
 .main2 {
-	color: red;
+	color: #C52C28;
 }
 
 .unishift {
