@@ -61,7 +61,7 @@ $(document).ready(function(){
 					targetForm.find('textarea').val('');
 					errroTarget.html('<p style="color:green;">Mail has been sent successfully.</p>');
 				}else{
-					errroTarget.html('<p style="color:red;">Something went wrong please try again later.</p>');
+					errroTarget.html('<p style="color:#C52C28;">Something went wrong please try again later.</p>');
 				}
 			});
 		}
