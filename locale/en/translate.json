@@ -1,21 +1,18 @@
 [
   {
     "menu": {
-      "home": "About Us",
-      "roadmap": "Road Map",
-      "impact": "Impact",
-      "prizes": "Prizes",
-      "testimonial": "Testimonial",
-      "partners": "Partners",
-      "theme":"Themes",
-      "faq": "FAQ",
+      "home": "About EDII-TN",
+      "roadmap": "About EDII's Hackathon",
+      "testimonial": "About UNICEF",
+      "theme":"FAQ's",
+      "faq": "Contacts",
       "login": "Login",
       "home1":"Home"
     }
   },
   {
     "heroSection": {
-      "title":"ATL Marathon 2023-24",
+      "title":"Entrepreneurship Development and Innovation Institute (EDII-TN)",
       "title1":"Creating Change Makers Of Tomorrow With 21st",
       "skill":"Century Skills",
       "desc": "Nurture a culture of social innovation and build skills while inspiring young people to become transformative leaders.",
@@ -26,9 +23,35 @@
   {
     "aboutSection": {
       "title": "About",
-      "title1": "ATL Marathon",
-      "desc": "The ATL Marathon is Atal Innovation Mission’s flagship innovation challenge, where schools identify community problems of their choice and develop innovative solutions in the form of working prototypes. The last edition of the Marathon witnessed 12000+ innovations, the top 400 of them got internship opportunities through the Student Innovator Program with leading corporates and Incubation Centres of India, prizes and certificates from AIM, NITI Aayog.",
-      "desc1":"In ATL Marathon 2023-24, we want the students of India to choose any of the below problem statements or work on a problem that they find around themselves, research, ideate, innovate and implement a solution for it."
+      "title1": "EDII-TN",
+      "desc": "The Entrepreneurship Development and Innovation Institute (EDII) in Tamil Nadu (TN) is a State owned pioneering institution fostering an ecosystem of entrepreneurship and innovation within the state. Dedicated to nurturing entrepreneurial talent and promoting a culture of innovation, EDII TN plays a pivotal role in driving economic growth and job creation. Headed by the Director of the Institute who is a senior IAS officer, EDII is managed under the superintendence of a Governing Council, appointed by the Government of Tamil Nadu.",
+      "desc1":"Founded in the year 2001 with the vision to empower aspiring entrepreneurs and transform innovative ideas into successful ventures, EDII TN offers various programmes, workshops, and support services.",
+      "desc2":"It acts as a catalyst by providing mentorship, guidance, and access to resources necessary for budding entrepreneurs to kickstart their ventures. The institute facilitates networking opportunities, connects entrepreneurs with investors, and assists in market access, thereby bridging crucial gaps in the entrepreneurial journey.",
+      "desc3":"EDII TN is not just focused on establishing businesses/startups, it also nurtures a spirit of innovation among the student community both in school and college, encouraging them to think creatively and develop solutions to real world problems. Through initiatives like hackathons, idea incubation programmes, and startup challenges, it fosters an environment conducive to innovation and problem solving. It amplifies the impact of its initiatives and contributes significantly to the economic development of Tamil Nadu.",
+      "desc4":"Key innovative activities of EDII-TN",
+      "desc5":"Following are the key activities of EDII-TN",
+      "desc6":"Entrepreneurship Development Programme (EDP) for people who are about to set up business ventures under various Government schemes.",
+      "desc7":"Identifying people with innovative ideas and providing them seed money to develop their ideas into product prototypes and then scale up the operation into the market. (Innovation Voucher Programme - Current funding Rs.20 crores). Young and old are thus enabled to innovate all over TamilNadu. New and innovative products are being developed and released to the market through this effort. A new breed of entrepreneurs is thus created with the help of this Government seed money. College students and freshers from colleges get easy access to seed money for innovation. EDII-TN has been creating very young entrepreneurs through this route. Thus, the startup ecosystem gets a fillip through the IVP.",
+      "desc8":"To inculcate the spirit of innovation & entrepreneurship among the school children and children doing higher studies, hackathon is conducted as an annual event, with highly attractive prize money. (currently Rs.52.50 lakhs) At a very young age, the children of TamilNadu are enabled to think higher, even much higher than their age, to provide innovative solutions to the local problems, using technology tools. School Innovation Development Project (SIDP) and Niral Thiruvizha, thus cover the entire spectrum of student community across TamilNadu.",
+      "desc9":"What is typically a domain of core engineering discipline people is offered to the students of all streams as standard through the hackathon. Thus a new breed of  student inventors/entrepreneurs is being generated through the EDII-TN’s efforts.hackathon is the best route to catapult a population into the next human development level. Thus EDII-TN has been attempting to create a “scientifically & socially oriented population” which is focused on human development and upliftment. The new generation of youth is expected to be significantly more advanced and society conscious than the rest of the nation.",
+      "desc10":"Currently EDII-TN covers over 6 lakh students every year through the twin hackathons. (Annual outlay Rs.6.5 crores). UINCEF is EDII’s technical partner for SIDP implementation.",
+      "desc11":"In short, EDII TN stands as a prominent body for aspiring entrepreneurs, providing them with the necessary tools, knowledge, and support to navigate the complex world of business and innovation. Its dedication to fostering a culture of entrepreneurship and innovation makes it a vital entity in the growth story of Tamil Nadu's economy."
+    }
+  },
+  {
+    "aboutSection1":{
+      "title":"About",
+      "title1":"EDII’s Hackathon",
+      "desc":"This is a Government’s novel initiative to make the higher education students of TamilNadu innovate. Originally it was run as “TamilNadu Student Innovators” (TNSI) project under Innovation and Entrepreneurship Development Programme (IEDP) by EDII-TN from 2016 onwards. From 2023-24, this project’s name was altered as Niral Thrivuzha in order to merge it with TNSDC’s Naan Mudhalvan scheme.",
+      "desc1":"Niral Thiruvizah is a hackathon programme open to all the branches of higher education in Tamil Nadu including Arts and Science students to equip them in the cycle of innovation & entrepreneurship. The creative talents of the students are thus brought out for their benefit and the society’s benefit at large.",
+      "desc2":"The expected outputs are:",
+      "desc3":"An aspirational, society conscious and innovative youth generation",
+      "desc4":"More new innovative products giving TECHNOLOGY DRIVEN solutions to the local problems.",
+      "desc5":"More trademarks, I.Ps ownership, startups in TamilNadu.",
+      "desc6":"More employment opportunities in TamilNadu & a more robust economy.",
+      "desc7":"The next move towards achieving a Trillion dollar economy by 2030-31.",
+      "desc8":"EDII’s Hackathon” - Purpose statement of the Government",
+      "desc9":"Niral Thiruvizha is to kindle the innovative mindset of  our students to address the persistent issues, real time problems with technology enabled solutions and pursue entrepreneurial goals”"
     }
   },
   {
@@ -78,18 +101,19 @@
     }
   },
   {
-    "aboutSection3":{
-      "title": "Look at few exciting projects from our Student Innovators",
-      "title1": "Student Ideas",
-      "title2": "Glucobet",
-      "desc": "A group of friends  discovered themselves motivated by a common goal - to lessen the hardships of a loved one enduring the everyday rigors of severe diabetes. And thus, Glucobelt was born - a device as ingenious as it was compassionate. What set their creation apart was its ability to predict sugar levels in food before consumption and in the blood without the need for painful needle pricks.<br><b>-Owee Prasad Adawadkar, Sanavi Chikhale, Mihika Tushar Datar",
-      "title3": "Cartoonify.NFTs",
-      "desc1":"In the midst of a journey to Bangalore, they met remarkable painters and their vibrant creations. Their curiosity led to uncovering a disheartening truth: these skilled painters earned a meager monthly income of just 5000 rupees. This revelation became the driving force behind their project, Cartoonify.NFTs, earning them an invitation to a 6-week internship program In the same year, they earned recognition as one of the top 100 projects of ATL marathon 2021.<br><b>-Omkar Kumbhar, Dev Kore, and Param Shah  , Karnataka",
-      "title4": "Replastic",
-      "desc2":"The trio understood the urgent need for a solution that would put an end to this plastic epidemic giving birth to REPLASTIC. Idea was that people could schedule plastic pickups from the comfort of their homes or offices through RePlastic's website. On the chosen date and time, a team of dedicated rag pickers, employed by the organization, would arrive to collect the plastic.They participated in the ATL (Atal Tinkering Labs) Marathon, a platform that celebrated innovation and problem-solving.<br><b>-Gunika Beriwal, Abhinav Tejpaul, and Satyam Verma",
-      "a1":"-Owee Prasad Adawadkar, Sanavi Chikhale, Mihika Tushar Datar",
-      "a2":"-Omkar Kumbhar, Dev Kore, and Param Shah  , Karnataka",
-      "a3":"-Gunika Beriwal, Abhinav Tejpaul, and Satyam Verma"
+    "aboutSection2":{
+      "title": "About",
+      "title1": "UNICEF",
+      "desc":"United Nations Children's Emergency Fund (UNICEF)",
+      "desc1":"The United Nations Children's Emergency Fund (UNICEF) was founded on December 11, 1946, by the United Nations General Assembly with the mission of providing food and healthcare to children in nations ruined by World War II. In 1953, it officially became a permanent institution within the United Nations. UNICEF operates in 155 countries worldwide, primarily focusing on improving community-level services to achieve its larger goal of child welfare and development. UNICEF also serves as a knowledge partner in the School Innovation Development Project."
+    }
+  },
+  {
+    "contact":{
+      "desc":"Contact Us",
+      "desc1":"EDI Institute Road, Ekkaduthangal,Chennai-32",
+      "desc2":">Give us a Call",
+      "desc3":"Drop us an Email"
     }
   },
   {
@@ -117,31 +141,26 @@
   },
   {
     "faq": {
-      "title": "FAQs for ATL Marathon 2023-2024",
-      "question1": "Who can participate in the ATL Marathon?",
-      "answer1": " Students from both ATL and Non-ATL schools are eligible to participate. Non-ATL schools can collaborate with ATL schools to form teams.",
-      "question2": "What are the rewards for the top teams?",
-      "answer2":"The top teams will receive internships through the Student Innovator Program with leading corporates of India, certificates from AIM, NITI Aayog, and many more interesting opportunities at the conclusion of the Marathon.",
-      "question3": "What is the deadline for submitting entries?",
-      "answer3": "The last date to submit entries is 26th January 2024, 11:59 PM.",
-      "question4": "Where can I submit the application for the ATL Marathon?",
-      "answer4":"You can submit your application in your student profile",
-      "question5":"Will all participating students receive a certificate?",
-      "answer5":"Yes, all participating students will receive a certificate of Participation from AIM, NITI Aayog.",
-      "question6":" Can a team submit entries for more than one problem statement?",
-      "answer6":"Yes, a team may submit entries for more than one problem statement. However, a separate application form must be filled out for each problem statement.",
-      "question7":"Is there a limit on the number of teams that can participate from a school?",
-      "answer7":" No, there is no limit. Maximum number of teams from every school is encouraged.",
-      "question8":"What documents are required for online application submission?",
-      "answer8":"The online application form submission will include a Research Document (description of the innovation/solution) and a Video submission (capturing a 360-degree view of the working prototype/solution).",
-      "question9":"Who can provide support to the student teams?",
-      "answer9":"ATL In-Charge, School Teachers, Mentors of Change, Alumni, and external mentors from the local ATL ecosystem may support the student teams.",
-      "question10":"What is the ideal composition of a team?",
-      "answer10":"Each team should consist of a maximum of 3 students (class 6th to 12th). ATL schools are encouraged to include other school and/or community students in the team composition.",
-      "question11":"Is individual member entry allowed?",
-      "answer11":" No, individual member entry is not allowed. Teams must consist of a minimum of 2 members.",
-      "question12":"Are there special certificates for schools with a high number of participating teams?",
-      "answer12":"Yes, special certificates from AIM, NITI Aayog will be given to all schools that have more than 25 teams participating in ATL Marathon."
+      "title": "FAQs and answers for the EDII’s Hackathon 2023:",
+      "question1": "What is the EDII’s Hackathon 2023?",
+      "answer1": "The EDII’s Hackathon 2023 is an innovative tech event aimed at bringing together creative minds to collaborate and develop solutions using cutting-edge technology to address real-world challenges.",
+      "question2": "Who can participate?",
+      "answer2":"Undergraduate Students of Engineering Colleges, Anna University colleges, University campus colleges, affiliated Arts and Science, Agriculture, Veterinary science and Fisheries colleges of various universities.",
+      "ans2":"UG students of select Deemed universities and autonomous colleges.",
+      "ans3":"Students of Polytechnics, and Industrial Training Institutes (ITI) in Tamil Nadu.",
+      "ans4":"These students form into 3-5 member teams to find solutions for the given local problems of their districts using technology in an innovative way.",
+      "ans5":"In such an innovation effort, the result found by the students is usually a newly developed marketable product. (prototype) It is expected that the local problems that are under pressure will be resolved.",
+      "question3": "How do I register for the hackathon?",
+      "answer3": "Registration details will be available soon on the official website www.editn.in. Keep an eye on our social media channels for updates.",
+      "question4": "Are there any prizes for winners?",
+      "answer4":"Yes, Category A : Bachelor of Engineering students from Anna University who are in their final year.",
+      "ans41":"First Prize – Rs.1 lakh each for top 10 teams.",
+      "ans51":"2nd PrizeRs.25000 each for 30 teams",
+      "ans6":"Category B : Other students. (Students studying in Anna University Engineering Colleges from 1st3rd year, Polytechnic students, Bachelor students studying in Arts and Science Colleges, ITI students, Undergraduate students studying in recognized Associate Universities and Autonomous Colleges)",
+      "ans7":"First Prize – Rs.1 lakh each for top 10 teams",
+      "ans8":"2nd PrizeRs.25000 each for 30 teams",
+      "question5":"Will there be mentors or workshops during the hackathon?",
+      "answer5":"Yes, trained mentors from your institution will be there throughout the event to guide and assist. Workshops and boot camps will be organised for selected teams."
     }
   },
   {
