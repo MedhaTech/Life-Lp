@@ -4,15 +4,14 @@ Author:     Webstrot
 Copyright © 2019-20
 ----------------------------------------------------*/
 /*=================== Custom Functions ====================*/
-(function($) {
+(function ($) {
     "use strict";
-
     var tpj = jQuery;
     var revapi24;
 
 
     // Preloader 
-    jQuery(window).on('load', function() {
+    jQuery(window).on('load', function () {
         jQuery("#status").fadeOut();
         jQuery("#preloader").delay(200).fadeOut("slow");
     });
@@ -20,16 +19,16 @@ Copyright © 2019-20
 
     // scrolling animation js
 
-    var $winW = function() {
+    var $winW = function () {
         return $(window).width();
     };
-    var $winH = function() {
+    var $winH = function () {
         return $(window).height();
     };
-    var $screensize = function(element) {
+    var $screensize = function (element) {
         $(element).width($winW()).height($winH());
     };
-    var screencheck = function(mediasize) {
+    var screencheck = function (mediasize) {
         if (typeof window.matchMedia !== "undefined") {
             var screensize = window.matchMedia("(max-width:" + mediasize + "px)");
             if (screensize.matches) {
@@ -45,14 +44,14 @@ Copyright © 2019-20
             }
         }
     };
-    $('.animated-row').each(function() {
+    $('.animated-row').each(function () {
         var $this = $(this);
-        $this.find('.animate').each(function(i) {
+        $this.find('.animate').each(function (i) {
             var $item = $(this);
             var animation = $item.data('animate');
-            $item.on('inview', function(event, isInView) {
+            $item.on('inview', function (event, isInView) {
                 if (isInView) {
-                    setTimeout(function() {
+                    setTimeout(function () {
                         $item.addClass('animated ' + animation).removeClass('animate');
                     }, i * 50);
                 } else if (!screencheck(767)) {
@@ -64,9 +63,9 @@ Copyright © 2019-20
 
 
     //---- on ready function ----//
-    jQuery(document).ready(function($) {
+    jQuery(document).ready(function ($) {
 
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.header').addClass('menu_fixed animated fadeInDown');
@@ -76,7 +75,7 @@ Copyright © 2019-20
         });
 
         //----------------------- agency2 MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.agency2_header').addClass('agency2_menu_fixed animated fadeInDown');
@@ -86,7 +85,7 @@ Copyright © 2019-20
         });
 
         //----------------------- beauty MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.beauty_header').addClass('beauty_menu_fixed animated fadeInDown');
@@ -96,7 +95,7 @@ Copyright © 2019-20
         });
 
         //----------------------- business MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.bussi_header').addClass('bussi_menu_fixed animated fadeInDown');
@@ -106,7 +105,7 @@ Copyright © 2019-20
         });
 
         //----------------------- construction_01 MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.const_header').addClass('const_menu_fixed animated fadeInDown');
@@ -116,7 +115,7 @@ Copyright © 2019-20
         });
 
         //----------------------- construction_02 MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.const2_header').addClass('const2_menu_fixed animated fadeInDown');
@@ -126,7 +125,7 @@ Copyright © 2019-20
         });
 
         //----------------------- it_company MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.it_comp_header').addClass('it_comp_menu_fixed animated fadeInDown');
@@ -135,8 +134,8 @@ Copyright © 2019-20
             }
         });
 
-		//----------------------- doctor_01 MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        //----------------------- doctor_01 MENU FIXED JS -----------------------//
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.doc_header').addClass('doc_menu_fixed animated fadeInDown');
@@ -146,7 +145,7 @@ Copyright © 2019-20
         });
 
         //----------------------- kidder MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.kid_header').addClass('kid_menu_fixed animated fadeInDown');
@@ -156,7 +155,7 @@ Copyright © 2019-20
         });
 
         //----------------------- lawyer MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.lawyer_header').addClass('lawyer_menu_fixed animated fadeInDown');
@@ -166,7 +165,7 @@ Copyright © 2019-20
         });
 
         //----------------------- pc_fixer MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.pcfix_header').addClass('pcfix_menu_fixed animated fadeInDown');
@@ -176,7 +175,7 @@ Copyright © 2019-20
         });
 
         //----------------------- software MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.soft_header').addClass('soft_menu_fixed animated fadeInDown');
@@ -186,7 +185,7 @@ Copyright © 2019-20
         });
 
         //----------------------- startup MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.start_header').addClass('start_menu_fixed animated fadeInDown');
@@ -196,7 +195,7 @@ Copyright © 2019-20
         });
 
         //----------------------- taxi MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.taxi_header').addClass('taxi_menu_fixed animated fadeInDown');
@@ -206,7 +205,7 @@ Copyright © 2019-20
         });
 
         //----------------------- web_hosting MENU FIXED JS -----------------------//
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var window_top = $(window).scrollTop() + 1;
             if (window_top > 50) {
                 $('.web_header').addClass('web_menu_fixed animated fadeInDown');
@@ -217,7 +216,7 @@ Copyright © 2019-20
 
         //-----Single page scroll js for main menu -----//
 
-        $('.menu_scroll ul li a').on('click', function(e) {
+        $('.menu_scroll ul li a').on('click', function (e) {
             $('.menu_scroll ul li').removeClass('active');
             $(this).parent().addClass('active');
             var target = $('[data-scroll=' + $(this).attr('href') + ']');
@@ -228,11 +227,11 @@ Copyright © 2019-20
             }, 1000);
         });
 
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var windscroll = $(window).scrollTop();
             var target = $('.menu_scroll ul li');
             if (windscroll >= 0) {
-                $('[data-scroll]').each(function(i) {
+                $('[data-scroll]').each(function (i) {
                     if ($(this).position().top <= windscroll + 94) {
                         target.removeClass('active');
                         target.eq(i).addClass('active');
@@ -247,7 +246,7 @@ Copyright © 2019-20
 
         //--- bussiness scroll js ---//
 
-        $('.bussi_home_banner_scroll a').on('click', function(e) {
+        $('.bussi_home_banner_scroll a').on('click', function (e) {
             $('.bussi_home_banner_scroll').removeClass('active');
             $(this).parent().addClass('active');
             var target = $('[data-scroll=' + $(this).attr('href') + ']');
@@ -258,11 +257,11 @@ Copyright © 2019-20
             }, 1000);
         });
 
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var windscroll = $(window).scrollTop();
             var target = $('.bussi_home_banner_scroll');
             if (windscroll >= 0) {
-                $('[data-scroll]').each(function(i) {
+                $('[data-scroll]').each(function (i) {
                     if ($(this).position().top <= windscroll + 94) {
                         target.removeClass('active');
                         target.eq(i).addClass('active');
@@ -277,7 +276,7 @@ Copyright © 2019-20
 
         //--- construction_01 scroll js ---//
 
-        $('.const_home_banner_scroll a').on('click', function(e) {
+        $('.const_home_banner_scroll a').on('click', function (e) {
             $('.const_home_banner_scroll').removeClass('active');
             $(this).parent().addClass('active');
             var target = $('[data-scroll=' + $(this).attr('href') + ']');
@@ -288,11 +287,11 @@ Copyright © 2019-20
             }, 1000);
         });
 
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             var windscroll = $(window).scrollTop();
             var target = $('.const_home_banner_scroll');
             if (windscroll >= 0) {
-                $('[data-scroll]').each(function(i) {
+                $('[data-scroll]').each(function (i) {
                     if ($(this).position().top <= windscroll + 94) {
                         target.removeClass('active');
                         target.eq(i).addClass('active');
@@ -307,7 +306,7 @@ Copyright © 2019-20
 
         /*--- Responsive Menu Start ----*/
 
-        $("#toggle").on("click", function() {
+        $("#toggle").on("click", function () {
             var w = $('#sidebar').width();
             var pos = $('#sidebar').offset().left;
 
@@ -323,7 +322,7 @@ Copyright © 2019-20
 
         });
 
-        $("#toggle_close").on("click", function() {
+        $("#toggle_close").on("click", function () {
             var w = $('#sidebar').width();
             var pos = $('#sidebar').offset().left;
 
@@ -340,10 +339,10 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
                 $('#cssmenu li.active').addClass('open').children('ul').show();
-                $('#cssmenu li.has-sub>a').on('click', function() {
+                $('#cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -368,7 +367,7 @@ Copyright © 2019-20
 
         /*--- agency2 Responsive Menu Start ----*/
 
-        $("#agency2_toggle").on("click", function() {
+        $("#agency2_toggle").on("click", function () {
             var w = $('#agency2_sidebar').width();
             var pos = $('#agency2_sidebar').offset().left;
 
@@ -384,7 +383,7 @@ Copyright © 2019-20
 
         });
 
-        $("#agency2_toggle_close").on("click", function() {
+        $("#agency2_toggle_close").on("click", function () {
             var w = $('#agency2_sidebar').width();
             var pos = $('#agency2_sidebar').offset().left;
 
@@ -401,11 +400,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#agency2_cssmenu li.active').addClass('open').children('ul').show();
-                $('#agency2_cssmenu li.has-sub>a').on('click', function() {
+                $('#agency2_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -429,7 +428,7 @@ Copyright © 2019-20
 
         /*--- beauty Responsive Menu Start ----*/
 
-        $("#beauty_toggle").on("click", function() {
+        $("#beauty_toggle").on("click", function () {
             var w = $('#beauty_sidebar').width();
             var pos = $('#beauty_sidebar').offset().left;
 
@@ -445,7 +444,7 @@ Copyright © 2019-20
 
         });
 
-        $("#beauty_toggle_close").on("click", function() {
+        $("#beauty_toggle_close").on("click", function () {
             var w = $('#beauty_sidebar').width();
             var pos = $('#beauty_sidebar').offset().left;
 
@@ -462,11 +461,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#beauty_cssmenu li.active').addClass('open').children('ul').show();
-                $('#beauty_cssmenu li.has-sub>a').on('click', function() {
+                $('#beauty_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -490,7 +489,7 @@ Copyright © 2019-20
 
         /*--- bussiness Responsive Menu Start ----*/
 
-        $("#bussi_toggle").on("click", function() {
+        $("#bussi_toggle").on("click", function () {
             var w = $('#bussi_sidebar').width();
             var pos = $('#bussi_sidebar').offset().left;
 
@@ -506,7 +505,7 @@ Copyright © 2019-20
 
         });
 
-        $("#bussi_toggle_close").on("click", function() {
+        $("#bussi_toggle_close").on("click", function () {
             var w = $('#bussi_sidebar').width();
             var pos = $('#bussi_sidebar').offset().left;
 
@@ -523,11 +522,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#bussi_cssmenu li.active').addClass('open').children('ul').show();
-                $('#bussi_cssmenu li.has-sub>a').on('click', function() {
+                $('#bussi_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -551,7 +550,7 @@ Copyright © 2019-20
 
         /*--- construction_01 Responsive Menu Start ----*/
 
-        $("#const_toggle").on("click", function() {
+        $("#const_toggle").on("click", function () {
             var w = $('#const_sidebar').width();
             var pos = $('#const_sidebar').offset().left;
 
@@ -567,7 +566,7 @@ Copyright © 2019-20
 
         });
 
-        $("#const_toggle_close").on("click", function() {
+        $("#const_toggle_close").on("click", function () {
             var w = $('#const_sidebar').width();
             var pos = $('#const_sidebar').offset().left;
 
@@ -584,11 +583,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#const_cssmenur li.active').addClass('open').children('ul').show();
-                $('#const_cssmenur li.has-sub>a').on('click', function() {
+                $('#const_cssmenur li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -613,7 +612,7 @@ Copyright © 2019-20
 
         /*--- construction_02 Responsive Menu Start ----*/
 
-        $("#const2_toggle").on("click", function() {
+        $("#const2_toggle").on("click", function () {
             var w = $('#const2_sidebar').width();
             var pos = $('#const2_sidebar').offset().left;
 
@@ -629,7 +628,7 @@ Copyright © 2019-20
 
         });
 
-        $("#const2_toggle_close").on("click", function() {
+        $("#const2_toggle_close").on("click", function () {
             var w = $('#const2_sidebar').width();
             var pos = $('#const2_sidebar').offset().left;
 
@@ -646,11 +645,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#const2_cssmenu li.active').addClass('open').children('ul').show();
-                $('#const2_cssmenu li.has-sub>a').on('click', function() {
+                $('#const2_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -672,9 +671,9 @@ Copyright © 2019-20
 
         /*--- construction_02 Responsive Menu End ----*/
 
-		/*--- doctor_01 Responsive Menu Start ----*/
+        /*--- doctor_01 Responsive Menu Start ----*/
 
-        $("#doc_toggle").on("click", function() {
+        $("#doc_toggle").on("click", function () {
             var w = $('#doc_sidebar').width();
             var pos = $('#doc_sidebar').offset().left;
 
@@ -690,7 +689,7 @@ Copyright © 2019-20
 
         });
 
-        $("#doc_toggle_close").on("click", function() {
+        $("#doc_toggle_close").on("click", function () {
             var w = $('#doc_sidebar').width();
             var pos = $('#doc_sidebar').offset().left;
 
@@ -707,11 +706,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            jQuery(window).on('load', function() {
+        (function ($) {
+            jQuery(window).on('load', function () {
 
                 $('#doc_cssmenu li.active').addClass('open').children('ul').show();
-                $('#doc_cssmenu li.has-sub>a').on('click', function() {
+                $('#doc_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -735,7 +734,7 @@ Copyright © 2019-20
 
         /*--- it_company Responsive Menu Start ----*/
 
-        $("#it_comp_toggle").on("click", function() {
+        $("#it_comp_toggle").on("click", function () {
             var w = $('#it_comp_sidebar').width();
             var pos = $('#it_comp_sidebar').offset().left;
 
@@ -751,7 +750,7 @@ Copyright © 2019-20
 
         });
 
-        $("#it_comp_toggle_close").on("click", function() {
+        $("#it_comp_toggle_close").on("click", function () {
             var w = $('#it_comp_sidebar').width();
             var pos = $('#it_comp_sidebar').offset().left;
 
@@ -766,32 +765,32 @@ Copyright © 2019-20
             }
 
         });
-        $('a[href="1"]').click(function(){
+        $('a[href="1"]').click(function () {
             $("#it_comp_sidebar").animate({
                 "left": -500
             }, "slow");
-          }); 
-        $('a[href="2"]').click(function(){
+        });
+        $('a[href="2"]').click(function () {
             $("#it_comp_sidebar").animate({
                 "left": -500
             }, "slow");
-          }); 
-        $('a[href="3"]').click(function(){
+        });
+        $('a[href="3"]').click(function () {
             $("#it_comp_sidebar").animate({
                 "left": -500
             }, "slow");
-          }); 
-        $('a[href="5"]').click(function(){
+        });
+        $('a[href="5"]').click(function () {
             $("#it_comp_sidebar").animate({
                 "left": -500
             }, "slow");
-          });
+        });
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#it_comp_cssmenu li.active').addClass('open').children('ul').show();
-                $('#it_comp_cssmenu li.has-sub>a').on('click', function() {
+                $('#it_comp_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -815,7 +814,7 @@ Copyright © 2019-20
 
         /*--- kidder Responsive Menu Start ----*/
 
-        $("#kid_toggle").on("click", function() {
+        $("#kid_toggle").on("click", function () {
             var w = $('#kid_sidebar').width();
             var pos = $('#kid_sidebar').offset().left;
 
@@ -831,7 +830,7 @@ Copyright © 2019-20
 
         });
 
-        $("#kid_toggle_close").on("click", function() {
+        $("#kid_toggle_close").on("click", function () {
             var w = $('#kid_sidebar').width();
             var pos = $('#kid_sidebar').offset().left;
 
@@ -848,11 +847,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#kid_cssmenu li.active').addClass('open').children('ul').show();
-                $('#kid_cssmenu li.has-sub>a').on('click', function() {
+                $('#kid_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -876,7 +875,7 @@ Copyright © 2019-20
 
         /*--- lawyer Responsive Menu Start ----*/
 
-        $("#lawyer_toggle").on("click", function() {
+        $("#lawyer_toggle").on("click", function () {
             var w = $('#lawyer_sidebar').width();
             var pos = $('#lawyer_sidebar').offset().left;
 
@@ -892,7 +891,7 @@ Copyright © 2019-20
 
         });
 
-        $("#lawyer_toggle_close").on("click", function() {
+        $("#lawyer_toggle_close").on("click", function () {
             var w = $('#lawyer_sidebar').width();
             var pos = $('#lawyer_sidebar').offset().left;
 
@@ -909,11 +908,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#lawyer_cssmenu li.active').addClass('open').children('ul').show();
-                $('#lawyer_cssmenu li.has-sub>a').on('click', function() {
+                $('#lawyer_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -937,7 +936,7 @@ Copyright © 2019-20
 
         /*--- pc_fixer Responsive Menu Start ----*/
 
-        $("#pcfix_toggle").on("click", function() {
+        $("#pcfix_toggle").on("click", function () {
             var w = $('#pcfix_sidebar').width();
             var pos = $('#pcfix_sidebar').offset().left;
 
@@ -953,7 +952,7 @@ Copyright © 2019-20
 
         });
 
-        $("#pcfix_toggle_close").on("click", function() {
+        $("#pcfix_toggle_close").on("click", function () {
             var w = $('#pcfix_sidebar').width();
             var pos = $('#pcfix_sidebar').offset().left;
 
@@ -970,11 +969,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-			$(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#pcfix_cssmenu li.active').addClass('open').children('ul').show();
-                $('#pcfix_cssmenu li.has-sub>a').on('click', function() {
+                $('#pcfix_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -998,7 +997,7 @@ Copyright © 2019-20
 
         /*--- software Responsive Menu Start ----*/
 
-        $("#soft_toggle").on("click", function() {
+        $("#soft_toggle").on("click", function () {
             var w = $('#soft_sidebar').width();
             var pos = $('#soft_sidebar').offset().left;
 
@@ -1014,7 +1013,7 @@ Copyright © 2019-20
 
         });
 
-        $("#soft_toggle_close").on("click", function() {
+        $("#soft_toggle_close").on("click", function () {
             var w = $('#soft_sidebar').width();
             var pos = $('#soft_sidebar').offset().left;
 
@@ -1031,11 +1030,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#soft_cssmenu li.active').addClass('open').children('ul').show();
-                $('#soft_cssmenu li.has-sub>a').on('click', function() {
+                $('#soft_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -1059,7 +1058,7 @@ Copyright © 2019-20
 
         /*--- startup Responsive Menu Start ----*/
 
-        $("#start_toggle").on("click", function() {
+        $("#start_toggle").on("click", function () {
             var w = $('#start_sidebar').width();
             var pos = $('#start_sidebar').offset().left;
 
@@ -1075,7 +1074,7 @@ Copyright © 2019-20
 
         });
 
-        $("#start_toggle_close").on("click", function() {
+        $("#start_toggle_close").on("click", function () {
             var w = $('#start_sidebar').width();
             var pos = $('#start_sidebar').offset().left;
 
@@ -1092,11 +1091,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#start_cssmenu li.active').addClass('open').children('ul').show();
-                $('#start_cssmenu li.has-sub>a').on('click', function() {
+                $('#start_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -1121,7 +1120,7 @@ Copyright © 2019-20
 
         /*--- taxi Responsive Menu Start ----*/
 
-        $("#taxi_toggle").on("click", function() {
+        $("#taxi_toggle").on("click", function () {
             var w = $('#taxi_sidebar').width();
             var pos = $('#taxi_sidebar').offset().left;
 
@@ -1137,7 +1136,7 @@ Copyright © 2019-20
 
         });
 
-        $("#taxi_toggle_close").on("click", function() {
+        $("#taxi_toggle_close").on("click", function () {
             var w = $('#taxi_sidebar').width();
             var pos = $('#taxi_sidebar').offset().left;
 
@@ -1154,10 +1153,10 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
                 $('#taxi_cssmenu li.active').addClass('open').children('ul').show();
-                $('#taxi_cssmenu li.has-sub>a').on('click', function() {
+                $('#taxi_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -1182,7 +1181,7 @@ Copyright © 2019-20
 
         /*--- web_hosting Responsive Menu Start ----*/
 
-        $("#web_toggle").on("click", function() {
+        $("#web_toggle").on("click", function () {
             var w = $('#web_sidebar').width();
             var pos = $('#web_sidebar').offset().left;
 
@@ -1198,7 +1197,7 @@ Copyright © 2019-20
 
         });
 
-        $("#web_toggle_close").on("click", function() {
+        $("#web_toggle_close").on("click", function () {
             var w = $('#web_sidebar').width();
             var pos = $('#web_sidebar').offset().left;
 
@@ -1215,11 +1214,11 @@ Copyright © 2019-20
         });
 
 
-        (function($) {
-            $(window).on('load', function() {
+        (function ($) {
+            $(window).on('load', function () {
 
                 $('#web_cssmenu li.active').addClass('open').children('ul').show();
-                $('#web_cssmenu li.has-sub>a').on('click', function() {
+                $('#web_cssmenu li.has-sub>a').on('click', function () {
                     $(this).removeAttr('href');
                     var element = $(this).parent('li');
                     if (element.hasClass('open')) {
@@ -1243,17 +1242,17 @@ Copyright © 2019-20
 
         //----- Main Slider Animation  -------//
 
-        (function($) {
+        (function ($) {
 
             //Function to animate slider captions 
             function doAnimations(elems) {
                 //Cache the animationend event in a variable
                 var animEndEv = 'webkitAnimationEnd animationend';
 
-                elems.each(function() {
+                elems.each(function () {
                     var $this = $(this),
                         $animationType = $this.data('animation');
-                    $this.addClass($animationType).one(animEndEv, function() {
+                    $this.addClass($animationType).one(animEndEv, function () {
                         $this.removeClass($animationType);
                     });
                 });
@@ -1274,7 +1273,7 @@ Copyright © 2019-20
 
 
             //Other slides to be animated on carousel slide event 
-            $myCarousel.on('click slide.bs.carousel', function(e) {
+            $myCarousel.on('click slide.bs.carousel', function (e) {
                 var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
                 doAnimations($animatingElems);
             });
@@ -1284,144 +1283,144 @@ Copyright © 2019-20
 
         //-----------Search box jquery------------//
 
-        $(".searchd").on("click", function() {
+        $(".searchd").on("click", function () {
             $(".searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".searchbox").removeClass("open", 1000);
         });
 
         //-----------agency_02 Search box jquery------------//
 
-        $(".agency2_searchd").on("click", function() {
+        $(".agency2_searchd").on("click", function () {
             $(".agency2_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".agency2_searchbox").removeClass("open", 1000);
         });
 
         //-----------beauty Search box jquery------------//
 
-        $(".beauty_searchd").on("click", function() {
+        $(".beauty_searchd").on("click", function () {
             $(".beauty_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".beauty_searchbox").removeClass("open", 1000);
         });
 
         //-----------business Search box jquery------------//
 
-        $(".bussi_searchd").on("click", function() {
+        $(".bussi_searchd").on("click", function () {
             $(".bussi_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".bussi_searchbox").removeClass("open", 1000);
         });
 
 
         //-----------construction_01 Search box jquery------------//
 
-        $(".const_searchd").on("click", function() {
+        $(".const_searchd").on("click", function () {
             $(".const_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".const_searchbox").removeClass("open", 1000);
         });
 
 
         //-----------construction_02 Search box jquery------------//
 
-        $(".const2_searchd").on("click", function() {
+        $(".const2_searchd").on("click", function () {
             $(".const2_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".const2_searchbox").removeClass("open", 1000);
         });
 
         //-----------it_company Search box jquery------------//
 
-        $(".it_comp_searchd").on("click", function() {
+        $(".it_comp_searchd").on("click", function () {
             $(".it_comp_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".it_comp_searchbox").removeClass("open", 1000);
         });
 
         //-----------kidder Search box jquery------------//
 
-        $(".kid_searchd").on("click", function() {
+        $(".kid_searchd").on("click", function () {
             $(".kid_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".kid_searchbox").removeClass("open", 1000);
         });
 
         //-----------lawyer Search box jquery------------//
 
-        $(".lawyer_searchd").on("click", function() {
+        $(".lawyer_searchd").on("click", function () {
             $(".lawyer_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".lawyer_searchbox").removeClass("open", 1000);
         });
 
         //-----------pc_fixer Search box jquery------------//
 
-        $(".pcfix_searchd").on("click", function() {
+        $(".pcfix_searchd").on("click", function () {
             $(".pcfix_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".pcfix_searchbox").removeClass("open", 1000);
         });
 
         //-----------software Search box jquery------------//
 
-        $(".soft_searchd").on("click", function() {
+        $(".soft_searchd").on("click", function () {
             $(".soft_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".soft_searchbox").removeClass("open", 1000);
         });
 
         //-----------startup Search box jquery------------//
 
-        $(".start_searchd").on("click", function() {
+        $(".start_searchd").on("click", function () {
             $(".start_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".start_searchbox").removeClass("open", 1000);
         });
 
         //-----------taxi Search box jquery------------//
 
-        $(".taxi_searchd").on("click", function() {
+        $(".taxi_searchd").on("click", function () {
             $(".taxi_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".taxi_searchbox").removeClass("open", 1000);
         });
 
 
         //-----------web_hosting Search box jquery------------//
 
-        $(".web_searchd").on("click", function() {
+        $(".web_searchd").on("click", function () {
             $(".web_searchbox").addClass("open", 1000);
         });
 
-        $(".close").on("click", function() {
+        $(".close").on("click", function () {
             $(".web_searchbox").removeClass("open", 1000);
         });
 
@@ -1451,63 +1450,63 @@ Copyright © 2019-20
             }
         });
 
-            $('.beauty_pn_slider_wraper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    500: {
-                        items: 2,
-                        nav: true
-                    },
-                    700: {
-                        items: 3,
-                        nav: true
-                    },
-                    1000: {
-                        items: 4,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
+        $('.beauty_pn_slider_wraper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                500: {
+                    items: 2,
+                    nav: true
+                },
+                700: {
+                    items: 3,
+                    nav: true
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: true,
+                    margin: 20
                 }
-            })
-       
+            }
+        })
+
 
         /***----- massage slider js ----*****/
-		
-            $('.beauty_massage_slider .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 20,
-                autoplay: true,
-                smartSpeed: 1200,
-                responsiveClass: true,
-                navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-arrow-pointing-to-right"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 2,
-                        nav: true
-                    },
-                    1000: {
-                        items: 3,
-                        nav: true,
-                        loop: true,
-                        margin: 30
-                    }
+
+        $('.beauty_massage_slider .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            smartSpeed: 1200,
+            responsiveClass: true,
+            navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-arrow-pointing-to-right"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: true,
+                    margin: 30
                 }
-            })
-			
+            }
+        })
+
         /*bussi_testimonial_slider_wrapper js */
 
         $('.bussi_testimonial_slider_wrapper .owl-carousel').owlCarousel({
@@ -1587,34 +1586,34 @@ Copyright © 2019-20
         });
 
 
-            $('.kid_pn_slider_wraper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    500: {
-                        items: 2,
-                        nav: true
-                    },
-                    700: {
-                        items: 3,
-                        nav: true
-                    },
-                    1000: {
-                        items: 5,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
+        $('.kid_pn_slider_wraper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                500: {
+                    items: 2,
+                    nav: true
+                },
+                700: {
+                    items: 3,
+                    nav: true
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: true,
+                    margin: 20
                 }
-            })
+            }
+        })
 
 
         //*********** vertical slider ***********//	 	
@@ -1633,173 +1632,173 @@ Copyright © 2019-20
 
 
         //*-----------------------owl caouresel Team---------------------------*//	
-            $('.kid_testimonial_slider_wrapper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
+        $('.kid_testimonial_slider_wrapper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
                 }
-            })
+            }
+        })
 
 
-            $('.lawyer_slider_wrapper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: false,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-arrow-pointing-to-right"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    500: {
-                        items: 1,
-                        nav: true
-                    },
-                    700: {
-                        items: 1,
-                        nav: true
-                    },
-                    1000: {
-                        items: 1,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
+        $('.lawyer_slider_wrapper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: false,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-arrow-pointing-to-right"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                500: {
+                    items: 1,
+                    nav: true
+                },
+                700: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 20
                 }
-            })
-
-        //*-------- partner wrapper js --------**/
-            $('.lawyer_pn_slider_wraper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    500: {
-                        items: 2,
-                        nav: true
-                    },
-                    700: {
-                        items: 3,
-                        nav: true
-                    },
-                    1000: {
-                        items: 5,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
-                }
-            })
+            }
+        })
 
         //*-------- partner wrapper js --------**/
-            $('.pcfix_pn_slider_wraper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    500: {
-                        items: 2,
-                        nav: true
-                    },
-                    700: {
-                        items: 3,
-                        nav: true
-                    },
-                    1000: {
-                        items: 5,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
+        $('.lawyer_pn_slider_wraper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                500: {
+                    items: 2,
+                    nav: true
+                },
+                700: {
+                    items: 3,
+                    nav: true
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: true,
+                    margin: 20
                 }
-            })
+            }
+        })
+
+        //*-------- partner wrapper js --------**/
+        $('.pcfix_pn_slider_wraper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                500: {
+                    items: 2,
+                    nav: true
+                },
+                700: {
+                    items: 3,
+                    nav: true
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: true,
+                    margin: 20
+                }
+            }
+        })
 
 
 
         /***----- testimonial slider js ----*****/
-            $('.start_review_testimonial_slider .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                smartSpeed: 1200,
-                responsiveClass: true,
-                navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-arrow-pointing-to-right"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 2,
-                        nav: true
-                    },
-                    1000: {
-                        items: 2,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
+        $('.start_review_testimonial_slider .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            smartSpeed: 1200,
+            responsiveClass: true,
+            navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-arrow-pointing-to-right"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 2,
+                    nav: true,
+                    loop: true,
+                    margin: 20
                 }
-            })
+            }
+        })
 
-            $('.web_pn_slider_wraper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    500: {
-                        items: 2,
-                        nav: true
-                    },
-                    700: {
-                        items: 3,
-                        nav: true
-                    },
-                    1000: {
-                        items: 5,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
+        $('.web_pn_slider_wraper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                500: {
+                    items: 2,
+                    nav: true
+                },
+                700: {
+                    items: 3,
+                    nav: true
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: true,
+                    margin: 20
                 }
-            })
-  
+            }
+        })
+
 
 
         //*********** vertical slider ***********//	 	
@@ -1818,31 +1817,31 @@ Copyright © 2019-20
 
 
         //*-----------------------owl caouresel Team---------------------------*//	
-            $('.web_testimonial_slider .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
+        $('.web_testimonial_slider .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="flaticon-left-arrow"></i>', '<i class="flaticon-right-arrow"></i>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
                 }
-            })
+            }
+        })
 
 
         //-------- counter-section ------------//
-        $('.counter-section').on('inview', function(event, visible, visiblePartX, visiblePartY) {
+        $('.counter-section').on('inview', function (event, visible, visiblePartX, visiblePartY) {
             if (visible) {
-                $(this).find('.timer').each(function() {
+                $(this).find('.timer').each(function () {
                     var $this = $(this);
                     $({
                         Counter: 0
@@ -1851,7 +1850,7 @@ Copyright © 2019-20
                     }, {
                         duration: 2000,
                         easing: 'swing',
-                        step: function() {
+                        step: function () {
                             $this.text(Math.ceil(this.Counter));
                         }
                     });
@@ -1861,9 +1860,9 @@ Copyright © 2019-20
         });
 
         //-------- agency2_counter_section ------------//
-        $('.agency2_counter_section').on('inview', function(event, visible, visiblePartX, visiblePartY) {
+        $('.agency2_counter_section').on('inview', function (event, visible, visiblePartX, visiblePartY) {
             if (visible) {
-                $(this).find('.timer').each(function() {
+                $(this).find('.timer').each(function () {
                     var $this = $(this);
                     $({
                         Counter: 0
@@ -1872,7 +1871,7 @@ Copyright © 2019-20
                     }, {
                         duration: 2000,
                         easing: 'swing',
-                        step: function() {
+                        step: function () {
                             $this.text(Math.ceil(this.Counter));
                         }
                     });
@@ -1885,9 +1884,9 @@ Copyright © 2019-20
         // bussi_counter_section
         //-------------------------------------------------------
 
-        $('.bussi_counter_section').on('inview', function(event, visible, visiblePartX, visiblePartY) {
+        $('.bussi_counter_section').on('inview', function (event, visible, visiblePartX, visiblePartY) {
             if (visible) {
-                $(this).find('.bussi_timer').each(function() {
+                $(this).find('.bussi_timer').each(function () {
                     var $this = $(this);
                     $({
                         Counter: 0
@@ -1896,7 +1895,7 @@ Copyright © 2019-20
                     }, {
                         duration: 2000,
                         easing: 'swing',
-                        step: function() {
+                        step: function () {
                             $this.text(Math.ceil(this.Counter));
                         }
                     });
@@ -1909,9 +1908,9 @@ Copyright © 2019-20
         // const_counter_section
         //-------------------------------------------------------
 
-        $('.const_counter_section').on('inview', function(event, visible, visiblePartX, visiblePartY) {
+        $('.const_counter_section').on('inview', function (event, visible, visiblePartX, visiblePartY) {
             if (visible) {
-                $(this).find('.timer').each(function() {
+                $(this).find('.timer').each(function () {
                     var $this = $(this);
                     $({
                         Counter: 0
@@ -1920,7 +1919,7 @@ Copyright © 2019-20
                     }, {
                         duration: 2000,
                         easing: 'swing',
-                        step: function() {
+                        step: function () {
                             $this.text(Math.ceil(this.Counter));
                         }
                     });
@@ -1973,7 +1972,7 @@ Copyright © 2019-20
             },
             image: {
                 tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                titleSrc: function(item) {
+                titleSrc: function (item) {
                     return item.el.attr('title') + '<small></small>';
                 }
             }
@@ -1991,25 +1990,73 @@ Copyright © 2019-20
             },
             image: {
                 tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                titleSrc: function(item) {
+                titleSrc: function (item) {
                     return item.el.attr('title') + '<small></small>';
                 }
             }
         });
 
         // ===== Scroll to Top ==== //
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             if ($(this).scrollTop() >= 100) {
                 $('#return-to-top').fadeIn(200);
             } else {
                 $('#return-to-top').fadeOut(200);
             }
         });
-        $('#return-to-top').on('click', function(e) {
+        $('#return-to-top').on('click', function (e) {
             $('body,html').animate({
                 scrollTop: 0
             }, 500);
         });
+
+        document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+
+		// scroll funtion
+
+		(function () {
+			function getRandomInt(min, max) {
+				return Math.floor(Math.random() * (max - min + 1)) + min;
+			}
+
+			[].slice.call(document.querySelectorAll('.isolayer')).forEach(function (el) {
+				new IsoGrid(el, {
+					type: 'scrollable',
+					transform: 'translateX(17vw) translateY(550px) rotateX(42deg) rotateZ(0deg)',
+					stackItemsAnimation: {
+						properties: function (pos) {
+							return {
+								translateZ: (pos + 1) * 50,
+								rotateZ: getRandomInt(-3, 3)
+							};
+						},
+						options: function (pos, itemstotal) {
+							return {
+								type: dynamics.bezier,
+								duration: 500,
+								points: [{ "x": 0, "y": 0, "cp": [{ "x": 0.2, "y": 1 }] }, { "x": 1, "y": 1, "cp": [{ "x": 0.3, "y": 1 }] }],
+								//delay: (itemstotal-pos-1)*40
+							};
+						}
+					},
+					onGridLoaded: function () {
+						classie.add(document.body, 'grid-loaded');
+					}
+				});
+			});
+		})();
+
+        
+        // land	  
+
+        $('.landing-item-inner').hover(function () {
+            var $img = $(this).find('img'),
+                imgHtoAnimate = $img.height() - $(this).height();
+            $(this).find('img').stop().animate({ marginTop: -(imgHtoAnimate) }, 5000);
+        },
+            function () {
+                $(this).find('img').stop().animate({ marginTop: 0 }, 2500);
+            });
 
 
     });

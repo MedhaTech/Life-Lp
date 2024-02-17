@@ -8,7 +8,7 @@ async function getTranslation(lang) {
     if (lang == "en") {
       $(".current-lang").text("English");
     } else if (lang == "tn") {
-      $(".current-lang").text("Tamil");
+      $(".current-lang").text("தமிழ்");
     }
   
     let translations = await getTranslation(lang);
