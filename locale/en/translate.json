@@ -156,9 +156,10 @@
       "answer4":"Yes, Category A : Bachelor of Engineering students from Anna University who are in their final year.",
       "ans41":"First Prize – Rs.1 lakh each for top 10 teams.",
       "ans51":"2nd PrizeRs.25000 each for 30 teams",
-      "ans6":"Category B : Other students. (Students studying in Anna University Engineering Colleges from 1st3rd year, Polytechnic students, Bachelor students studying in Arts and Science Colleges, ITI students, Undergraduate students studying in recognized Associate Universities and Autonomous Colleges)",
-      "ans7":"First Prize – Rs.1 lakh each for top 10 teams",
-      "ans8":"2nd PrizeRs.25000 each for 30 teams",
+      "ans6":"Category B : Other students. (Students studying in Anna University Engineering Colleges from 1st 3rd year, Polytechnic students, Bachelor students studying in Arts and Science Colleges, ITI students, Undergraduate students studying in recognized Associate Universities and Autonomous Colleges)",
+      "ans7":"First Prize – Rs.1 lakh each for top 20 teams",
+      "ans8":"2nd PrizeRs.25000 each for 60 teams",
+      "ans9":"Students at each level will be awarded Certificate of participation, Certificate of Appreciation, Certificates for Student Mentors, Certificates for Leaders, Certificates for Best Higher Education Institutions",
       "question5":"Will there be mentors or workshops during the hackathon?",
       "answer5":"Yes, trained mentors from your institution will be there throughout the event to guide and assist. Workshops and boot camps will be organised for selected teams."
     }
