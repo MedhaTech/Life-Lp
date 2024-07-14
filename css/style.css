@@ -22406,6 +22406,11 @@ button:focus {
 	height: 70px;
 }
 
+.start_service_box_icon1 img{
+	text-align: center;
+	width: 100%;
+}
+
 .start_service_box_icon i:before {
 	font-size: 40px;
 	color: #7e50ff;
