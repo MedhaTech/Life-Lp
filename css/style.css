@@ -87,6 +87,18 @@ a:hover {
 	transition: all 0.5s;
 }
 
+.bg-background1{
+	background-color: #f4f4f5 !important;
+}
+
+.bg-background2{
+	background-color: #fff7f5 !important;
+}
+
+.bg-background3{
+	background-color: #EDF7FF !important;
+}
+
 /* return-to-top styles */
 
 #return-to-top {
@@ -774,7 +786,7 @@ a:hover {
 /* It Company */
 
 .it_comp_heading_wrapper {
-	padding-bottom: 40px;
+	padding-bottom: 100px;
 	animation-delay: 0.2s;
 }
 
@@ -872,7 +884,7 @@ a:hover {
 	margin-bottom: 10px;
 }
 
-.start_heading_wraper h3:after {
+/* .start_heading_wraper h3:after {
 	content: '';
 	position: absolute;
 	left: -20px;
@@ -890,7 +902,7 @@ a:hover {
 	top: 0;
 	width: 1px;
 	background: #7e50ff;
-}
+} */
 
 /* Web Hosting */
 
@@ -14027,9 +14039,8 @@ canvas {
 }
 
 .it_comp_working_wrapper {
-	padding-bottom: 100px;
 	position: relative;
-	padding-top: 14px;
+	padding: 50px 0;
 }
 
 .it_comp_working_wrapper .step-icon {
