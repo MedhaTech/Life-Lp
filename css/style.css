@@ -100,6 +100,9 @@ a:hover {
 	background-color: #f4f4f5 !important;
 }
 
+.tx-white{
+	color: #fff !important;
+}
 
 
 .bg-background2 {
@@ -7253,7 +7256,7 @@ button:focus {
 .bussi_counter_section {
 	float: left;
 	width: 100%;
-	background: #1d4076;
+	background: #338102;
 	padding-bottom: 100px;
 	padding-top: 60px;
 	position: relative;
@@ -7304,8 +7307,8 @@ button:focus {
 	margin-left: 0;
 	padding-right: 5px;
 	color: #ff4a57;
-	font-size: 60px;
-	line-height: 56px;
+	/* font-size: 60px; */
+	/* line-height: 56px; */
 }
 
 .bussi_counter_section .bussi_count-description {
@@ -25236,7 +25239,7 @@ button:focus {
 .map_counter_box_shape h3 {
 	font-size: 32px;
 	font-weight: 500;
-	color: #24a1c1;
+	color: #0d6ca4;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
