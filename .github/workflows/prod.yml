@@ -23,8 +23,7 @@ jobs:
           echo "$PRIVATE_KEY" > private_key && chmod 400 private_key
           ssh -o StrictHostKeyChecking=no -i private_key ubuntu@${{ secrets.Life_LP_HOSTNAME }} '
             cd /var/www/html/Life-lp &&
-            sudo git fetch origin &&
-            sudo git checkout master &&
+    
             sudo git pull origin master '
  
 
