@@ -108,15 +108,16 @@
 			console.log("clicked");
 			setTimeout(function () {
 				console.log("Event triggered!");
-				cp.currentWindow.open("https://ideas4life.nic.in/","_self");
+				window.location.href = 'https://ideas4life.nic.in/';
 			}, waitTime);
 		}
 		// Interval time in milliseconds (e.g., 2000 ms = 2 seconds)
 		// Function to be executed after the wait
-		function triggerEvent() {
+		// function triggerEvent() {
 			// console.log("Event triggered!");
-			cp.currentWindow.open("https://ideas4life.nic.in/","_self");
-		}
+			// cp.currentWindow.open("https://ideas4life.nic.in/","_self");
+			// window.location.href = 'https://ideas4life.nic.in/';
+		// }
 
 		// Time to wait in milliseconds (e.g., 3000 ms = 3 seconds)
 
