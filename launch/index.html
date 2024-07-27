@@ -101,11 +101,15 @@
 		}
 
 		function clickPlay() {
+			console.log("clicked");
 			cp.movie.play()
 			var waitTime = 14000;
-			// console.log(waitTime);
-			// console.log("clicked");
-			setTimeout(triggerEvent, waitTime);
+			console.log(waitTime);
+			console.log("clicked");
+			setTimeout(function () {
+				console.log("Event triggered!");
+				cp.currentWindow.open("https://ideas4life.nic.in/","_self");
+			}, waitTime);
 		}
 		// Interval time in milliseconds (e.g., 2000 ms = 2 seconds)
 		// Function to be executed after the wait
