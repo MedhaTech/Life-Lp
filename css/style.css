@@ -13566,8 +13566,8 @@ button:focus {
 	z-index: 999;
 	overflow: hidden;
 	vertical-align: middle;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 .it_comp_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content ul {
@@ -13618,7 +13618,7 @@ button:focus {
 
 .it_comp_slider_main_img_wrapper {
 	position: absolute;
-	top: 120px;
+	top: 100px;
 	left: 0;
 }
 
