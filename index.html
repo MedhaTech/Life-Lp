@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Idea's 4 Life </title>
+    <title>Ideas4Life </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
@@ -213,7 +213,7 @@
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                         <div class="it_comp_slider_main_img_wrapper">
-                                            <img src="images/banner2.png" alt="slider_img">
+                                            <img src="images/slider2.png" alt="slider_img">
                                         </div>
                                     </div>
                                 </div>
@@ -262,7 +262,7 @@
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                         <div class="it_comp_slider_main_img_wrapper">
-                                            <img src="images/90860381.png" alt="slider_img">
+                                            <img src="images/slider3.png" alt="slider_img">
                                         </div>
                                     </div>
                                 </div>
@@ -1109,6 +1109,7 @@
     <script src="js/custom.js"></script>
     <script>
         const api_url = "https://aim-api.unisolve.org/api/v1/dashboard/mapStats";
+        // const api_url = "http://ec2-65-0-170-177.ap-south-1.compute.amazonaws.com:8001/api/v1/dashboard/mapStats";
         var api_data;
         let dataOfmap = {};
         const config = {
@@ -1123,6 +1124,7 @@
 
             // Parsing it to JSON format
             const data = await response.json();
+            console.log(data);
             api_data = data.data[0];
             const districtData = data.data[0].dataValues;
             for (const entry of districtData) {
