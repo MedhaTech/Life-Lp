@@ -4041,8 +4041,8 @@ textarea:focus {
 }
 
 .agency2_newslwtteter_left h2 {
-	font-size: 36px;
-	text-transform: capitalize;
+	font-size: 30px;
+	/* text-transform: capitalize; */
 	font-weight: 700;
 	padding-bottom: 4px;
 }
@@ -14674,8 +14674,8 @@ canvas {
 
 .it_comp_contact_main {
 	text-align: center;
-	/* background: #056ca5; */
-	border: 1px solid #056ca5;
+	background: #de6640;
+	/* border: 1px solid #056ca5; */
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	-ms-transition: all .5s;
@@ -14706,20 +14706,20 @@ canvas {
 }
 
 .it_comp_contact_main p {
-	font-size: 26px;
+	font-size: 16px;
 	line-height: 25px;
 	margin: 0;
-	color: #056ca5;;
-	padding: 20px;
-	/* padding-top: 20px; */
+	color: #fff;;
+	padding: 40px;
+	padding-top: 20px;
 }
 
 .it_comp_contact_main p a {
-	color: #056ca5;
+	color: #fff;
 }
 
 .it_comp_contact_main p a:hover {
-	color: #056ca5;
+	color: #fff;
 }
 
 .it_comp_contact_rotate {
@@ -14743,6 +14743,9 @@ canvas {
 	margin-top: 10px;
 }
 
+.text-blue{
+	color: #056ca5 !important;
+}
 /**----- footer wrapper css -------**/
 
 .it_comp_footer_wrapper {
