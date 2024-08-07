@@ -1995,5 +1995,34 @@ Copyright © 2019-20
 
     });
 
+    // submission procces youtube pop ups
+    
+    document.addEventListener("DOMContentLoaded", function () {
+        var modal = document.getElementById("myModal");
+        var btns = document.querySelectorAll(".youtube-popup");
+        var span = document.getElementsByClassName("close")[0];
+        var iframe = document.getElementById("modalIframe");
+
+        btns.forEach(function (btn) {
+            btn.onclick = function () {
+                var videoId = btn.getAttribute("data-video-id");
+                iframe.src = "https://www.youtube.com/embed/" + videoId;
+                modal.style.display = "block";
+            }
+        });
+
+        span.onclick = function () {
+            modal.style.display = "none";
+            iframe.src = ""; // Clear the iframe src to stop video playback
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                iframe.src = ""; // Clear the iframe src to stop video playback
+            }
+        }
+    });
+
 })(jQuery);
 /*=============== End Custom Functions  ================*/
