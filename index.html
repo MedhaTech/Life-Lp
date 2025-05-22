@@ -16,7 +16,8 @@
     <!-- Animation Css -->
     <link href="css/animate.css" rel="stylesheet">
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- font-awesome -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <!-- Web Fonts -->
@@ -723,6 +724,17 @@
         </div>
     </div>
 
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>🏆 Winners Announced!</h2>
+            <p>Check out the full list of winners from the Ideas4Life event.</p>
+            <a href="/downloads/Ideas4Life_Winners.pdf" download class="download-button">📄 Download Winner List</a>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+
     <!-- The Modal -->
     <div id="myModal" class="modal" style="background-color: rgba(0, 0, 0, 0.4);">
         <div class="modal-content"
@@ -1243,6 +1255,26 @@
         </div>
     </div>
     <!-- footer wrapper end -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="winnerModal" tabindex="-1" aria-labelledby="winnerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center">
+                <!-- <div class="modal-header">
+        <h5 class="modal-title" id="winnerModalLabel">🏆 Winners Announced!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+                <div class="modal-body">
+
+                    <a href="Ideas4LiFE_Winners.pdf" download>
+                        <img src="images/ideas_winners.png" width="100%" alt="Winnders">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -1250,8 +1282,12 @@
     <!-- Bootstrap js -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 
     <!-- Counter js -->
     <script src="js/jquery.countTo.js"></script>
@@ -1265,6 +1301,11 @@
     <!-- Custom js -->
     <script src="js/script.js"></script>
     <script>
+        window.onload = function () {
+            var winnerModal = new bootstrap.Modal(document.getElementById('winnerModal'));
+            winnerModal.show();
+        };
+
         // const api_url = "https://aim-api.unisolve.org/api/v1/dashboard/mapStats";
         const api_url = "https://api.ideas4life.in/api/v1/dashboard/mapStatsCount";
         var api_data;
